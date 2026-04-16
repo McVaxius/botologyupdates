@@ -1325,6 +1325,30 @@
             "repoJsonUrl": "https://puni.sh/api/repository/det"
         },
         {
+            "id": "targetpyon",
+            "category": "Utility Bots",
+            "displayName": "TargetPyon",
+            "matchTokens": [
+                "TargetPyon"
+            ],
+            "notes": "No Botology rule is configured yet. Treat this as a tracked utility plugin entry until stronger compatibility guidance is added.",
+            "description": "Target helper plugin from priprii's FFXIVPlugins repository.",
+            "repoUrl": "https://github.com/priprii/FFXIVPlugins",
+            "repoJsonUrl": "https://raw.githubusercontent.com/priprii/FFXIVPlugins/refs/heads/main/repo.json"
+        },
+        {
+            "id": "pyoncam",
+            "category": "Utility Bots",
+            "displayName": "PyonCam",
+            "matchTokens": [
+                "PyonCam"
+            ],
+            "notes": "No Botology rule is configured yet. Treat this as a tracked utility plugin entry until stronger compatibility guidance is added.",
+            "description": "Camera helper plugin from priprii's FFXIVPlugins repository.",
+            "repoUrl": "https://github.com/priprii/FFXIVPlugins",
+            "repoJsonUrl": "https://raw.githubusercontent.com/priprii/FFXIVPlugins/refs/heads/main/repo.json"
+        },
+        {
             "id": "teleporter",
             "category": "Utility Bots",
             "displayName": "Teleporter",
