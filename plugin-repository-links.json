@@ -2238,16 +2238,16 @@
     },
     {
       "Id": "footballer",
-      "Category": "Utility Bots",
+      "Category": "ERP",
       "DisplayName": "Footballer",
       "MatchTokens": [
         "Footballer"
       ],
-      "Notes": "Gold Saucer side utility. No direct conflicts identified, but review overlap with Saucy if you automate overlapping mini-games.",
+      "Notes": "Inspector Footybrand is here to make sure your feet are ok. Don't worry the inspector respects Lodestone privacy. ",
       "RepoUrl": "https://github.com/McVaxius/footballer",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Football/minigame helper plugin from McVaxius.",
+      "Description": "Inspector Footybrand is here to make sure your feet are ok. Don't worry the inspector respects Lodestone privacy. ",
       "Green": [],
       "Yellow": [],
       "Red": [],
