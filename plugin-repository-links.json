@@ -615,6 +615,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "footballer",
+      "Category": "ERP",
+      "DisplayName": "Footballer",
+      "MatchTokens": [
+        "Footballer"
+      ],
+      "Notes": "Inspector Footybrand is here to make sure your feet are ok. Don\u0027t worry the inspector respects Lodestone privacy.",
+      "RepoUrl": "https://github.com/McVaxius/footballer",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Inspector Footybrand is here to make sure your feet are ok. Don\u0027t worry the inspector respects Lodestone privacy.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "master_of_puppets",
       "Category": "ERP",
       "DisplayName": "Master of Puppets",
@@ -706,6 +724,24 @@
       "Green": [
         "lifestream"
       ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "bardtoolbox",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "BardToolbox",
+      "MatchTokens": [
+        "BardToolbox"
+      ],
+      "Notes": "It\u0027s also useful when mogstone farming somehow - Canto",
+      "RepoUrl": "Closed Source",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -1036,6 +1072,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "shoutrunner",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "ShoutRunner",
+      "MatchTokens": [
+        "ShoutRunner"
+      ],
+      "Notes": "I will personally murder you if you use this - Canto",
+      "RepoUrl": "https://github.com/KeiJoi/ShoutRunner",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/KeiJoi/ShoutRunner/main/manifest.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "target_furniture",
       "Category": "Housing/Roleplay",
       "DisplayName": "Target Furniture",
@@ -1085,6 +1139,26 @@
       "RepoJsonUrls": [],
       "Description": "Browse FFXIV community events in-game, with filtering by data center, time, and tags.",
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "wahjumps",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "WahJumps",
+      "MatchTokens": [
+        "WahJumps"
+      ],
+      "Notes": "Jump Maps for when you\u0027re bored - Canto",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://puni.sh/api/repository/wah",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "lifestream"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -1202,6 +1276,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "automarketbuddy",
+      "Category": "Market Bots",
+      "DisplayName": "Auto-MarketBuddy",
+      "MatchTokens": [
+        "AutoMarketBuddy"
+      ],
+      "Notes": "Remember to set a stop loss or you\u0027ll get swindled - Canto",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/amarinne/Auto-Marketbuddy/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "henchman",
       "Category": "Multi-Purpose Bots",
       "DisplayName": "Henchman",
@@ -1220,43 +1312,20 @@
       "RelatedIds": []
     },
     {
-      "Id": "laci_synchroni",
-      "Category": "Obsolete Plugins",
-      "DisplayName": "Laci Synchroni",
+      "Id": "fakename",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "FakeName",
       "MatchTokens": [
-        "Laci Synchroni"
+        "FakeName"
       ],
-      "Notes": "Yet another Mare Fork. Just use Lightless.",
-      "RepoUrl": "https://github.com/LaciSynchroni/client",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/LaciSynchroni/repo/main/plogonmaster.json",
+      "Notes": "Only putting this here for posterity\u0027s sake. Krangler is just better.",
+      "RepoUrl": "https://github.com/tigurand/FakeName",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/tigurand/DalamudPlugins/refs/heads/main/repo.json",
       "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "penumbra"
-      ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "peeping_tom",
-      "Category": "Obsolete Plugins",
-      "DisplayName": "Peeping Tom",
-      "MatchTokens": [
-        "Peeping Tom",
-        "PeepingTom"
-      ],
-      "Notes": "Inspection/observer utility. Doesn\u0027t work in PVP.",
-      "RepoUrl": "https://github.com/Caraxi/PeepingTom",
-      "RepoJsonUrl": "official / Dalamud-hosted",
-      "RepoJsonUrls": [],
-      "Description": "Lets you inspect details about nearby players/actors.",
+      "Description": "IT DOESN\u0027T FUCKING WORK",
       "Green": [],
       "Yellow": [],
-      "Red": [
-        "targetpyon"
-      ],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1277,6 +1346,26 @@
       "Red": [
         "gatherbuddy_reborn"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "laci_synchroni",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Laci Synchroni",
+      "MatchTokens": [
+        "Laci Synchroni"
+      ],
+      "Notes": "Yet another Mare Fork. Just use Lightless.",
+      "RepoUrl": "https://github.com/LaciSynchroni/client",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/LaciSynchroni/repo/main/plogonmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1303,6 +1392,27 @@
       "RelatedIds": []
     },
     {
+      "Id": "peeping_tom",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Peeping Tom",
+      "MatchTokens": [
+        "Peeping Tom",
+        "PeepingTom"
+      ],
+      "Notes": "Inspection/observer utility. Doesn\u0027t work in PVP.",
+      "RepoUrl": "https://github.com/Caraxi/PeepingTom",
+      "RepoJsonUrl": "official / Dalamud-hosted",
+      "RepoJsonUrls": [],
+      "Description": "Lets you inspect details about nearby players/actors.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "targetpyon"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "peersync",
       "Category": "Obsoleted Plugins",
       "DisplayName": "Peer Sync",
@@ -1318,6 +1428,26 @@
         "penumbra"
       ],
       "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "remakeplaceplugin",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "ReMakePlace Plugin",
+      "MatchTokens": [
+        "ReMakePLacePLugin"
+      ],
+      "Notes": "DisPlace is just better.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/RemakePlace/plugin/master/ReMakePlacePlugin.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "displaceplugin"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -1915,6 +2045,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "faloopintegration",
+      "Category": "The Hunt Bots",
+      "DisplayName": "Divination",
+      "MatchTokens": [
+        "FaloopIntegration"
+      ],
+      "Notes": "It\u0027s like Sonar, but with Faloop instead of true open-sourcing. Use both at the same time for optimum hunting! - Canto",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/SlashNephy/divination-distrib/master/plugins/master.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hunt_helper",
       "Category": "The Hunt Bots",
       "DisplayName": "Hunt Helper",
@@ -2172,24 +2320,6 @@
       "RepoJsonUrl": "https://github.com/NightmareXIV/MyDalamudPlugins/raw/main/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": "Helper plugin for Dragonsong\u0027s Reprise with eye position, Wroth Flames markers, and chain-partner tether support.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "footballer",
-      "Category": "ERP",
-      "DisplayName": "Footballer",
-      "MatchTokens": [
-        "Footballer"
-      ],
-      "Notes": "Inspector Footybrand is here to make sure your feet are ok. Don't worry the inspector respects Lodestone privacy. ",
-      "RepoUrl": "https://github.com/McVaxius/footballer",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "Inspector Footybrand is here to make sure your feet are ok. Don't worry the inspector respects Lodestone privacy. ",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -2721,7 +2851,7 @@
       "MatchTokens": [
         "vnavmesh"
       ],
-      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.",
+      "Notes": "There is no reason to uninstall this plugin. It is a dependency for every full-auto bot other than Saucy or Artisan.",
       "RepoUrl": null,
       "RepoJsonUrl": "https://puni.sh/api/repository/veyn",
       "RepoJsonUrls": [],
