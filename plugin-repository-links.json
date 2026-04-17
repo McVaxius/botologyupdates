@@ -2219,24 +2219,6 @@
       "RelatedIds": []
     },
     {
-      "Id": "elitehacks",
-      "Category": "Utility Bots",
-      "DisplayName": "EliteHacks",
-      "MatchTokens": [
-        "EliteHacks"
-      ],
-      "Notes": "Could not verify a concrete feed from the provided repo list. Categorized as utility pending better metadata.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
-      "RepoJsonUrls": [],
-      "Description": "placeholder description",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "footballer",
       "Category": "ERP",
       "DisplayName": "Footballer",
