@@ -53,7 +53,9 @@
       "RepoJsonUrl": "https://puni.sh/api/repository/ice",
       "RepoJsonUrls": [],
       "Description": "A leve helper that lets you select which ones you want to do, and help turn them in for you. YOU NEED NAVMESH INSTALLED AS AN FYI.",
-      "Green": [],
+      "Green": [
+        "vnavmesh"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -370,6 +372,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "jump_solver",
+      "Category": "Duty solving",
+      "DisplayName": "Jump Solver",
+      "MatchTokens": [
+        "Jump Solver"
+      ],
+      "Notes": "I have not tested this - Canto",
+      "RepoUrl": "https://github.com/Sansflaire/JumpSolver",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Sansflaire/JumpSolver/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "lootgoblin",
       "Category": "Duty solving",
       "DisplayName": "LootGoblin",
@@ -595,6 +615,143 @@
       "RelatedIds": []
     },
     {
+      "Id": "aether_remote",
+      "Category": "ERP",
+      "DisplayName": "Aether Remote",
+      "MatchTokens": [
+        "Aether Remote"
+      ],
+      "Notes": "I have not tested this - Canto",
+      "RepoUrl": "https://github.com/aetherremote/AetherRemote",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/aetherremote/AetherRemote/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "brio",
+      "Category": "ERP",
+      "DisplayName": "Brio",
+      "MatchTokens": [
+        "Brio"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "master_of_puppets",
+      "Category": "ERP",
+      "DisplayName": "Master of Puppets",
+      "MatchTokens": [
+        "Master of Puppets"
+      ],
+      "Notes": "I used this for botting before Loot Goblin existed - Canto",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/pffxivtools/ffxiv-bard-plugins-linux/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "aether_remote"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "puppetmaster",
+      "Category": "ERP",
+      "DisplayName": "Puppet Master",
+      "MatchTokens": [
+        "PuppetMaster"
+      ],
+      "Notes": "Untested - Canto",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/dodingdaga/DalamudPlugins/main/PuppetMaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "aether_remote",
+        "master_of_puppets"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "xiv_ai_companion",
+      "Category": "ERP",
+      "DisplayName": "XIV AI Companion",
+      "MatchTokens": [
+        "XIV AI Companion"
+      ],
+      "Notes": "why is this a thing - Canto",
+      "RepoUrl": "https://github.com/tigurand/XIVAICompanion",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/tigurand/DalamudPlugins/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "zone",
+      "Category": "ERP",
+      "DisplayName": "ZONE",
+      "MatchTokens": [
+        "ZONE"
+      ],
+      "Notes": "I don\u0027t want to test this - Canto",
+      "RepoUrl": "https://github.com/NalaPraline/ZONE",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/NalaPraline/ZONE/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "active_venue_finder",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Active Venue Finder",
+      "MatchTokens": [
+        "Active Venue Finder"
+      ],
+      "Notes": "I haven\u0027t tested this - Canto",
+      "RepoUrl": "https://github.com/NeoGriever/ActiveVenueFinder",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/NeoGriever/ActiveVenueFinder/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "lifestream"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "buildingway",
       "Category": "Housing/Roleplay",
       "DisplayName": "Buildingway",
@@ -632,6 +789,45 @@
       "RelatedIds": []
     },
     {
+      "Id": "cards_against_hyurmanity",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Cards Against Hyurmanity",
+      "MatchTokens": [
+        "Cards Against Hyurmanity"
+      ],
+      "Notes": "one of my friends sent me this and it\u0027s fun AF - Canto",
+      "RepoUrl": "https://github.com/Pistachio-dev/CardsAgainsHyurmanity",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Pistachio-dev/CardsAgainsHyurmanity/master/Repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "characterselectplugin",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Character Select\u002B",
+      "MatchTokens": [
+        "CharacterSelectPlugin"
+      ],
+      "Notes": "Very useful if you have DID! - Canto",
+      "RepoUrl": "https://github.com/IcarusXIV/Character-Select-",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/IcarusXIV/Character-Select-/master/CharacterSelectPlugin/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra",
+        "glamourer"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "customize",
       "Category": "Housing/Roleplay",
       "DisplayName": "Customize\u002B",
@@ -646,6 +842,24 @@
       "Green": [
         "penumbra"
       ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "displaceplugin",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "DisPlace Plugin",
+      "MatchTokens": [
+        "DisPlacePlugin"
+      ],
+      "Notes": "It\u0027s like MakePlace but you can steal designs.",
+      "RepoUrl": "https://github.com/Drakansoul/DisPlace",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Drakansoul/DisPlace/master/DisPlacePlugin.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -739,6 +953,70 @@
       "Description": "Load and explore any zone in relative safety, mainly for taking GPoses in inaccessible locations.",
       "Green": [],
       "Yellow": [],
+      "Red": [
+        "hyperborea"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "lightlesssync",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Lightless Sync",
+      "MatchTokens": [
+        "LightlessSync"
+      ],
+      "Notes": "Mare Synchronous 2.0",
+      "RepoUrl": "https://git.lightless-sync.org/Lightless-Sync/LightlessClient",
+      "RepoJsonUrl": "https://repo.lightless-sync.org",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [
+        "laci_synchroni",
+        "peersync",
+        "snowcloak_sync"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "loci",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Loci",
+      "MatchTokens": [
+        "Loci"
+      ],
+      "Notes": "This is basically Moodles on Crack. Unfortunately it doesn\u0027t have Lightless support.",
+      "RepoUrl": "https://github.com/CordeliaMist/Loci",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/CordeliaMist/Loci/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "moodles"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "makeplaceassistant",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Makeplace Assistant",
+      "MatchTokens": [
+        "MakePlaceAssistant"
+      ],
+      "Notes": "I mean, if you want to waste your gil instead of crafting it yourself - Canto",
+      "RepoUrl": "https://github.com/rubyblaire/mpassist",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rubyblaire/mpassist/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -780,6 +1058,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "proximityvoicechat",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "ProximityVoiceChat",
+      "MatchTokens": [
+        "ProximityVoiceChat"
+      ],
+      "Notes": "I have not tested this - Canto",
+      "RepoUrl": "https://github.com/Ricimon/FFXIV-ProximityVoiceChat",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ricimon/FFXIV-ProximityVoiceChat/refs/heads/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "In-game proximity voice chat",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "target_furniture",
       "Category": "Housing/Roleplay",
       "DisplayName": "Target Furniture",
@@ -792,6 +1088,42 @@
       "RepoJsonUrl": "https://puni.sh/api/repository/det",
       "RepoJsonUrls": [],
       "Description": "Housing helper for targeting furniture and related interactions.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "venuestatusandgreet",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Venue Status And Greet",
+      "MatchTokens": [
+        "VenueStatusAndGreet"
+      ],
+      "Notes": "My Venue hasn\u0027t been open for months, I haven\u0027t tested this - Canto",
+      "RepoUrl": "https://github.com/KeiJoi/venuestatusandgreet",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/KeiJoi/venuestatusandgreet/main/latest/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "venuescope",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "VenueScope",
+      "MatchTokens": [
+        "VenueScope"
+      ],
+      "Notes": "Community browsing utility. No conflicts identified from the audited feeds.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://puni.sh/api/repository/nala",
+      "RepoJsonUrls": [],
+      "Description": "Browse FFXIV community events in-game, with filtering by data center, time, and tags.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -892,6 +1224,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "aurum",
+      "Category": "Market Bots",
+      "DisplayName": "Aurum",
+      "MatchTokens": [
+        "Aurum"
+      ],
+      "Notes": "I haven\u0027t tested this because i\u0027m busy crafting Eighty Fucking Submersibles - Canto",
+      "RepoUrl": "https://github.com/aniachan/Aurum",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/aniachan/anisplugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "henchman",
       "Category": "Multi-Purpose Bots",
       "DisplayName": "Henchman",
@@ -906,6 +1256,47 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "laci_synchroni",
+      "Category": "Obsolete Plugins",
+      "DisplayName": "Laci Synchroni",
+      "MatchTokens": [
+        "Laci Synchroni"
+      ],
+      "Notes": "Yet another Mare Fork. Just use Lightless.",
+      "RepoUrl": "https://github.com/LaciSynchroni/client",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/LaciSynchroni/repo/main/plogonmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "peeping_tom",
+      "Category": "Obsolete Plugins",
+      "DisplayName": "Peeping Tom",
+      "MatchTokens": [
+        "Peeping Tom",
+        "PeepingTom"
+      ],
+      "Notes": "Inspection/observer utility. Doesn\u0027t work in PVP.",
+      "RepoUrl": "https://github.com/Caraxi/PeepingTom",
+      "RepoJsonUrl": "official / Dalamud-hosted",
+      "RepoJsonUrls": [],
+      "Description": "Lets you inspect details about nearby players/actors.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "targetpyon"
+      ],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -952,6 +1343,64 @@
       "RelatedIds": []
     },
     {
+      "Id": "peersync",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Peer Sync",
+      "MatchTokens": [
+        "PeerSync"
+      ],
+      "Notes": "Yet Another Mare Fork",
+      "RepoUrl": "https://github.com/UnlostWorld/PeerSync",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/UnlostWorld/PeerSync/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "snappy",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Snappy",
+      "MatchTokens": [
+        "Snappy"
+      ],
+      "Notes": "This has been obsoloted by essentially being added into Penumbra but ehhh",
+      "RepoUrl": "https://github.com/BeSlightly/Snappy",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/BeSlightly/Snappy/refs/heads/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Want to export your character and mods exactly as-is in a single collection *without* Mare? This plugin saves and loads your character\u0027s current appearance, and allows you to share modded characters without relying on MCDF.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "snowcloak_sync",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Snowcloak Sync",
+      "MatchTokens": [
+        "Snowcloak Sync"
+      ],
+      "Notes": "I\u0027m banned from this lol - Canto\nAlso, just use Lightless",
+      "RepoUrl": "https://github.com/Eauldane/SnowcloakClient",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Eauldane/ElfShelf/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hoard_farm",
       "Category": "POTD Bots",
       "DisplayName": "Hoard Farm",
@@ -959,13 +1408,15 @@
         "HoardFarm",
         "Hoard Farm"
       ],
-      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.\nPotentially detectable.",
+      "Notes": "Potentially detectable. Unclear if automatic detection, or suspicious activity that gets reported.",
       "RepoUrl": "https://github.com/Jukkales/HoardFarm",
       "RepoJsonUrl": "https://puni.sh/api/repository/jukka",
       "RepoJsonUrls": [],
       "Description": "Helps farm Accursed Hoards in Deep Dungeons.",
       "Green": [],
-      "Yellow": [],
+      "Yellow": [
+        "hoard_farm"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -1002,6 +1453,26 @@
       "RepoJsonUrls": [],
       "Description": "placeholder description",
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "bypass_emote",
+      "Category": "QOL",
+      "DisplayName": "Bypass Emote",
+      "MatchTokens": [
+        "Bypass Emote"
+      ],
+      "Notes": "I haven\u0027t tested this but apparantly it works over Lightless?",
+      "RepoUrl": "https://github.com/Aspher0/BypassEmote",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Aspher0/BypassEmote/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -1100,6 +1571,24 @@
       "RepoJsonUrl": "https://puni.sh/api/repository/vera",
       "RepoJsonUrls": [],
       "Description": "Plays a sound when a fish is caught depending on tug strength.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "gearsetreminder",
+      "Category": "QOL",
+      "DisplayName": "Gearset Reminder",
+      "MatchTokens": [
+        "GearsetReminder"
+      ],
+      "Notes": "Basically only relevant if you\u0027re autistic about Forays or Ultimates",
+      "RepoUrl": "https://puni.sh/api/repository/gid",
+      "RepoJsonUrl": "https://puni.sh/api/repository/gid",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1697,13 +2186,15 @@
         "Doze Anywhere",
         "DozeAnywhere"
       ],
-      "Notes": "Usage of this is reportable.",
+      "Notes": "Usage of this is reportable. Just use a Penumbra mod instead.",
       "RepoUrl": "https://github.com/SoyaX/DozeAnywhere",
       "RepoJsonUrl": "official / Dalamud-hosted",
       "RepoJsonUrls": [],
       "Description": "Allows using the doze emote more freely outside its usual limitations.",
       "Green": [],
-      "Yellow": [],
+      "Yellow": [
+        "doze_anywhere"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -1983,25 +2474,6 @@
       "RelatedIds": []
     },
     {
-      "Id": "peeping_tom",
-      "Category": "Utility Bots",
-      "DisplayName": "Peeping Tom",
-      "MatchTokens": [
-        "Peeping Tom",
-        "PeepingTom"
-      ],
-      "Notes": "Inspection/observer utility. No conflicts identified from the audited feeds.",
-      "RepoUrl": "https://github.com/Caraxi/PeepingTom",
-      "RepoJsonUrl": "official / Dalamud-hosted",
-      "RepoJsonUrls": [],
-      "Description": "Lets you inspect details about nearby players/actors.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "playertrack",
       "Category": "Utility Bots",
       "DisplayName": "PlayerTrack",
@@ -2176,14 +2648,16 @@
       "MatchTokens": [
         "TargetPyon"
       ],
-      "Notes": "No Botology rule is configured yet. Treat this as a tracked utility plugin entry until stronger compatibility guidance is added.",
+      "Notes": "PeepingTom but better.",
       "RepoUrl": "https://github.com/priprii/FFXIVPlugins",
       "RepoJsonUrl": "https://raw.githubusercontent.com/priprii/FFXIVPlugins/refs/heads/main/repo.json",
       "RepoJsonUrls": [],
       "Description": "Target helper plugin from priprii\u0027s FFXIVPlugins repository.",
       "Green": [],
       "Yellow": [],
-      "Red": [],
+      "Red": [
+        "peeping_tom"
+      ],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -2274,24 +2748,6 @@
       "RepoJsonUrl": "https://github.com/NightmareXIV/MyDalamudPlugins/raw/main/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": "Developer helper that clears plugin load/unload errors.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "venuescope",
-      "Category": "Utility Bots",
-      "DisplayName": "VenueScope",
-      "MatchTokens": [
-        "VenueScope"
-      ],
-      "Notes": "Community browsing utility. No conflicts identified from the audited feeds.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://puni.sh/api/repository/nala",
-      "RepoJsonUrls": [],
-      "Description": "Browse FFXIV community events in-game, with filtering by data center, time, and tags.",
       "Green": [],
       "Yellow": [],
       "Red": [],
