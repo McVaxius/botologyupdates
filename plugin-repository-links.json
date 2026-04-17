@@ -157,26 +157,6 @@
       "RelatedIds": []
     },
     {
-      "Id": "aurafarmer",
-      "Category": "DOW/DOM Content Bots",
-      "DisplayName": "AuraFarmer",
-      "MatchTokens": [
-        "AuraFarmer"
-      ],
-      "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour.",
-      "RepoUrl": "https://github.com/McVaxius/AuraFarmer",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "placeholder description",
-      "Green": [],
-      "Yellow": [],
-      "Red": [
-        "autoduty"
-      ],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "bocchi",
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "BOCCHI",
@@ -233,26 +213,6 @@
         "BossModReborn"
       ],
       "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "lanparty",
-      "Category": "DOW/DOM Content Bots",
-      "DisplayName": "LANParty",
-      "MatchTokens": [
-        "LANParty"
-      ],
-      "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour.",
-      "RepoUrl": "https://github.com/McVaxius/LanParty",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "placeholder description",
-      "Green": [],
-      "Yellow": [],
-      "Red": [
-        "autoduty"
-      ],
       "RuleType": null,
       "RelatedIds": []
     },
