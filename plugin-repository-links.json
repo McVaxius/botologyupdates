@@ -396,17 +396,16 @@
       "MatchTokens": [
         "LootGoblin"
       ],
-      "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour. Pandora and ReAction have reports about interfering with chest opening also.",
+      "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour. ReAction has reports about interfering with chest opening also.",
       "RepoUrl": "https://github.com/McVaxius/LootGoblin",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
       "Description": "LootGoblin automates treasure map hunting by opening maps, detecting locations via GlobeTrotter, teleporting to the nearest aetheryte, coordinating with party members, and flying to the treasure location. Use /lootgoblin or /lg to open.",
       "Green": [],
-      "Yellow": [
-        "pandoras_box",
-        "reaction"],
+      "Yellow": [],
       "Red": [
-        "autoduty"
+        "autoduty",
+        "ReAction"
       ],
       "RuleType": null,
       "RelatedIds": []
