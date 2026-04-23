@@ -2944,16 +2944,15 @@
       "RelatedIds": []
     },
     {
-      "Id": "xa_hud",
-      "Category": "Utility Bots",
-      "DisplayName": "XA HUD",
+      "Id": "DomanMahjongAI",
+      "Category": "Manderville Bots",
+      "DisplayName": "Doman Mahjong Solver",
       "MatchTokens": [
-        "XAHUD",
-        "XA HUD"
+        "DomanMahjongAI"
       ],
-      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "Notes": "Doman Mahjong Solver (WORK IN PROGRESS)",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-DomanMahjongSolver",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-DomanMahjongSolver/main/repo/repo.json",
       "RepoJsonUrls": [],
       "Description": "placeholder description",
       "Green": [],
