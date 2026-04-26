@@ -9,4 +9,9 @@
 https://aethertek.io/x.json
 ```
 
+### Discord:
+```
+https://discord.gg/g2NmYxPQCa
+```
+
 ---
