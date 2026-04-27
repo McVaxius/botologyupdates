@@ -2972,13 +2972,14 @@
       "Category": "Manderville Bots",
       "DisplayName": "Doman Mahjong Solver",
       "MatchTokens": [
-        "DomanMahjongAI"
+        "DomanMahjongAI",
+        "Doman Mahjong"
       ],
-      "Notes": "Doman Mahjong Solver (WORK IN PROGRESS)",
+      "Notes": "Three modes: Off, Hints (suggests the best discard with reasoning, you click), and Auto-play (plays full matches with paced delays, including Pon/Chi/Kan calls). EU client is fully supported; NA partial; JP and OC need verification.",
       "RepoUrl": "https://github.com/XeldarAlz/FFXIV-DomanMahjongSolver",
       "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-DomanMahjongSolver/main/repo/repo.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Helper for Doman Mahjong at the Gold Saucer. Reads your hand, suggests the best discard with short reasoning, and can auto-play full matches with natural pacing.",
       "Green": [],
       "Yellow": [],
       "Red": [],
