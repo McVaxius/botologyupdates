@@ -1994,6 +1994,30 @@
       "RelatedIds": []
     },
     {
+      "Id": "olympus",
+      "Category": "Rotations/AI",
+      "DisplayName": "Olympus",
+      "MatchTokens": [
+        "Olympus"
+      ],
+      "Notes": "Ensure you are only using one rotation plugin at the same time.",
+      "RepoUrl": "https://github.com/RoseOfficial/Olympus",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/RoseOfficial/Olympus/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Intelligent rotation assistant for FFXIV, supports all 21 combat jobs.",
+      "Green": [],
+      "Yellow": [
+        "bossmod",
+        "bossmod_reborn",
+        "wrath",
+        "rotation_solver_reborn",
+        "ultimate_combo"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "rotation_solver_reborn",
       "Category": "Rotations/AI",
       "DisplayName": "RotationSolverReborn",
@@ -2948,13 +2972,14 @@
       "Category": "Manderville Bots",
       "DisplayName": "Doman Mahjong Solver",
       "MatchTokens": [
-        "DomanMahjongAI"
+        "DomanMahjongAI",
+        "Doman Mahjong"
       ],
-      "Notes": "Doman Mahjong Solver (WORK IN PROGRESS)",
+      "Notes": "Three modes: Off, Hints (suggests the best discard with reasoning, you click), and Auto-play (plays full matches with paced delays, including Pon/Chi/Kan calls). EU client is fully supported; NA partial; JP and OC need verification.",
       "RepoUrl": "https://github.com/XeldarAlz/FFXIV-DomanMahjongSolver",
       "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-DomanMahjongSolver/main/repo/repo.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Helper for Doman Mahjong at the Gold Saucer. Reads your hand, suggests the best discard with short reasoning, and can auto-play full matches with natural pacing.",
       "Green": [],
       "Yellow": [],
       "Red": [],
