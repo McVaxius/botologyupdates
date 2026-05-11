@@ -3429,7 +3429,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3445,7 +3445,7 @@
       "NameMatchMode": "Exact",
       "Classification": "TreasureCoffer",
       "DestinationType": "",
-      "Layer": "The Hidden Canals of Uznair",
+      "Layer": "",
       "MapCoordinates": "",
       "WorldCoordinates": "",
       "ObjectMapCoordinates": "",
@@ -3453,7 +3453,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3477,7 +3477,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3501,7 +3501,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3525,7 +3525,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3549,7 +3549,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3573,7 +3573,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3597,7 +3597,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Map Coffer Rule"
@@ -3693,7 +3693,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 100,
+      "MaxDistance": 150,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Treasure Dungeon Coffer"
