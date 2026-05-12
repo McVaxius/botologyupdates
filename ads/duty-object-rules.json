@@ -2139,7 +2139,7 @@
       "Notes": ""
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "TerritoryTypeId": 1038,
       "ContentFinderConditionId": 3,
       "DutyEnglishName": "Copperbell Mines",
@@ -2160,7 +2160,7 @@
       "MaxDistance": null,
       "WaitAtDestinationSeconds": 5,
       "WaitAfterInteractSeconds": 0,
-      "Notes": ""
+      "Notes": "Disabled stale BattleNpc lever row; Copperbell lever interaction is handled by the generic non-kind Lift Lever row plus positional ignored rows."
     },
     {
       "Enabled": true,
@@ -2187,7 +2187,7 @@
       "Notes": ""
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "TerritoryTypeId": 1038,
       "ContentFinderConditionId": 3,
       "DutyEnglishName": "Copperbell Mines",
@@ -2208,7 +2208,7 @@
       "MaxDistance": null,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
-      "Notes": ""
+      "Notes": "Disabled stale malformed XYZ row that put destination payload in ObjectWorldCoordinates; keep the fixed post-door XYZ row with WorldCoordinates."
     },
     {
       "Enabled": true,
