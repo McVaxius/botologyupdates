@@ -2107,7 +2107,7 @@
       "ObjectMapCoordinates": "",
       "ObjectWorldCoordinates": "",
       "ObjectMatchRadius": null,
-      "Priority": 899,
+      "Priority": 895,
       "PriorityVerticalRadius": 10,
       "MaxDistance": 100,
       "WaitAtDestinationSeconds": 0,

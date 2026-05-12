@@ -177,6 +177,28 @@
       "Notification": "_NotificationRevive",
       "NotificationCB": "_Notification true 0 0",
       "Notes": "repsawn after 30 seconds if we don\u0027t get rezzed"
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Add 12 onzes",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "coppererball"
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Activate",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "coppererball"
     }
   ]
 }
