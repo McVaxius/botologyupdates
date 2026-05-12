@@ -27,6 +27,50 @@
     {
       "Enabled": true,
       "Addon": "SelectYesno",
+      "PromptPattern": "Cultist Orb",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "Tam-Tara orb confirmation."
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Sealed Blasting Door",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "Copperbell sealed door confirmation."
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Lift Lever",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "Copperbell lift confirmation."
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "blasting door",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "Copperbell lowercase fallback for door prompts."
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
       "PromptPattern": "Use the",
       "MatchMode": "Contains",
       "Response": "Yes",
