@@ -199,6 +199,17 @@
       "Notification": "",
       "NotificationCB": "",
       "Notes": "coppererball"
+    },
+    {
+      "Enabled": false,
+      "Addon": "_NotificationChallenge",
+      "PromptPattern": "",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "_NotificationChallenge",
+      "NotificationCB": "_Notification true 0 1",
+      "Notes": "treasuremaps"
     }
   ]
 }
