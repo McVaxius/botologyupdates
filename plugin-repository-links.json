@@ -3,6 +3,44 @@
   "SourceUrl": "https://raw.githubusercontent.com/McVaxius/botologyupdates/refs/heads/main/plugin-repository-links.json",
   "Plugins": [
     {
+      "Id": "chocobot",
+      "Category": "Combat Tracking",
+      "DisplayName": "Chocobot",
+      "MatchTokens": [
+        "Chocobot"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/J3sven/J3Plugins",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/J3sven/J3Plugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Cactbot for IINACT",
+      "Green": [
+        "iinact"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "iinact",
+      "Category": "Combat Tracking",
+      "DisplayName": "IINACT",
+      "MatchTokens": [
+        "IINACT"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/marzent/IINACT",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/marzent/IINACT/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "artisan",
       "Category": "DOH/L Content Bots",
       "DisplayName": "Artisan",
@@ -217,6 +255,32 @@
       "RelatedIds": []
     },
     {
+      "Id": "fatewalker",
+      "Category": "DOW/DOM Content Bots",
+      "DisplayName": "FateWalker",
+      "MatchTokens": [
+        "FateWalker"
+      ],
+      "Notes": "Unlike the other 2 FATE Bots, this requires BMR instead of VBM.",
+      "RepoUrl": "https://github.com/richardlh023/FateWalker",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/richardlh023/FateWalker/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh",
+        "lifestream",
+        "bossmod_reborn",
+        "textadvance",
+        "rotation_solver_reborn"
+      ],
+      "Yellow": [],
+      "Red": [
+        "twist_of_fayte"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "mogtome",
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "MOGTOME",
@@ -346,46 +410,6 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "DhogGPT",
-      "Category": "UTILITY BOTS",
-      "DisplayName": "DhogGPT",
-      "MatchTokens": [
-        "DhogGPT"
-      ],
-      "Notes": "",
-      "RepoUrl": "https://github.com/McVaxius/ChocoboColourized",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "Automatically translate your chats to and from anyone ingame. ",
-      "Green": [],
-      "Yellow": [],
-      "Red": [
-        "autoduty"
-      ],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "ChocoboColourized",
-      "Category": "UTILITY BOTS",
-      "DisplayName": "Chocobo Colourized",
-      "MatchTokens": [
-        "ChocoboColourized"
-      ],
-      "Notes": "",
-      "RepoUrl": "https://github.com/McVaxius/ChocoboColourized",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "(Personal Chocobo) Chocobo Colourized helps you find+automatically turn-in the most efficient sequence of fruits to feed your chocobo companion to reach your desired target colour. Use /chococolor to open the calculator.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [
-        "autoduty"
-      ],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -572,6 +596,24 @@
       "RepoJsonUrl": null,
       "RepoJsonUrls": [],
       "Description": "placeholder description",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "vermaxion",
+      "Category": "Empire Management",
+      "DisplayName": "VerMaxion",
+      "MatchTokens": [
+        "VERMAXION"
+      ],
+      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.",
+      "RepoUrl": "https://github.com/McVaxius/VERMAXION",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Automates weekly and daily tasks triggered by AutoRetainer post-processing. Configurable per character: Verminion queue, Cactpot, Chocobo Racing, FC buff refill, and Henchman management",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -977,6 +1019,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "housingcullfix",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Housing Cull Fix",
+      "MatchTokens": [
+        "HousingCullFix"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Abyeon/HousingCullFix",
+      "RepoJsonUrl": "https://puni.sh/api/repository/abe",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hyperborea",
       "Category": "Housing/Roleplay",
       "DisplayName": "Hyperborea",
@@ -1050,6 +1110,24 @@
       "Notes": "I mean, if you want to waste your gil instead of crafting it yourself - Canto",
       "RepoUrl": "https://github.com/rubyblaire/mpassist",
       "RepoJsonUrl": "https://raw.githubusercontent.com/rubyblaire/mpassist/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "mannerisms",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Mannerisms",
+      "MatchTokens": [
+        "Mannerisms"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/mustbetommy/Mannerisms",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/mustbetommy/DalamudPlugins/main/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
@@ -1243,6 +1321,25 @@
       "RelatedIds": []
     },
     {
+      "Id": "DomanMahjongAI",
+      "Category": "Manderville Bots",
+      "DisplayName": "Doman Mahjong Solver",
+      "MatchTokens": [
+        "DomanMahjongAI",
+        "Doman Mahjong"
+      ],
+      "Notes": "Three modes: Off, Hints (suggests the best discard with reasoning, you click), and Auto-play (plays full matches with paced delays, including Pon/Chi/Kan calls). EU client is fully supported; NA partial; JP and OC need verification.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-DomanMahjongSolver",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-DomanMahjongSolver/main/repo/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Helper for Doman Mahjong at the Gold Saucer. Reads your hand, suggests the best discard with short reasoning, and can auto-play full matches with natural pacing.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "saucy",
       "Category": "Manderville Bots",
       "DisplayName": "Saucy",
@@ -1257,24 +1354,6 @@
       "Green": [
         "triadbuddy"
       ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "vermaxion",
-      "Category": "EMPIRE MANAGEMENT",
-      "DisplayName": "VerMaxion",
-      "MatchTokens": [
-        "VERMAXION"
-      ],
-      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.",
-      "RepoUrl": "https://github.com/McVaxius/VERMAXION",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "Automates weekly and daily tasks triggered by AutoRetainer post-processing. Configurable per character: Verminion queue, Cactpot, Chocobo Racing, FC buff refill, and Henchman management.",
-      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -1335,6 +1414,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "auxmarketboard",
+      "Category": "Market Bots",
+      "DisplayName": "AuxMarketboard",
+      "MatchTokens": [
+        "AuxMarketboard"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/auxee/AuxMarketboard",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/auxee/AuxDalamudRepo/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Does not actually automatically buy items.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "henchman",
       "Category": "Multi-Purpose Bots",
       "DisplayName": "Henchman",
@@ -1349,6 +1446,26 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "glaivesplugintweaks",
+      "Category": "Obsolete Plugins",
+      "DisplayName": "Glaive Tweaks",
+      "MatchTokens": [
+        "Glaives.Plugin.Tweaks"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "\u003ELooks inside\n\u003EIt\u0027s another Skip Cutscene Fork",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "skipcutscene"
+      ],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1532,6 +1649,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "xelstweaks",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Xel\u0027s Tweaks",
+      "MatchTokens": [
+        "XelsTweaks"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/XelsPlugins/XelsTweaks",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XelsPlugins/XelsDalamudRepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "Everything in here is in a different plugin already.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hoard_farm",
       "Category": "POTD Bots",
       "DisplayName": "Hoard Farm",
@@ -1586,6 +1721,46 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "ascended_rotationsolverreborn",
+      "Category": "PVP Bots",
+      "DisplayName": "Ascended Rotation Solver Reborn",
+      "MatchTokens": [
+        "ascended-rotationsolverreborn"
+      ],
+      "Notes": "This is for PVP Usage only. Do not use this for PVE.",
+      "RepoUrl": "https://github.com/jkleinne/ascended-rotationsolverreborn",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/jkleinne/ascended-plugins/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "rotation_solver_reborn"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "ascended_ezwondroustails",
+      "Category": "QOL",
+      "DisplayName": "Ascended Easy Wondrous Tails",
+      "MatchTokens": [
+        "ascended-ezwondroustails"
+      ],
+      "Notes": "Don\u0027t use 2 solvers at once.",
+      "RepoUrl": "https://github.com/jkleinne/ascended-EzWondrousTails",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/jkleinne/ascended-plugins/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "I HATE MIDORI I HATE MIDORI I HATE MIDORI I HATE MIDORI",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "glaivespluginwondroustailssolver"
+      ],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1727,6 +1902,26 @@
       "RelatedIds": []
     },
     {
+      "Id": "glaivespluginwondroustailssolver",
+      "Category": "QOL",
+      "DisplayName": "Glaive\u0027s Wondrous Tails Solver",
+      "MatchTokens": [
+        "Glaives.Plugin.WondrousTailsSolver"
+      ],
+      "Notes": "Don\u0027t use 2 solvers at once.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "I HATE MIDORI I HATE MIDORI I HATE MIDORI I HATE MIDORI",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "ascended_ezwondroustails"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "lifestream",
       "Category": "QOL",
       "DisplayName": "Lifestream",
@@ -1817,6 +2012,24 @@
       "RepoJsonUrl": "https://puni.sh/api/repository/vera",
       "RepoJsonUrls": [],
       "Description": "Helps optimize squadron mission compositions.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "vaelarisunlocklist",
+      "Category": "QOL",
+      "DisplayName": "Unlock List",
+      "MatchTokens": [
+        "VaelarisUnlockList"
+      ],
+      "Notes": "No notes, although this obviously pairs well with Questionable to actually unlock everthing in this list!",
+      "RepoUrl": "https://github.com/hartturmch/ffxiv-unlocklist",
+      "RepoJsonUrl": "https://cdn.jsdelivr.net/gh/hartturmch/ffxiv-unlocklist@plugin-repo/dalamud-plugin/dist/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -2255,6 +2468,26 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "ChocoboColourized",
+      "Category": "Utility Bots",
+      "DisplayName": "Chocobo Colourized",
+      "MatchTokens": [
+        "ChocoboColourized"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/McVaxius/ChocoboColourized",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "(Personal Chocobo) Chocobo Colourized helps you find\u002Bautomatically turn-in the most efficient sequence of fruits to feed your chocobo companion to reach your desired target colour, use /chococolor to open the calculator.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "autoduty"
+      ],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -2961,25 +3194,6 @@
       "RepoJsonUrl": "official / Dalamud-hosted",
       "RepoJsonUrls": [],
       "Description": "Helps identify which patch an item or piece of content came from.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "DomanMahjongAI",
-      "Category": "Manderville Bots",
-      "DisplayName": "Doman Mahjong Solver",
-      "MatchTokens": [
-        "DomanMahjongAI",
-        "Doman Mahjong"
-      ],
-      "Notes": "Three modes: Off, Hints (suggests the best discard with reasoning, you click), and Auto-play (plays full matches with paced delays, including Pon/Chi/Kan calls). EU client is fully supported; NA partial; JP and OC need verification.",
-      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-DomanMahjongSolver",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-DomanMahjongSolver/main/repo/repo.json",
-      "RepoJsonUrls": [],
-      "Description": "Helper for Doman Mahjong at the Gold Saucer. Reads your hand, suggests the best discard with short reasoning, and can auto-play full matches with natural pacing.",
       "Green": [],
       "Yellow": [],
       "Red": [],
