@@ -3985,6 +3985,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1267,
+      "ContentFinderConditionId": 9,
+      "DutyEnglishName": "the Sunken Temple of Qarn",
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Temple Croc",
+      "NameMatchMode": "Exact",
+      "Classification": "",
+      "DestinationType": "",
+      "Layer": "Inner Sanctum",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 999,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 116.4,-4.0,3.6 on layer Inner Sanctum. Auto classification left blank."
     }
   ]
 }

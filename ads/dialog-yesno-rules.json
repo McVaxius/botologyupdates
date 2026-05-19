@@ -210,6 +210,17 @@
       "Notification": "_NotificationChallenge",
       "NotificationCB": "_Notification true 0 1",
       "Notes": "treasuremaps"
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Tip the Scales",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "Qarn"
     }
   ]
 }
