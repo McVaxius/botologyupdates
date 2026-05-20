@@ -221,6 +221,17 @@
       "Notification": "",
       "NotificationCB": "",
       "Notes": "Qarn"
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "uicksand",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "Cuckers Cry"
     }
   ]
 }
