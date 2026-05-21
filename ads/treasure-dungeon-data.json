@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "description": "ADS treasure dungeon route geometry. Edit only entryPoint and door XYZ values unless changing schema intentionally; object names and route behavior stay compiled in ADS.",
+  "routes": [
+    {
+      "enabled": true,
+      "territoryTypeId": 558,
+      "dutyName": "the Aquapolis",
+      "entryPoint": {
+        "label": "Room 1 Start",
+        "room": 1,
+        "slot": "Start",
+        "x": 1.0083783,
+        "y": 0.19999814,
+        "z": 340.36688
+      },
+      "doors": [
+        {
+          "label": "Room 2",
+          "room": 2,
+          "slot": "Single",
+          "x": -0.016964452,
+          "y": -7.800004,
+          "z": 217.08427
+        },
+        {
+          "label": "Room 3",
+          "room": 3,
+          "slot": "Single",
+          "x": 0.0065348446,
+          "y": -15.800005,
+          "z": 92.169876
+        },
+        {
+          "label": "Room 4",
+          "room": 4,
+          "slot": "Single",
+          "x": -0.12571298,
+          "y": -23.800001,
+          "z": -30.496042
+        },
+        {
+          "label": "Room 5",
+          "room": 5,
+          "slot": "Single",
+          "x": 0.25867504,
+          "y": -31.72483,
+          "z": -157.66818
+        },
+        {
+          "label": "Room 6",
+          "room": 6,
+          "slot": "Single",
+          "x": -0.0969127,
+          "y": -39.77959,
+          "z": -282.12805
+        },
+        {
+          "label": "Room 7",
+          "room": 7,
+          "slot": "Single",
+          "x": -0.095316514,
+          "y": -47.701828,
+          "z": -403.92584
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 712,
+      "dutyName": "the Lost Canals of Uznair",
+      "entryPoint": {
+        "label": "Dungeon Start",
+        "room": 0,
+        "slot": "Start",
+        "x": 0.018579919,
+        "y": 149.79604,
+        "z": 388.26758
+      },
+      "doors": [
+        {
+          "label": "Room 1 Left Door",
+          "room": 1,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": 99.705315,
+          "z": 277.46317
+        },
+        {
+          "label": "Room 1 Right Door",
+          "room": 1,
+          "slot": "Right",
+          "x": 22.346756,
+          "y": 99.0855,
+          "z": 277.46317
+        },
+        {
+          "label": "Room 2 Left Door",
+          "room": 2,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": 49.53088,
+          "z": 157.46317
+        },
+        {
+          "label": "Room 2 Right Door",
+          "room": 2,
+          "slot": "Right",
+          "x": 22.346756,
+          "y": 49.650784,
+          "z": 157.46317
+        },
+        {
+          "label": "Room 3 Left Door",
+          "room": 3,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": -0.17543781,
+          "z": 37.72586
+        },
+        {
+          "label": "Room 3 Right Door",
+          "room": 3,
+          "slot": "Right",
+          "x": 22.346756,
+          "y": -0.16592562,
+          "z": 37.72586
+        },
+        {
+          "label": "Room 4 Left Door",
+          "room": 4,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": -50.172253,
+          "z": -82.23673
+        },
+        {
+          "label": "Room 4 Right Door",
+          "room": 4,
+          "slot": "Right",
+          "x": 22.346756,
+          "y": -50.322968,
+          "z": -82.23673
+        },
+        {
+          "label": "Room 5 Left Door",
+          "room": 5,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": -100.21078,
+          "z": -82.23673
+        },
+        {
+          "label": "Room 5 Right Door",
+          "room": 5,
+          "slot": "Right",
+          "x": 22.346756,
+          "y": -100.280045,
+          "z": -82.23673
+        },
+        {
+          "label": "Room 6 Left Door",
+          "room": 6,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": -150.77336,
+          "z": -322.78708
+        },
+        {
+          "label": "Room 6 Right Door",
+          "room": 6,
+          "slot": "Right",
+          "x": 22.346756,
+          "y": -150.35568,
+          "z": -322.78708
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 725,
+      "dutyName": "the Hidden Canals of Uznair",
+      "entryPoint": {
+        "label": "Dungeon Start",
+        "room": 0,
+        "slot": "Start",
+        "x": 0.018579919,
+        "y": 149.79604,
+        "z": 388.26758
+      },
+      "doors": [
+        {
+          "label": "Room 1 Left Door",
+          "room": 1,
+          "slot": "Left",
+          "x": -22.346756,
+          "y": 99.705315,
+          "z": 277.46317
+        },
+        {
+          "label": "Room 1 Centre Door",
+          "room": 1,
+          "slot": "Centre",
+          "x": 0.15397932,
+          "y": 100.005486,
+          "z": 267.77084
+        },
+        {
+          "label": "Room 1 Right Door",
+          "room": 1,
+          "slot": "Right",
+          "x": 23.240828,
+          "y": 99.0855,
+          "z": 276.92383
+        },
+        {
+          "label": "Room 2 Left Door",
+          "room": 2,
+          "slot": "Left",
+          "x": -22.666056,
+          "y": 49.53088,
+          "z": 157.3789
+        },
+        {
+          "label": "Room 2 Centre Door",
+          "room": 2,
+          "slot": "Centre",
+          "x": 0.23556912,
+          "y": 49.569042,
+          "z": 147.67918
+        },
+        {
+          "label": "Room 2 Right Door",
+          "room": 2,
+          "slot": "Right",
+          "x": 22.353483,
+          "y": 49.650784,
+          "z": 157.34358
+        },
+        {
+          "label": "Room 3 Left Door",
+          "room": 3,
+          "slot": "Left",
+          "x": -22.334154,
+          "y": -0.17543781,
+          "z": 37.72586
+        },
+        {
+          "label": "Room 3 Centre Door",
+          "room": 3,
+          "slot": "Centre",
+          "x": 0.18939842,
+          "y": -0.6225517,
+          "z": 27.164404
+        },
+        {
+          "label": "Room 3 Right Door",
+          "room": 3,
+          "slot": "Right",
+          "x": 22.305756,
+          "y": -0.16592562,
+          "z": 37.71951
+        },
+        {
+          "label": "Room 4 Left Door",
+          "room": 4,
+          "slot": "Left",
+          "x": -22.36422,
+          "y": -50.172253,
+          "z": -82.23673
+        },
+        {
+          "label": "Room 4 Centre Door",
+          "room": 4,
+          "slot": "Centre",
+          "x": -0.35707533,
+          "y": -50.35107,
+          "z": -92.114006
+        },
+        {
+          "label": "Room 4 Right Door",
+          "room": 4,
+          "slot": "Right",
+          "x": 22.503517,
+          "y": -50.322968,
+          "z": -82.44588
+        },
+        {
+          "label": "Room 5 Left Door",
+          "room": 5,
+          "slot": "Left",
+          "x": -22.151629,
+          "y": -100.21078,
+          "z": -202.53842
+        },
+        {
+          "label": "Room 5 Centre Door",
+          "room": 5,
+          "slot": "Centre",
+          "x": -0.24459839,
+          "y": -100.71657,
+          "z": -213.06108
+        },
+        {
+          "label": "Room 5 Right Door",
+          "room": 5,
+          "slot": "Right",
+          "x": 22.411543,
+          "y": -100.280045,
+          "z": -202.4386
+        },
+        {
+          "label": "Room 6 Left Door",
+          "room": 6,
+          "slot": "Left",
+          "x": -23.203735,
+          "y": -150.77336,
+          "z": -322.78708
+        },
+        {
+          "label": "Room 6 Centre Door",
+          "room": 6,
+          "slot": "Centre",
+          "x": 0.18377349,
+          "y": -150.18068,
+          "z": -331.6725
+        },
+        {
+          "label": "Room 6 Right Door",
+          "room": 6,
+          "slot": "Right",
+          "x": 22.608999,
+          "y": -150.35568,
+          "z": -322.41605
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 879,
+      "dutyName": "The Dungeons of Lyhe Ghiah",
+      "entryPoint": {
+        "label": "Room 1 Start",
+        "room": 1,
+        "slot": "Start",
+        "x": 0.3018191,
+        "y": -39.97151,
+        "z": 142.62704
+      },
+      "doors": [
+        {
+          "label": "Room 2 Left Door",
+          "room": 2,
+          "slot": "Left",
+          "x": -28.071524,
+          "y": -39.235474,
+          "z": 101.0369
+        },
+        {
+          "label": "Room 2 Right Door",
+          "room": 2,
+          "slot": "Right",
+          "x": 28.071524,
+          "y": -39.235474,
+          "z": 101.0369
+        },
+        {
+          "label": "Room 3 Left Door",
+          "room": 3,
+          "slot": "Left",
+          "x": -29.093864,
+          "y": 1.1753497,
+          "z": -29.101763
+        },
+        {
+          "label": "Room 3 Right Door",
+          "room": 3,
+          "slot": "Right",
+          "x": 29.33053,
+          "y": 1.2513843,
+          "z": -29.013733
+        },
+        {
+          "label": "Room 4 Left Door",
+          "room": 4,
+          "slot": "Left",
+          "x": -29.061462,
+          "y": 41.129097,
+          "z": -158.93839
+        },
+        {
+          "label": "Room 4 Right Door",
+          "room": 4,
+          "slot": "Right",
+          "x": 29.22315,
+          "y": 41.200306,
+          "z": -158.97258
+        },
+        {
+          "label": "Room 5 Left Door",
+          "room": 5,
+          "slot": "Left",
+          "x": -28.825865,
+          "y": 81.00473,
+          "z": -288.78784
+        },
+        {
+          "label": "Room 5 Right Door",
+          "room": 5,
+          "slot": "Right",
+          "x": 29.285349,
+          "y": 81.2058,
+          "z": -288.87875
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 1000,
+      "dutyName": "the Excitatron 6000",
+      "entryPoint": {
+        "label": "Room 1 Start",
+        "room": 1,
+        "slot": "Start",
+        "x": 0.03230051,
+        "y": 20.000008,
+        "z": 254.26851
+      },
+      "doors": [
+        {
+          "label": "Room 2 Left Door",
+          "room": 2,
+          "slot": "Left",
+          "x": 80.953316,
+          "y": -10.038639,
+          "z": 101.36717
+        },
+        {
+          "label": "Room 2 Right Door",
+          "room": 2,
+          "slot": "Right",
+          "x": 138.77351,
+          "y": -10.038636,
+          "z": 101.35768
+        },
+        {
+          "label": "Room 3 Left Door",
+          "room": 3,
+          "slot": "Left",
+          "x": 81.37923,
+          "y": -10.03865,
+          "z": -48.60507
+        },
+        {
+          "label": "Room 3 Right Door",
+          "room": 3,
+          "slot": "Right",
+          "x": 138.87137,
+          "y": -10.03865,
+          "z": -48.890167
+        },
+        {
+          "label": "Room 4 Left Door",
+          "room": 4,
+          "slot": "Left",
+          "x": -138.5103,
+          "y": 19.96135,
+          "z": -168.72546
+        },
+        {
+          "label": "Room 4 Right Door",
+          "room": 4,
+          "slot": "Right",
+          "x": -81.4899,
+          "y": 19.96135,
+          "z": -168.72546
+        },
+        {
+          "label": "Room 5 Left Door",
+          "room": 5,
+          "slot": "Left",
+          "x": -138.91505,
+          "y": 19.961369,
+          "z": -319.07587
+        },
+        {
+          "label": "Room 5 Right Door",
+          "room": 5,
+          "slot": "Right",
+          "x": -81.35945,
+          "y": 19.961378,
+          "z": -318.83533
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 1209,
+      "dutyName": "Cenote Ja Ja Gural",
+      "entryPoint": {
+        "label": "Room 1 Start",
+        "room": 1,
+        "slot": "Start",
+        "x": 0.1223174,
+        "y": -400.0,
+        "z": 377.30017
+      },
+      "doors": [
+        {
+          "label": "Room 2 Left Door",
+          "room": 2,
+          "slot": "Left",
+          "x": -35.06371,
+          "y": -400.00003,
+          "z": 341.5195
+        },
+        {
+          "label": "Room 2 Right Door",
+          "room": 2,
+          "slot": "Right",
+          "x": 35.617687,
+          "y": -400.0,
+          "z": 341.68155
+        },
+        {
+          "label": "Room 3 Left Door",
+          "room": 3,
+          "slot": "Left",
+          "x": -35.291565,
+          "y": -400.0,
+          "z": 156.95146
+        },
+        {
+          "label": "Room 3 Right Door",
+          "room": 3,
+          "slot": "Right",
+          "x": 35.601677,
+          "y": -400.0,
+          "z": 156.61826
+        },
+        {
+          "label": "Room 4 Left Door",
+          "room": 4,
+          "slot": "Left",
+          "x": 124.29012,
+          "y": -290.00003,
+          "z": -16.546095
+        },
+        {
+          "label": "Room 4 Right Door",
+          "room": 4,
+          "slot": "Right",
+          "x": 195.96709,
+          "y": -290.00015,
+          "z": -16.546623
+        },
+        {
+          "label": "Room 5 Left Door",
+          "room": 5,
+          "slot": "Left",
+          "x": -232.17561,
+          "y": -169.0,
+          "z": -180.32594
+        },
+        {
+          "label": "Room 5 Right Door",
+          "room": 5,
+          "slot": "Right",
+          "x": -162.12967,
+          "y": -169.00015,
+          "z": -179.9811
+        }
+      ]
+    }
+  ]
+}
