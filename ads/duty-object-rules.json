@@ -4009,6 +4009,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 116.4,-4.0,3.6 on layer Inner Sanctum. Auto classification left blank."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1330,
+      "ContentFinderConditionId": 13,
+      "DutyEnglishName": "Dzemael Darkhold",
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "",
+      "NameMatchMode": "Exact",
+      "Classification": "MapXzDestination",
+      "DestinationType": "",
+      "Layer": "Inner Hold",
+      "MapCoordinates": "9,11.2",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "before boss 1"
     }
   ]
 }
