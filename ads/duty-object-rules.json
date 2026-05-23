@@ -4033,6 +4033,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "before boss 1"
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 558,
+      "ContentFinderConditionId": 179,
+      "DutyEnglishName": "the Aquapolis",
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "Arges",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Aquapolis extra enemies"
     }
   ]
 }
