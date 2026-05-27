@@ -428,4 +428,493 @@
       ]
     }
   ]
+}{
+  "schemaVersion": 1,
+  "description": "ADS treasure dungeon route geometry. Edit entryPoint and room door XYZ values; optional per-door clearThrough XYZ overrides follower-only movement-through targets. Object names, labels, room metadata, and opener behavior stay compiled in ADS.",
+  "routes": [
+    {
+      "enabled": true,
+      "territoryTypeId": 712,
+      "dutyName": "the Lost Canals of Uznair",
+      "routeKind": "Treasure",
+      "entryPoint": {
+        "x": 0,
+        "y": 150,
+        "z": 420,
+        "clearThrough": null
+      },
+      "rooms": [
+        {
+          "room": 1,
+          "left": {
+            "x": -20,
+            "y": 100,
+            "z": 280,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 19,
+            "y": 100,
+            "z": 280,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 2,
+          "left": {
+            "x": -20,
+            "y": 50,
+            "z": 150,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 20,
+            "y": 50,
+            "z": 150,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 3,
+          "left": {
+            "x": -20,
+            "y": 0,
+            "z": 40,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 20,
+            "y": 0,
+            "z": 40,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 4,
+          "left": {
+            "x": -20,
+            "y": -50,
+            "z": -80,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 20,
+            "y": -50,
+            "z": 80,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 5,
+          "left": {
+            "x": -20,
+            "y": -100,
+            "z": -210,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 20,
+            "y": -100,
+            "z": -210,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 6,
+          "left": {
+            "x": -20,
+            "y": -150,
+            "z": -330,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 20,
+            "y": -150,
+            "z": -330,
+            "clearThrough": null
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 725,
+      "dutyName": "the Hidden Canals of Uznair",
+      "routeKind": "Thief",
+      "entryPoint": {
+        "x": 0.018579919,
+        "y": 149.79604,
+        "z": 388.26758,
+        "clearThrough": null
+      },
+      "rooms": [
+        {
+          "room": 1,
+          "left": {
+            "x": -22.346756,
+            "y": 99.705315,
+            "z": 277.46317,
+            "clearThrough": null
+          },
+          "middle": {
+            "x": 0.15397932,
+            "y": 100.005486,
+            "z": 267.77084,
+            "clearThrough": null
+          },
+          "right": {
+            "x": 23.240828,
+            "y": 99.0855,
+            "z": 277.463,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 2,
+          "left": {
+            "x": -22.666056,
+            "y": 49.53088,
+            "z": 157.463,
+            "clearThrough": null
+          },
+          "middle": {
+            "x": 0.23556912,
+            "y": 49.569042,
+            "z": 147.67918,
+            "clearThrough": null
+          },
+          "right": {
+            "x": 22.353483,
+            "y": 49.650784,
+            "z": 157.463,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 3,
+          "left": {
+            "x": -22.334154,
+            "y": -0.17543781,
+            "z": 37.463,
+            "clearThrough": null
+          },
+          "middle": {
+            "x": 0.18939842,
+            "y": -0.6225517,
+            "z": 27.164404,
+            "clearThrough": null
+          },
+          "right": {
+            "x": 22.305756,
+            "y": -0.16592562,
+            "z": 37.463,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 4,
+          "left": {
+            "x": -22.36422,
+            "y": -50.172253,
+            "z": -82.463,
+            "clearThrough": null
+          },
+          "middle": {
+            "x": -0.35707533,
+            "y": -50.35107,
+            "z": -92.114006,
+            "clearThrough": null
+          },
+          "right": {
+            "x": 22.503517,
+            "y": -50.322968,
+            "z": -82.463,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 5,
+          "left": {
+            "x": -22.151628,
+            "y": -100.21078,
+            "z": -202.463,
+            "clearThrough": null
+          },
+          "middle": {
+            "x": -0.24459839,
+            "y": -100.71657,
+            "z": -213.06108,
+            "clearThrough": null
+          },
+          "right": {
+            "x": 22.411543,
+            "y": -100.280045,
+            "z": -202.463,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 6,
+          "left": {
+            "x": -23.203735,
+            "y": -150.77336,
+            "z": -322.463,
+            "clearThrough": null
+          },
+          "middle": {
+            "x": 0.18377349,
+            "y": -150.18068,
+            "z": -331.6725,
+            "clearThrough": null
+          },
+          "right": {
+            "x": 22.609,
+            "y": -150.35568,
+            "z": -322.463,
+            "clearThrough": null
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 879,
+      "dutyName": "The Dungeons of Lyhe Ghiah",
+      "routeKind": "Treasure",
+      "entryPoint": {
+        "x": 0.3018191,
+        "y": -39.97151,
+        "z": 142.62704,
+        "clearThrough": null
+      },
+      "rooms": [
+        {
+          "room": 2,
+          "left": {
+            "x": -28.071524,
+            "y": -39.235474,
+            "z": 101.0369,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 28.071524,
+            "y": -39.235474,
+            "z": 101.0369,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 3,
+          "left": {
+            "x": -29.093864,
+            "y": 1.1753497,
+            "z": -29.101763,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 29.094,
+            "y": 1.175,
+            "z": -29.102,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 4,
+          "left": {
+            "x": -29.061462,
+            "y": 41.129097,
+            "z": -158.93839,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 29.061,
+            "y": 41.200306,
+            "z": -158.938,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 5,
+          "left": {
+            "x": -28.825865,
+            "y": 81.00473,
+            "z": -288.78784,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 28.826,
+            "y": 81.2058,
+            "z": -288.788,
+            "clearThrough": null
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 1000,
+      "dutyName": "the Excitatron 6000",
+      "routeKind": "Treasure",
+      "entryPoint": {
+        "x": 0.03230051,
+        "y": 20.000008,
+        "z": 254.26851,
+        "clearThrough": null
+      },
+      "rooms": [
+        {
+          "room": 2,
+          "left": {
+            "x": 80.953316,
+            "y": -10.038639,
+            "z": 101.36717,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 138.77351,
+            "y": -10.038636,
+            "z": 101.367,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 3,
+          "left": {
+            "x": 81.37923,
+            "y": -10.03865,
+            "z": -48.60507,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 138.87137,
+            "y": -10.03865,
+            "z": -48.605,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 4,
+          "left": {
+            "x": -138.5103,
+            "y": 19.96135,
+            "z": -168.72546,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": -81.4899,
+            "y": 19.96135,
+            "z": -168.72546,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 5,
+          "left": {
+            "x": -138.91505,
+            "y": 19.961369,
+            "z": -319.07587,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": -81.35945,
+            "y": 19.961378,
+            "z": -319.076,
+            "clearThrough": null
+          }
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "territoryTypeId": 1209,
+      "dutyName": "Cenote Ja Ja Gural",
+      "routeKind": "Treasure",
+      "entryPoint": {
+        "x": 0.1223174,
+        "y": -400,
+        "z": 377.30017,
+        "clearThrough": null
+      },
+      "rooms": [
+        {
+          "room": 2,
+          "left": {
+            "x": -35.06371,
+            "y": -400.00003,
+            "z": 341.5195,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 35.617687,
+            "y": -400,
+            "z": 341.52,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 3,
+          "left": {
+            "x": -35.291565,
+            "y": -400,
+            "z": 156.95146,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 35.601677,
+            "y": -400,
+            "z": 156.951,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 4,
+          "left": {
+            "x": 124.29012,
+            "y": -290.00003,
+            "z": -16.546095,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": 195.96709,
+            "y": -290.00015,
+            "z": -16.546,
+            "clearThrough": null
+          }
+        },
+        {
+          "room": 5,
+          "left": {
+            "x": -232.17561,
+            "y": -169,
+            "z": -180.32594,
+            "clearThrough": null
+          },
+          "middle": null,
+          "right": {
+            "x": -162.12967,
+            "y": -169.00015,
+            "z": -180.326,
+            "clearThrough": null
+          }
+        }
+      ]
+    }
+  ]
 }

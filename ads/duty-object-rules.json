@@ -3309,7 +3309,7 @@
       "ObjectMatchRadius": null,
       "Priority": 1000,
       "PriorityVerticalRadius": 5,
-      "MaxDistance": 50,
+      "MaxDistance": 500,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 4.0,150.3,411.4 on layer The Lost Canals of Uznair."
