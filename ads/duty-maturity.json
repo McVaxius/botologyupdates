@@ -7323,10 +7323,10 @@
       "contentFinderConditionId": 1064,
       "territoryTypeId": 1314,
       "dutyEnglishName": "Mistwake",
-      "clearanceStatus": "NotCleared",
-      "supportLevel": "PassiveOnly",
+      "clearanceStatus": "FourPlayerSyncCleared",
+      "supportLevel": "ActiveSupported",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "i ran it once and added 4 rules. good luck !"
     },
     {
       "contentFinderConditionId": 1065,
