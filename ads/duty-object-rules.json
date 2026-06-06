@@ -4297,6 +4297,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "duty support"
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1345,
+      "ContentFinderConditionId": 1011,
+      "DutyEnglishName": "the Clyteum",
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "Jullus pyr Norbanus",
+      "NameMatchMode": "Exact",
+      "Classification": "Ignored",
+      "DestinationType": "",
+      "Layer": "",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "clyteum"
     }
   ]
 }
