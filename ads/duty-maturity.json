@@ -1473,10 +1473,10 @@
       "contentFinderConditionId": 179,
       "territoryTypeId": 558,
       "dutyEnglishName": "the Aquapolis",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 180,
@@ -2175,10 +2175,10 @@
       "contentFinderConditionId": 268,
       "territoryTypeId": 712,
       "dutyEnglishName": "the Lost Canals of Uznair",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 269,
@@ -2247,10 +2247,10 @@
       "contentFinderConditionId": 276,
       "territoryTypeId": 725,
       "dutyEnglishName": "the Hidden Canals of Uznair",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 277,
@@ -3381,10 +3381,10 @@
       "contentFinderConditionId": 586,
       "territoryTypeId": 794,
       "dutyEnglishName": "the Shifting Altars of Uznair",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 587,
@@ -4164,10 +4164,10 @@
       "contentFinderConditionId": 688,
       "territoryTypeId": 879,
       "dutyEnglishName": "The Dungeons of Lyhe Ghiah",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 689,
@@ -4659,10 +4659,10 @@
       "contentFinderConditionId": 745,
       "territoryTypeId": 924,
       "dutyEnglishName": "the Shifting Oubliettes of Lyhe Ghiah",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 746,
@@ -5307,10 +5307,10 @@
       "contentFinderConditionId": 819,
       "territoryTypeId": 1000,
       "dutyEnglishName": "the Excitatron 6000",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 820,
@@ -5388,10 +5388,10 @@
       "contentFinderConditionId": 829,
       "territoryTypeId": 1194,
       "dutyEnglishName": "the Skydeep Cenote",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 830,
@@ -6009,10 +6009,10 @@
       "contentFinderConditionId": 909,
       "territoryTypeId": 1123,
       "dutyEnglishName": "the Shifting Gymnasion Agonon",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 910,
@@ -6738,10 +6738,10 @@
       "contentFinderConditionId": 993,
       "territoryTypeId": 1209,
       "dutyEnglishName": "Cenote Ja Ja Gural",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 994,
@@ -7287,10 +7287,10 @@
       "contentFinderConditionId": 1060,
       "territoryTypeId": 1279,
       "dutyEnglishName": "Vault Oneiron",
-      "clearanceStatus": "NotCleared",
+      "clearanceStatus": "FourPlayerSyncCleared",
       "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
-      "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
+      "supportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
       "contentFinderConditionId": 1061,
