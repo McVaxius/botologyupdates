@@ -240,8 +240,8 @@
       "contentFinderConditionId": 27,
       "territoryTypeId": 1062,
       "dutyEnglishName": "Snowcloak",
-      "clearanceStatus": "NotCleared",
-      "supportLevel": "OnePlayerDutySupport",
+      "clearanceStatus": "OnePlayerDutySupport",
+      "supportLevel": "PassiveOnly",
       "isPlannedTest": false,
       "supportNote": "Untested/default maturity row. Runtime ownership can still run from live duty truth, but this duty needs scouting before promotion."
     },
