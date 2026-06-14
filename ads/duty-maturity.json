@@ -14,7 +14,7 @@
       "ContentFinderConditionId": 4,
       "TerritoryTypeId": 1036,
       "DutyEnglishName": "Sastasha",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsPlannedTest": true,
       "IsMainScenario": true,
@@ -52,7 +52,7 @@
       "ContentFinderConditionId": 7,
       "TerritoryTypeId": 1245,
       "DutyEnglishName": "Halatali",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": "Runtime ownership now keys off instanced-duty truth. This catalog row is maturity metadata only; pilot execution validation still needs work."
@@ -61,7 +61,7 @@
       "ContentFinderConditionId": 1,
       "TerritoryTypeId": 1039,
       "DutyEnglishName": "the Thousand Maws of Toto-Rak",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "ActiveSupported",
       "IsMainScenario": true,
       "SupportNote": "Pilot active wave: operator-validated starter route."
@@ -70,7 +70,7 @@
       "ContentFinderConditionId": 6,
       "TerritoryTypeId": 1040,
       "DutyEnglishName": "Haukke Manor",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsPlannedTest": true,
       "IsMainScenario": true,
@@ -80,7 +80,7 @@
       "ContentFinderConditionId": 8,
       "TerritoryTypeId": 1041,
       "DutyEnglishName": "Brayflox\u0027s Longstop",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "ActiveSupported",
       "IsMainScenario": true,
       "SupportNote": "Pilot active wave: operator-validated starter route."
@@ -98,7 +98,7 @@
       "ContentFinderConditionId": 9,
       "TerritoryTypeId": 1267,
       "DutyEnglishName": "the Sunken Temple of Qarn",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": "Runtime ownership now keys off instanced-duty truth. This catalog row is maturity metadata only; pilot execution validation still needs work."
@@ -116,7 +116,7 @@
       "ContentFinderConditionId": 11,
       "TerritoryTypeId": 1042,
       "DutyEnglishName": "the Stone Vigil",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "ActiveSupported",
       "IsMainScenario": true,
       "SupportNote": "Pilot active wave: operator-validated starter route."
@@ -134,7 +134,7 @@
       "ContentFinderConditionId": 13,
       "TerritoryTypeId": 1330,
       "DutyEnglishName": "Dzemael Darkhold",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": "Runtime ownership now keys off instanced-duty truth. This catalog row is maturity metadata only; pilot execution validation still needs work."
@@ -143,7 +143,7 @@
       "ContentFinderConditionId": 5,
       "TerritoryTypeId": 1331,
       "DutyEnglishName": "the Aurum Vale",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "ActiveSupported",
       "IsMainScenario": true,
       "SupportNote": "Pilot active wave: operator-validated starter route."
@@ -205,7 +205,7 @@
       "ContentFinderConditionId": 32,
       "TerritoryTypeId": 1063,
       "DutyEnglishName": "the Keeper of the Lake",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsPlannedTest": true,
       "IsMainScenario": true,
@@ -251,19 +251,19 @@
       "ContentFinderConditionId": 31,
       "TerritoryTypeId": 1109,
       "DutyEnglishName": "the Great Gubal Library",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
-      "SupportNote": "only needed  1 rule haha"
+      "SupportNote": "only needed 1 rule haha"
     },
     {
       "ContentFinderConditionId": 38,
       "TerritoryTypeId": 1110,
       "DutyEnglishName": "the Aetherochemical Research Facility",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "OnePlayerDutySupport",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
-      "SupportNote": ""
+      "SupportNote": "2 rules maybe 3 well see ;o"
     },
     {
       "ContentFinderConditionId": 33,
