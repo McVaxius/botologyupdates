@@ -305,7 +305,7 @@
       "ContentFinderConditionId": 219,
       "TerritoryTypeId": 1114,
       "DutyEnglishName": "Baelsar\u0027s Wall",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "OnePlayerDutySupport",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": ""
