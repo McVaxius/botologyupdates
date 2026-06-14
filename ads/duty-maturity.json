@@ -278,7 +278,7 @@
       "ContentFinderConditionId": 141,
       "TerritoryTypeId": 1111,
       "DutyEnglishName": "the Antitower",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "OnePlayerDutySupport",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": ""
