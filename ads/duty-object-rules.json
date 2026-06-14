@@ -4681,6 +4681,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": false,
+      "TerritoryTypeId": 1065,
+      "ContentFinderConditionId": 39,
+      "DutyEnglishName": "the Aery",
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Eos",
+      "NameMatchMode": "Exact",
+      "Classification": "XYZ",
+      "DestinationType": "",
+      "Layer": "The Aery",
+      "MapCoordinates": "",
+      "WorldCoordinates": "273.335,76.701,-178.393",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "so this part kind of gets stuck because it wont path acrosos the gap?!?!"
     }
   ]
 }
