@@ -2671,7 +2671,7 @@
       "MatchTokens": [
         "MaskOfKefka"
       ],
-      "Notes": "Does not remove Plugin-Created Game UI functions, or return Penumbra/Glamourer-edited models to their original. Use at your own risk.",
+      "Notes": "Does not remove Plugin-Created Game UI functions, or return Penumbra/Glamourer-edited models to their original. Use at your own risk.  There will be some self doxxing if you have any plugins enabled that affect the context windows such as allgan tools etc",
       "RepoUrl": "https://github.com/doomzao/mask-of-kefka",
       "RepoJsonUrl": "https://raw.githubusercontent.com/doomzao/plugins/main/repo.json",
       "RepoJsonUrls": [],
@@ -2682,7 +2682,7 @@
       "Yellow": [
         "maskofkefka"
       ],
-      "Red": [],
+      "Red": ["allagan_tools"],
       "RuleType": null,
       "RelatedIds": []
     },
