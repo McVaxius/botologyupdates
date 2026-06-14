@@ -4705,6 +4705,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "so this part kind of gets stuck because it wont path acrosos the gap?!?!"
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1109,
+      "ContentFinderConditionId": 31,
+      "DutyEnglishName": "the Great Gubal Library",
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "",
+      "NameMatchMode": "Exact",
+      "Classification": "MapXzDestination",
+      "DestinationType": "",
+      "Layer": "",
+      "MapCoordinates": "18.8,10",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": ""
     }
   ]
 }
