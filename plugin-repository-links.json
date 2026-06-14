@@ -195,6 +195,31 @@
       "RelatedIds": []
     },
     {
+      "Id": "autofategrind",
+      "Category": "DOW/DOM Content Bots",
+      "DisplayName": "Auto FATE Grind",
+      "MatchTokens": [
+        "AutoFateGrind"
+      ],
+      "Notes": "Vibecoded FATE bot. Requires VBM instead of BMR. Use at your own risk.",
+      "RepoUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh",
+        "bossmod",
+        "textadvance",
+        "lifestream"
+      ],
+      "Yellow": [
+        "autofategrind"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "bocchi",
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "BOCCHI",
@@ -312,6 +337,28 @@
       "RepoJsonUrls": [],
       "Description": "Deep Dungeon / monster reference helper.",
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "sealbreaker",
+      "Category": "DOW/DOM Content Bots",
+      "DisplayName": "SealBreaker",
+      "MatchTokens": [
+        "SealBreaker"
+      ],
+      "Notes": "Autofarms Mistwake.",
+      "RepoUrl": "https://github.com/ofnature/SealBreaker",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/ofnature/MistwakeFarm/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh",
+        "lifestream",
+        "autoduty"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -603,6 +650,26 @@
       "RelatedIds": []
     },
     {
+      "Id": "vendingmachine",
+      "Category": "Empire Management",
+      "DisplayName": "Vending Machine",
+      "MatchTokens": [
+        "VendingMachine"
+      ],
+      "Notes": "Conflicts with DropBox. Better for interempire rather than intraempire trading.",
+      "RepoUrl": "https://github.com/exatrines/VendingMachine",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/exatrines/DalamudPlugins/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "dropbox"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "vermaxion",
       "Category": "Empire Management",
       "DisplayName": "VerMaxion",
@@ -807,24 +874,6 @@
       "Green": [
         "lifestream"
       ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "bardtoolbox",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "BardToolbox",
-      "MatchTokens": [
-        "BardToolbox"
-      ],
-      "Notes": "It\u0027s also useful when mogstone farming somehow - Canto",
-      "RepoUrl": "Closed Source",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -1037,6 +1086,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "housingway",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "Housingway",
+      "MatchTokens": [
+        "Housingway"
+      ],
+      "Notes": "tbh this is a tweaks plugin but it\u0027s housing so it goes in housing",
+      "RepoUrl": null,
+      "RepoJsonUrl": null,
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hyperborea",
       "Category": "Housing/Roleplay",
       "DisplayName": "Hyperborea",
@@ -1173,6 +1240,29 @@
       "RelatedIds": []
     },
     {
+      "Id": "playersync",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "PlayerSync",
+      "MatchTokens": [
+        "PlayerSync"
+      ],
+      "Notes": "Yet another Mare Fork. This one has outright open-world syncing.",
+      "RepoUrl": "https://github.com/universalconquistador/MareSynchronosClient",
+      "RepoJsonUrl": "https://delivery-enam.playersync.io/download/plugin/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "glamourer",
+        "penumbra"
+      ],
+      "Yellow": [
+        "lightlesssync"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "proximityvoicechat",
       "Category": "Housing/Roleplay",
       "DisplayName": "ProximityVoiceChat",
@@ -1257,6 +1347,24 @@
       "RepoJsonUrl": "https://puni.sh/api/repository/nala",
       "RepoJsonUrls": [],
       "Description": "Browse FFXIV community events in-game, with filtering by data center, time, and tags.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "visitorspass",
+      "Category": "Housing/Roleplay",
+      "DisplayName": "VisitorsPass",
+      "MatchTokens": [
+        "VisitorsPass"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Just-Chaldea/VisitorsPass",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Just-Chaldea/DalamudPluginRepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1450,37 +1558,91 @@
       "RelatedIds": []
     },
     {
-      "Id": "glaivesplugintweaks",
-      "Category": "Obsolete Plugins",
-      "DisplayName": "Glaive Tweaks",
+      "Id": "bardtoolbox",
+      "Category": "Multiboxing",
+      "DisplayName": "BardToolbox",
       "MatchTokens": [
-        "Glaives.Plugin.Tweaks"
+        "BardToolbox"
+      ],
+      "Notes": "It\u0027s also useful when mogstone farming somehow - Canto",
+      "RepoUrl": "Closed Source",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/BardToolbox/BardToolbox-Release/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "coppelia",
+      "Category": "Multiboxing",
+      "DisplayName": "Coppelia",
+      "MatchTokens": [
+        "Coppelia"
       ],
       "Notes": "No notes configured.",
-      "RepoUrl": "https://github.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution/main/pluginmaster.json",
+      "RepoUrl": "https://github.com/McVaxius/Coppelia",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/Coppelia/main/repo.json",
       "RepoJsonUrls": [],
-      "Description": "\u003ELooks inside\n\u003EIt\u0027s another Skip Cutscene Fork",
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "frenrider",
+      "Category": "Multiboxing",
+      "DisplayName": "FrenRider",
+      "MatchTokens": [
+        "FrenRider"
+      ],
+      "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour.",
+      "RepoUrl": "https://github.com/McVaxius/FrenRider",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Native Dalamud plugin for managing 2\u002B characters in various situations. Follow party members, auto-mount, combat integration, and more. Use /frenrider or /fr to open.",
       "Green": [],
       "Yellow": [],
       "Red": [
-        "skipcutscene"
+        "autoduty"
       ],
       "RuleType": null,
       "RelatedIds": []
     },
     {
-      "Id": "fakename",
-      "Category": "Obsoleted Plugins",
-      "DisplayName": "FakeName",
+      "Id": "leadertargetsync",
+      "Category": "Multiboxing",
+      "DisplayName": "Leader Target Sync",
       "MatchTokens": [
-        "FakeName"
+        "LeaderTargetSync"
       ],
-      "Notes": "Only putting this here for posterity\u0027s sake. Krangler is just better.",
-      "RepoUrl": "https://github.com/tigurand/FakeName",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/tigurand/DalamudPlugins/refs/heads/main/repo.json",
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Naru6780/LeaderTargetSync",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Naru6780/LeaderTargetSync/main/pluginmaster.json",
       "RepoJsonUrls": [],
-      "Description": "IT DOESN\u0027T FUCKING WORK",
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "dashatweaks",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Dasha Tweaks",
+      "MatchTokens": [
+        "DashaTweaks"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": null,
+      "RepoJsonUrls": [],
+      "Description": "Everything in this is already in pre-existing plugins. There is no reason to use this instead of AutoRetainer and Chilled Leves.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1503,6 +1665,26 @@
       "Yellow": [],
       "Red": [
         "gatherbuddy_reborn"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "glaivesplugintweaks",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Glaive Tweaks",
+      "MatchTokens": [
+        "Glaives.Plugin.Tweaks"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Glaives-of-Eorzea/FFXIV.Plugin.Distribution/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "\u003ELooks inside\n\u003EIt\u0027s another Skip Cutscene Fork",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "skipcutscene"
       ],
       "RuleType": null,
       "RelatedIds": []
@@ -1649,6 +1831,42 @@
       "RelatedIds": []
     },
     {
+      "Id": "streamermode",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "StreamerMode",
+      "MatchTokens": [
+        "StreamerMode"
+      ],
+      "Notes": "Use Krangler or FakeName instead.",
+      "RepoUrl": "StreamerMode",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/jango921/StreamerMode/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "veelasachievementledger",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Veela\u0027s Achievement Ledger",
+      "MatchTokens": [
+        "VeelasAchievementLedger"
+      ],
+      "Notes": "CBT already does this.",
+      "RepoUrl": "https://github.com/vauxra/veelas-achievement-ledger",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/vauxra/veelas-achievement-ledger/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "xelstweaks",
       "Category": "Obsoleted Plugins",
       "DisplayName": "Xel\u0027s Tweaks",
@@ -1741,6 +1959,52 @@
       "Red": [
         "rotation_solver_reborn"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autofrontline",
+      "Category": "PVP Bots",
+      "DisplayName": "Auto Frontline",
+      "MatchTokens": [
+        "AutoFrontline"
+      ],
+      "Notes": "General PVP Botting disclaimer; Use at your own risk.",
+      "RepoUrl": "https://github.com/exatrines/AutoFrontline",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/exatrines/DalamudPlugins/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "rotation_solver_reborn",
+        "vnavmesh"
+      ],
+      "Yellow": [
+        "autofrontline"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autopvpseriesgrind",
+      "Category": "PVP Bots",
+      "DisplayName": "Auto PVP Series Grind",
+      "MatchTokens": [
+        "AutoPvpSeriesGrind"
+      ],
+      "Notes": "Vibecoded. Like other PVP automation tools, use responsibly and at your own risk.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoPVPSeriesGrind",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh",
+        "rotation_solver_reborn"
+      ],
+      "Yellow": [
+        "autopvpseriesgrind"
+      ],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1922,6 +2186,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "glamourthis",
+      "Category": "QOL",
+      "DisplayName": "Glamour This",
+      "MatchTokens": [
+        "GlamourThis"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Tiberius1OOO/glamour_this",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Tiberius1OOO/glamour_this/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "lifestream",
       "Category": "QOL",
       "DisplayName": "Lifestream",
@@ -1935,6 +2217,26 @@
       "Description": "placeholder description",
       "Green": [],
       "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "littleluxuries",
+      "Category": "QOL",
+      "DisplayName": "Little Luxuries",
+      "MatchTokens": [
+        "LittleLuxuries"
+      ],
+      "Notes": "I\u0027m pretty sure the Character Select Tweaks in this interferes with HaselTweaks\u0027 Enhanced Login/Logout.",
+      "RepoUrl": "https://github.com/devoreofox/LittleLuxuries",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/devoreofox/foxs-hollow/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "haseltweaks"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -2050,6 +2352,28 @@
       "RepoJsonUrls": [],
       "Description": "A collection of plugins-turned-modules, QoL improvements, and Automation features.",
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autodailytribes",
+      "Category": "Quest",
+      "DisplayName": "Auto Daily Tribes",
+      "MatchTokens": [
+        "AutoDailyTribes"
+      ],
+      "Notes": "Vibecoded daily quest automator. Works on top of Questionable (Either Questionable works, so I\u0027m not putting it in the dependencies.)",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoDailyTribes",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "artisan",
+        "vnavmesh",
+        "textadvance"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -2305,6 +2629,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "fakename",
+      "Category": "Screenshot Safety",
+      "DisplayName": "FakeName",
+      "MatchTokens": [
+        "FakeName"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/tigurand/FakeName",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/tigurand/DalamudPlugins/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "krangler",
       "Category": "Screenshot Safety",
       "DisplayName": "Krangler",
@@ -2318,6 +2660,28 @@
       "Description": "placeholder description",
       "Green": [],
       "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "maskofkefka",
+      "Category": "Screenshot Safety",
+      "DisplayName": "Mask of Kefka",
+      "MatchTokens": [
+        "MaskOfKefka"
+      ],
+      "Notes": "Does not remove Plugin-Created Game UI functions, or return Penumbra/Glamourer-edited models to their original. Use at your own risk.",
+      "RepoUrl": "https://github.com/doomzao/mask-of-kefka",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/doomzao/plugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "dtroverlay"
+      ],
+      "Yellow": [
+        "maskofkefka"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -2448,6 +2812,27 @@
       "Description": "Catalog and audit helper for plugin repository/link management and rule-based matching.",
       "Green": [],
       "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "carrotpatch",
+      "Category": "Utility Bots",
+      "DisplayName": "Carrot Patch",
+      "MatchTokens": [
+        "CarrotPatch"
+      ],
+      "Notes": "Another Peeping Tom fork.",
+      "RepoUrl": "https://github.com/lapinwhimsical/CarrotPatch",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/lapinwhimsical/CarrotPatch/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "targetpyon",
+        "peeping_tom"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -2625,22 +3010,38 @@
       "RelatedIds": []
     },
     {
-      "Id": "frenrider",
+      "Id": "dtroverlay",
       "Category": "Utility Bots",
-      "DisplayName": "FrenRider",
+      "DisplayName": "DTR Overlay",
       "MatchTokens": [
-        "FrenRider"
+        "DTROverlay"
       ],
-      "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour.",
-      "RepoUrl": "https://github.com/McVaxius/FrenRider",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/exatrines/DTROverlay",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/exatrines/DalamudPlugins/main/pluginmaster.json",
       "RepoJsonUrls": [],
-      "Description": "Native Dalamud plugin for managing 2\u002B characters in various situations. Follow party members, auto-mount, combat integration, and more. Use /frenrider or /fr to open.",
+      "Description": null,
       "Green": [],
       "Yellow": [],
-      "Red": [
-        "autoduty"
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "gaolbreak",
+      "Category": "Utility Bots",
+      "DisplayName": "Gaolbreak UI",
+      "MatchTokens": [
+        "Gaolbreak"
       ],
+      "Notes": "In beta.",
+      "RepoUrl": "https://github.com/sourpuh/ffxiv_gaolbreak",
+      "RepoJsonUrl": "https://puni.sh/api/repository/sourpuh",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
