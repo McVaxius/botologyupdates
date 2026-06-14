@@ -232,6 +232,17 @@
       "Notification": "",
       "NotificationCB": "",
       "Notes": "Cuckers Cry"
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Operate the",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "xelphatol and other places"
     }
   ]
 }
