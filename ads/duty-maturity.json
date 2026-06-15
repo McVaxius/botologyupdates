@@ -335,6 +335,14 @@
       "SupportNote": "Validated with an 8-player synced party. ADS stores this in the existing synced-party maturity tier; runtime support remains PassiveOnly."
     },
     {
+      "ContentFinderConditionId": 235,
+      "TerritoryTypeId": 1367,
+      "DutyEnglishName": "Shisui of the Violet Tides",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
       "ContentFinderConditionId": 241,
       "TerritoryTypeId": 1144,
       "DutyEnglishName": "Doma Castle",
