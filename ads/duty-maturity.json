@@ -362,7 +362,7 @@
       "ContentFinderConditionId": 242,
       "TerritoryTypeId": 1145,
       "DutyEnglishName": "Castrum Abania",
-      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "ClearanceStatus": "OnePlayerDutySupport",
       "SupportLevel": "PassiveOnly",
       "SupportNote": "Runtime ownership now keys off instanced-duty truth. This catalog row is maturity metadata only; pilot execution validation still needs work."
     },

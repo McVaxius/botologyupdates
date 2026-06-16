@@ -5809,6 +5809,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 391.0,-39.0,-61.1 on layer The Great Gubal Library. Observed BaseId 2007939. Object XYZ pin disabled. Classification override: Required."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1145,
+      "ContentFinderConditionId": 242,
+      "DutyEnglishName": "Castrum Abania",
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "",
+      "NameMatchMode": "Exact",
+      "Classification": "XYZ",
+      "DestinationType": "",
+      "Layer": "Castrum Abania",
+      "MapCoordinates": "",
+      "WorldCoordinates": "295.2,20.1,-28.8",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": ""
     }
   ]
 }
