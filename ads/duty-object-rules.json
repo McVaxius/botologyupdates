@@ -5785,6 +5785,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 227.0,-24.0,-66.2 on layer The Great Gubal Library. Observed BaseId 7063. Object XYZ pin disabled. Classification override: Ignored."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 676,
+      "ContentFinderConditionId": 461,
+      "DutyEnglishName": "",
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Pile of Books",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "The Great Gubal Library",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 391.0,-39.0,-61.1 on layer The Great Gubal Library. Observed BaseId 2007939. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
