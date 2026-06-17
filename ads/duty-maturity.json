@@ -367,6 +367,14 @@
       "SupportNote": "Runtime ownership now keys off instanced-duty truth. This catalog row is maturity metadata only; pilot execution validation still needs work."
     },
     {
+      "ContentFinderConditionId": 247,
+      "TerritoryTypeId": 1146,
+      "DutyEnglishName": "Ala Mhigo",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
       "ContentFinderConditionId": 284,
       "TerritoryTypeId": 742,
       "DutyEnglishName": "Hells\u0027 Lid",
