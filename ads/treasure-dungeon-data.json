@@ -17,14 +17,14 @@
         {
           "room": 1,
           "left": {
-            "x": -20,
+            "x": -16,
             "y": 100,
             "z": 280,
             "clearThrough": null
           },
           "middle": null,
           "right": {
-            "x": 19,
+            "x": 16,
             "y": 100,
             "z": 280,
             "clearThrough": null
@@ -33,14 +33,14 @@
         {
           "room": 2,
           "left": {
-            "x": -20,
+            "x": -16,
             "y": 50,
             "z": 150,
             "clearThrough": null
           },
           "middle": null,
           "right": {
-            "x": 20,
+            "x": 16,
             "y": 50,
             "z": 150,
             "clearThrough": null
@@ -49,14 +49,14 @@
         {
           "room": 3,
           "left": {
-            "x": -20,
+            "x": -16,
             "y": 0,
             "z": 40,
             "clearThrough": null
           },
           "middle": null,
           "right": {
-            "x": 20,
+            "x": 16,
             "y": 0,
             "z": 40,
             "clearThrough": null
@@ -65,14 +65,14 @@
         {
           "room": 4,
           "left": {
-            "x": -20,
+            "x": -16,
             "y": -50,
             "z": -80,
             "clearThrough": null
           },
           "middle": null,
           "right": {
-            "x": 20,
+            "x": 16,
             "y": -50,
             "z": 80,
             "clearThrough": null
@@ -81,14 +81,14 @@
         {
           "room": 5,
           "left": {
-            "x": -20,
+            "x": -16,
             "y": -100,
             "z": -210,
             "clearThrough": null
           },
           "middle": null,
           "right": {
-            "x": 20,
+            "x": 16,
             "y": -100,
             "z": -210,
             "clearThrough": null
@@ -97,14 +97,14 @@
         {
           "room": 6,
           "left": {
-            "x": -20,
+            "x": -16,
             "y": -150,
             "z": -330,
             "clearThrough": null
           },
           "middle": null,
           "right": {
-            "x": 20,
+            "x": 16,
             "y": -150,
             "z": -330,
             "clearThrough": null
@@ -127,7 +127,7 @@
         {
           "room": 1,
           "left": {
-            "x": -22.346756,
+            "x": -16,
             "y": 99.705315,
             "z": 277.46317,
             "clearThrough": null
@@ -139,7 +139,7 @@
             "clearThrough": null
           },
           "right": {
-            "x": 23.240828,
+            "x": 16,
             "y": 99.0855,
             "z": 277.463,
             "clearThrough": null
@@ -148,7 +148,7 @@
         {
           "room": 2,
           "left": {
-            "x": -22.666056,
+            "x": -16,
             "y": 49.53088,
             "z": 157.463,
             "clearThrough": null
@@ -160,7 +160,7 @@
             "clearThrough": null
           },
           "right": {
-            "x": 22.353483,
+            "x": 16,
             "y": 49.650784,
             "z": 157.463,
             "clearThrough": null
@@ -169,7 +169,7 @@
         {
           "room": 3,
           "left": {
-            "x": -22.334154,
+            "x": -16,
             "y": -0.17543781,
             "z": 37.463,
             "clearThrough": null
@@ -181,7 +181,7 @@
             "clearThrough": null
           },
           "right": {
-            "x": 22.305756,
+            "x": 16,
             "y": -0.16592562,
             "z": 37.463,
             "clearThrough": null
@@ -190,7 +190,7 @@
         {
           "room": 4,
           "left": {
-            "x": -22.36422,
+            "x": -16,
             "y": -50.172253,
             "z": -82.463,
             "clearThrough": null
@@ -202,7 +202,7 @@
             "clearThrough": null
           },
           "right": {
-            "x": 22.503517,
+            "x": 16,
             "y": -50.322968,
             "z": -82.463,
             "clearThrough": null
@@ -211,7 +211,7 @@
         {
           "room": 5,
           "left": {
-            "x": -22.151628,
+            "x": -16,
             "y": -100.21078,
             "z": -202.463,
             "clearThrough": null
@@ -223,7 +223,7 @@
             "clearThrough": null
           },
           "right": {
-            "x": 22.411543,
+            "x": 16,
             "y": -100.280045,
             "z": -202.463,
             "clearThrough": null
@@ -232,7 +232,7 @@
         {
           "room": 6,
           "left": {
-            "x": -23.203735,
+            "x": -16,
             "y": -150.77336,
             "z": -322.463,
             "clearThrough": null
@@ -244,7 +244,7 @@
             "clearThrough": null
           },
           "right": {
-            "x": 22.609,
+            "x": 16,
             "y": -150.35568,
             "z": -322.463,
             "clearThrough": null
