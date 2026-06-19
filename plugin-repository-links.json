@@ -1418,10 +1418,10 @@
         "ChokeAbo"
       ],
       "Notes": "Still could not verify a public repo feed from the provided sources. Kept categorized by likely utility role.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
+      "RepoUrl": "https://github.com/McVaxius/chokeabo",
+      "RepoJsonUrl": "http://aethertek.com/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Feeding race chocobo",
       "Green": [],
       "Yellow": [],
       "Red": [],
