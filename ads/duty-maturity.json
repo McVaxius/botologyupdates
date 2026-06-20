@@ -43,7 +43,7 @@
       "ContentFinderConditionId": 56,
       "TerritoryTypeId": 1045,
       "DutyEnglishName": "the Bowl of Embers",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": ""
@@ -89,7 +89,7 @@
       "ContentFinderConditionId": 57,
       "TerritoryTypeId": 1046,
       "DutyEnglishName": "the Navel",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": ""
@@ -125,7 +125,7 @@
       "ContentFinderConditionId": 58,
       "TerritoryTypeId": 1047,
       "DutyEnglishName": "the Howling Eye",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": ""
@@ -152,7 +152,7 @@
       "ContentFinderConditionId": 830,
       "TerritoryTypeId": 1048,
       "DutyEnglishName": "the Porta Decumana",
-      "ClearanceStatus": "NotCleared",
+      "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "PassiveOnly",
       "IsMainScenario": true,
       "SupportNote": ""
