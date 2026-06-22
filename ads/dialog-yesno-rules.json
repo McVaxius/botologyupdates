@@ -243,6 +243,17 @@
       "Notification": "",
       "NotificationCB": "",
       "Notes": "xelphatol and other places"
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Switch",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": ""
     }
   ]
 }
