@@ -6121,6 +6121,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1036,
+      "ContentFinderConditionId": 4,
+      "DutyEnglishName": "Sastasha",
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "The Hole",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Sastasha",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -36.0,16.5,163.3 on layer Sastasha. Observed BaseId 2000232. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
