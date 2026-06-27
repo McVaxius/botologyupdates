@@ -375,6 +375,14 @@
       "SupportNote": ""
     },
     {
+      "ContentFinderConditionId": 279,
+      "TerritoryTypeId": 1172,
+      "DutyEnglishName": "the Drowned City of Skalla",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
       "ContentFinderConditionId": 284,
       "TerritoryTypeId": 742,
       "DutyEnglishName": "Hells\u0027 Lid",
