@@ -254,6 +254,17 @@
       "Notification": "",
       "NotificationCB": "",
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "Addon": "SelectYesno",
+      "PromptPattern": "Move",
+      "MatchMode": "Contains",
+      "Response": "Yes",
+      "Delay": 0,
+      "Notification": "",
+      "NotificationCB": "",
+      "Notes": "move immediately to sealed area"
     }
   ]
 }
