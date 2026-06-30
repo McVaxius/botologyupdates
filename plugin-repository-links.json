@@ -3,6 +3,24 @@
   "SourceUrl": "https://raw.githubusercontent.com/McVaxius/botologyupdates/refs/heads/main/plugin-repository-links.json",
   "Plugins": [
     {
+      "Id": "betterdeaths",
+      "Category": "Combat Tracking",
+      "DisplayName": "Better Deaths",
+      "MatchTokens": [
+        "BetterDeaths"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Nainaiowo/better-deaths",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Nainaiowo/IMakeSillyThings/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "chocobot",
       "Category": "Combat Tracking",
       "DisplayName": "Chocobot",
@@ -14,6 +32,26 @@
       "RepoJsonUrl": "https://raw.githubusercontent.com/J3sven/J3Plugins/main/repo.json",
       "RepoJsonUrls": [],
       "Description": "Cactbot for IINACT",
+      "Green": [
+        "iinact"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "hammeter",
+      "Category": "Combat Tracking",
+      "DisplayName": "HamMeter",
+      "MatchTokens": [
+        "HamMeter"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/NennMichSchinken/HamMeter",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/NennMichSchinken/HamMeter/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [
         "iinact"
       ],
@@ -631,6 +669,44 @@
       "RelatedIds": []
     },
     {
+      "Id": "fcch",
+      "Category": "Empire Management",
+      "DisplayName": "FCCH",
+      "MatchTokens": [
+        "fcch"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Nexaii/FCCH",
+      "RepoJsonUrl": "https://puni.sh/api/repository/nexai",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "fctracker",
+      "Category": "Empire Management",
+      "DisplayName": "FCTracker",
+      "MatchTokens": [
+        "fctracker"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/erdelf/ffxiv_FCTracker",
+      "RepoJsonUrl": "https://puni.sh/api/repository/erdelf",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "autoretainer"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "submarine_tracker",
       "Category": "Empire Management",
       "DisplayName": "Submarine Tracker",
@@ -745,6 +821,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "aetherlove",
+      "Category": "ERP",
+      "DisplayName": "Aetherlove",
+      "MatchTokens": [
+        "Aetherlove"
+      ],
+      "Notes": "It\u0027s fucking Tinder in FFXIV - Canto",
+      "RepoUrl": "https://github.com/FFXIV-Aetherlove/Aetherlove",
+      "RepoJsonUrl": "https://puni.sh/api/repository/aetherlove",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "brio",
       "Category": "ERP",
       "DisplayName": "Brio",
@@ -776,6 +870,24 @@
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
       "Description": "Inspector Footybrand is here to make sure your feet are ok. Don\u0027t worry the inspector respects Lodestone privacy.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "kinklinkclient",
+      "Category": "ERP",
+      "DisplayName": "KinkLink",
+      "MatchTokens": [
+        "KinkLinkClient"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/KLCollective/KL",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/KLCollective/KL/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -860,28 +972,8 @@
       "RelatedIds": []
     },
     {
-      "Id": "active_venue_finder",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Active Venue Finder",
-      "MatchTokens": [
-        "Active Venue Finder"
-      ],
-      "Notes": "I haven\u0027t tested this - Canto",
-      "RepoUrl": "https://github.com/NeoGriever/ActiveVenueFinder",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/NeoGriever/ActiveVenueFinder/main/pluginmaster.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "lifestream"
-      ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "buildingway",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "Buildingway",
       "MatchTokens": [
         "Buildingway"
@@ -899,7 +991,7 @@
     },
     {
       "Id": "burning_down_the_house",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "Burning Down the House",
       "MatchTokens": [
         "Burning Down the House",
@@ -917,67 +1009,8 @@
       "RelatedIds": []
     },
     {
-      "Id": "cards_against_hyurmanity",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Cards Against Hyurmanity",
-      "MatchTokens": [
-        "Cards Against Hyurmanity"
-      ],
-      "Notes": "one of my friends sent me this and it\u0027s fun AF - Canto",
-      "RepoUrl": "https://github.com/Pistachio-dev/CardsAgainsHyurmanity",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Pistachio-dev/CardsAgainsHyurmanity/master/Repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "characterselectplugin",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Character Select\u002B",
-      "MatchTokens": [
-        "CharacterSelectPlugin"
-      ],
-      "Notes": "Very useful if you have DID! - Canto",
-      "RepoUrl": "https://github.com/IcarusXIV/Character-Select-",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/IcarusXIV/Character-Select-/master/CharacterSelectPlugin/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "penumbra",
-        "glamourer"
-      ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "customize",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Customize\u002B",
-      "MatchTokens": [
-        "Customize\u002B"
-      ],
-      "Notes": "No notes configured.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": "Allows editing of bone parameters to make your thighs thiccer.",
-      "Green": [
-        "penumbra"
-      ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "displaceplugin",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "DisPlace Plugin",
       "MatchTokens": [
         "DisPlacePlugin"
@@ -994,64 +1027,8 @@
       "RelatedIds": []
     },
     {
-      "Id": "dynamic_bridge",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "DynamicBridge",
-      "MatchTokens": [
-        "DynamicBridge"
-      ],
-      "Notes": "Appearance automation utility. No conflicts identified from the audited feeds.",
-      "RepoUrl": "https://github.com/NightmareXIV/DynamicBridge",
-      "RepoJsonUrl": "https://github.com/NightmareXIV/MyDalamudPlugins/raw/main/pluginmaster.json",
-      "RepoJsonUrls": [],
-      "Description": "Automatically changes character appearance based on rule-based presets and customization-plugin integrations.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "glamourer",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Glamourer",
-      "MatchTokens": [
-        "Glamourer"
-      ],
-      "Notes": "Lets you change your appearance without using a Fantasia or owning the glamours.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "penumbra"
-      ],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "hellofellowhumans",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "HelloFellowHumans",
-      "MatchTokens": [
-        "HelloFellowHumans"
-      ],
-      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game unless you want it to hahaha.",
-      "RepoUrl": "https://github.com/McVaxius/HelloFellowHuman",
-      "RepoJsonUrl": "https://aethertek.io/x.json",
-      "RepoJsonUrls": [],
-      "Description": "Configure emote responses that trigger when specific players are nearby. Perfect for passive RP automation. Use /hfh to configure.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "househunter",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "HouseHunter",
       "MatchTokens": [
         "HouseHunter"
@@ -1069,7 +1046,7 @@
     },
     {
       "Id": "housingcullfix",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "Housing Cull Fix",
       "MatchTokens": [
         "HousingCullFix"
@@ -1086,8 +1063,28 @@
       "RelatedIds": []
     },
     {
+      "Id": "housinghistory",
+      "Category": "Housing",
+      "DisplayName": "Housing History",
+      "MatchTokens": [
+        "HousingHistory"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/greenteakitkats/HousingHistory",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/greenteakitkats/HousingHistory/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "burning_down_the_house"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "housingway",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "Housingway",
       "MatchTokens": [
         "Housingway"
@@ -1104,72 +1101,8 @@
       "RelatedIds": []
     },
     {
-      "Id": "hyperborea",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Hyperborea",
-      "MatchTokens": [
-        "Hyperborea"
-      ],
-      "Notes": "DO NOT USE THIS ON A NON-FREE TRIAL ACCOUNT",
-      "RepoUrl": "https://github.com/kawaii/Hyperborea",
-      "RepoJsonUrl": "https://puni.sh/api/repository/kawaii",
-      "RepoJsonUrls": [],
-      "Description": "Load and explore any zone in relative safety, mainly for taking GPoses in inaccessible locations.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [
-        "hyperborea"
-      ],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "lightlesssync",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Lightless Sync",
-      "MatchTokens": [
-        "LightlessSync"
-      ],
-      "Notes": "Mare Synchronous 2.0",
-      "RepoUrl": "https://git.lightless-sync.org/Lightless-Sync/LightlessClient",
-      "RepoJsonUrl": "https://repo.lightless-sync.org",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "penumbra"
-      ],
-      "Yellow": [],
-      "Red": [
-        "laci_synchroni",
-        "peersync",
-        "snowcloak_sync"
-      ],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "loci",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Loci",
-      "MatchTokens": [
-        "Loci"
-      ],
-      "Notes": "This is basically Moodles on Crack. Unfortunately it doesn\u0027t have Lightless support.",
-      "RepoUrl": "https://github.com/CordeliaMist/Loci",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/CordeliaMist/Loci/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [
-        "moodles"
-      ],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "makeplaceassistant",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "Makeplace Assistant",
       "MatchTokens": [
         "MakePlaceAssistant"
@@ -1186,121 +1119,8 @@
       "RelatedIds": []
     },
     {
-      "Id": "mannerisms",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Mannerisms",
-      "MatchTokens": [
-        "Mannerisms"
-      ],
-      "Notes": "No notes configured.",
-      "RepoUrl": "https://github.com/mustbetommy/Mannerisms",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/mustbetommy/DalamudPlugins/main/pluginmaster.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "moodles",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Moodles",
-      "MatchTokens": [
-        "Moodles"
-      ],
-      "Notes": "This doesn\u0027t interact with actual status effects iirc, it\u0027s safe to use regardless of what you\u0027re automating.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": "Flavor text status effects.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "penumbra",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Penumbra",
-      "MatchTokens": [
-        "Penumbra"
-      ],
-      "Notes": "Graphical modding.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "playersync",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "PlayerSync",
-      "MatchTokens": [
-        "PlayerSync"
-      ],
-      "Notes": "Yet another Mare Fork. This one has outright open-world syncing.",
-      "RepoUrl": "https://github.com/universalconquistador/MareSynchronosClient",
-      "RepoJsonUrl": "https://delivery-enam.playersync.io/download/plugin/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "glamourer",
-        "penumbra"
-      ],
-      "Yellow": [
-        "lightlesssync"
-      ],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "proximityvoicechat",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "ProximityVoiceChat",
-      "MatchTokens": [
-        "ProximityVoiceChat"
-      ],
-      "Notes": "I have not tested this - Canto",
-      "RepoUrl": "https://github.com/Ricimon/FFXIV-ProximityVoiceChat",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/Ricimon/FFXIV-ProximityVoiceChat/refs/heads/master/repo.json",
-      "RepoJsonUrls": [],
-      "Description": "In-game proximity voice chat",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "shoutrunner",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "ShoutRunner",
-      "MatchTokens": [
-        "ShoutRunner"
-      ],
-      "Notes": "I will personally murder you if you use this - Canto",
-      "RepoUrl": "https://github.com/KeiJoi/ShoutRunner",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/KeiJoi/ShoutRunner/main/manifest.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "target_furniture",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "Target Furniture",
       "MatchTokens": [
         "Target Furniture",
@@ -1318,44 +1138,8 @@
       "RelatedIds": []
     },
     {
-      "Id": "venuestatusandgreet",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "Venue Status And Greet",
-      "MatchTokens": [
-        "VenueStatusAndGreet"
-      ],
-      "Notes": "My Venue hasn\u0027t been open for months, I haven\u0027t tested this - Canto",
-      "RepoUrl": "https://github.com/KeiJoi/venuestatusandgreet",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/KeiJoi/venuestatusandgreet/main/latest/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "venuescope",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "VenueScope",
-      "MatchTokens": [
-        "VenueScope"
-      ],
-      "Notes": "Community browsing utility. No conflicts identified from the audited feeds.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://puni.sh/api/repository/nala",
-      "RepoJsonUrls": [],
-      "Description": "Browse FFXIV community events in-game, with filtering by data center, time, and tags.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "visitorspass",
-      "Category": "Housing/Roleplay",
+      "Category": "Housing",
       "DisplayName": "VisitorsPass",
       "MatchTokens": [
         "VisitorsPass"
@@ -1366,26 +1150,6 @@
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "wahjumps",
-      "Category": "Housing/Roleplay",
-      "DisplayName": "WahJumps",
-      "MatchTokens": [
-        "WahJumps"
-      ],
-      "Notes": "Jump Maps for when you\u0027re bored - Canto",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://puni.sh/api/repository/wah",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [
-        "lifestream"
-      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -1553,6 +1317,26 @@
       "Description": "Your personal Henchman doing all the heavy lifting for you!\n\n- A/B Rank Farmer\n- Hunt Logs (incl. Multibox Carry)\n- Hunt Bills\n- Retainer Creation\n- Character Creation\n- Multi Account Trading\n- Ocean Fishing\n- Chocobokeeps\nand more to come.",
       "Green": [],
       "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "dad",
+      "Category": "Multi-Purpose Plugins",
+      "DisplayName": "dad",
+      "MatchTokens": [
+        "dad"
+      ],
+      "Notes": "I don\u0027t even know",
+      "RepoUrl": "https://github.com/McVaxius/dad",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/dad/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "autoduty"
+      ],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -1773,6 +1557,26 @@
       "RelatedIds": []
     },
     {
+      "Id": "dalamudrecipehelper",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Recipe Helper",
+      "MatchTokens": [
+        "DalamudRecipeHelper"
+      ],
+      "Notes": "Gatherbuddy Vulcan does all of this without needing to install a new plugin.",
+      "RepoUrl": "https://github.com/CherryFairy78/Recipe-Helper",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/CherryFairy78/Recipe-Helper/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "gatherbuddy_reborn"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "remakeplaceplugin",
       "Category": "Obsoleted Plugins",
       "DisplayName": "ReMakePlace Plugin",
@@ -1878,6 +1682,24 @@
       "RepoJsonUrl": "https://raw.githubusercontent.com/XelsPlugins/XelsDalamudRepo/main/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": "Everything in here is in a different plugin already.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "memoria",
+      "Category": "Player Tracking",
+      "DisplayName": "Memoria",
+      "MatchTokens": [
+        "Memoria"
+      ],
+      "Notes": "Playerscope 2.0",
+      "RepoUrl": "https://github.com/RoseOfficial/Memoria",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/RoseOfficial/Memoria/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -2009,6 +1831,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "aetherphone",
+      "Category": "QOL",
+      "DisplayName": "Aetherphone",
+      "MatchTokens": [
+        "Aetherphone"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-Aetherphone",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "ascended_ezwondroustails",
       "Category": "QOL",
       "DisplayName": "Ascended Easy Wondrous Tails",
@@ -2065,6 +1905,24 @@
       "Red": [
         "easyzoom_reborn"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "carbunclepartner",
+      "Category": "QOL",
+      "DisplayName": "CarbunclePartner",
+      "MatchTokens": [
+        "CarbunclePartner"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Just-Chaldea/CarbunclePartner",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Just-Chaldea/DalamudPluginRepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -2358,6 +2216,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "waymarkstudio",
+      "Category": "QOL",
+      "DisplayName": "Waymark Studio",
+      "MatchTokens": [
+        "WaymarkStudio"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/sourpuh/ffxiv_waymarkstudio",
+      "RepoJsonUrl": "https://puni.sh/api/repository/sourpuh",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "autodailytribes",
       "Category": "Quest",
       "DisplayName": "Auto Daily Tribes",
@@ -2476,6 +2352,318 @@
       "Yellow": [
         "skipcutscene"
       ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherfit",
+      "Category": "Roleplay",
+      "DisplayName": "Aetherfit",
+      "MatchTokens": [
+        "aetherfit"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Kussie/Aetherfit",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Kussie/Aetherfit/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "glamourer"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "cards_against_hyurmanity",
+      "Category": "Roleplay",
+      "DisplayName": "Cards Against Hyurmanity",
+      "MatchTokens": [
+        "Cards Against Hyurmanity"
+      ],
+      "Notes": "one of my friends sent me this and it\u0027s fun AF - Canto",
+      "RepoUrl": "https://github.com/Pistachio-dev/CardsAgainsHyurmanity",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Pistachio-dev/CardsAgainsHyurmanity/master/Repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "characterselectplugin",
+      "Category": "Roleplay",
+      "DisplayName": "Character Select\u002B",
+      "MatchTokens": [
+        "CharacterSelectPlugin"
+      ],
+      "Notes": "Very useful if you have DID! - Canto",
+      "RepoUrl": "https://github.com/IcarusXIV/Character-Select-",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/IcarusXIV/Character-Select-/master/CharacterSelectPlugin/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra",
+        "glamourer"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "customize",
+      "Category": "Roleplay",
+      "DisplayName": "Customize\u002B",
+      "MatchTokens": [
+        "Customize\u002B"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Allows editing of bone parameters to make your thighs thiccer.",
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "dynamic_bridge",
+      "Category": "Roleplay",
+      "DisplayName": "DynamicBridge",
+      "MatchTokens": [
+        "DynamicBridge"
+      ],
+      "Notes": "Appearance automation utility. No conflicts identified from the audited feeds.",
+      "RepoUrl": "https://github.com/NightmareXIV/DynamicBridge",
+      "RepoJsonUrl": "https://github.com/NightmareXIV/MyDalamudPlugins/raw/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "Automatically changes character appearance based on rule-based presets and customization-plugin integrations.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "glamourer",
+      "Category": "Roleplay",
+      "DisplayName": "Glamourer",
+      "MatchTokens": [
+        "Glamourer"
+      ],
+      "Notes": "Lets you change your appearance without using a Fantasia or owning the glamours.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "hellofellowhumans",
+      "Category": "Roleplay",
+      "DisplayName": "HelloFellowHumans",
+      "MatchTokens": [
+        "HelloFellowHumans"
+      ],
+      "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game unless you want it to hahaha.",
+      "RepoUrl": "https://github.com/McVaxius/HelloFellowHuman",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Configure emote responses that trigger when specific players are nearby. Perfect for passive RP automation. Use /hfh to configure.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "hyperborea",
+      "Category": "Roleplay",
+      "DisplayName": "Hyperborea",
+      "MatchTokens": [
+        "Hyperborea"
+      ],
+      "Notes": "DO NOT USE THIS ON A NON-FREE TRIAL ACCOUNT",
+      "RepoUrl": "https://github.com/kawaii/Hyperborea",
+      "RepoJsonUrl": "https://puni.sh/api/repository/kawaii",
+      "RepoJsonUrls": [],
+      "Description": "Load and explore any zone in relative safety, mainly for taking GPoses in inaccessible locations.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "hyperborea"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "ktisis",
+      "Category": "Roleplay",
+      "DisplayName": "Ktisis",
+      "MatchTokens": [
+        "Ktisis"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/ktisis-tools/Ktisis",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "lightlesssync",
+      "Category": "Roleplay",
+      "DisplayName": "Lightless Sync",
+      "MatchTokens": [
+        "LightlessSync"
+      ],
+      "Notes": "Mare Synchronous 2.0",
+      "RepoUrl": "https://git.lightless-sync.org/Lightless-Sync/LightlessClient",
+      "RepoJsonUrl": "https://repo.lightless-sync.org",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [
+        "laci_synchroni",
+        "peersync",
+        "snowcloak_sync"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "loci",
+      "Category": "Roleplay",
+      "DisplayName": "Loci",
+      "MatchTokens": [
+        "Loci"
+      ],
+      "Notes": "This is basically Moodles on Crack. Unfortunately it doesn\u0027t have Lightless support.",
+      "RepoUrl": "https://github.com/CordeliaMist/Loci",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/CordeliaMist/Loci/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "moodles"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "mannerisms",
+      "Category": "Roleplay",
+      "DisplayName": "Mannerisms",
+      "MatchTokens": [
+        "Mannerisms"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/mustbetommy/Mannerisms",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/mustbetommy/DalamudPlugins/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "moodles",
+      "Category": "Roleplay",
+      "DisplayName": "Moodles",
+      "MatchTokens": [
+        "Moodles"
+      ],
+      "Notes": "This doesn\u0027t interact with actual status effects iirc, it\u0027s safe to use regardless of what you\u0027re automating.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Flavor text status effects.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "penumbra",
+      "Category": "Roleplay",
+      "DisplayName": "Penumbra",
+      "MatchTokens": [
+        "Penumbra"
+      ],
+      "Notes": "Graphical modding.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ottermandias/SeaOfStars/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "playersync",
+      "Category": "Roleplay",
+      "DisplayName": "PlayerSync",
+      "MatchTokens": [
+        "PlayerSync"
+      ],
+      "Notes": "Yet another Mare Fork. This one has outright open-world syncing.",
+      "RepoUrl": "https://github.com/universalconquistador/MareSynchronosClient",
+      "RepoJsonUrl": "https://delivery-enam.playersync.io/download/plugin/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "glamourer",
+        "penumbra"
+      ],
+      "Yellow": [
+        "lightlesssync"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "proximityvoicechat",
+      "Category": "Roleplay",
+      "DisplayName": "ProximityVoiceChat",
+      "MatchTokens": [
+        "ProximityVoiceChat"
+      ],
+      "Notes": "I have not tested this - Canto",
+      "RepoUrl": "https://github.com/Ricimon/FFXIV-ProximityVoiceChat",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ricimon/FFXIV-ProximityVoiceChat/refs/heads/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "In-game proximity voice chat",
+      "Green": [],
+      "Yellow": [],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -2671,7 +2859,7 @@
       "MatchTokens": [
         "MaskOfKefka"
       ],
-      "Notes": "Does not remove Plugin-Created Game UI functions, or return Penumbra/Glamourer-edited models to their original. Use at your own risk.  There will be some self doxxing if you have any plugins enabled that affect the context windows such as allgan tools etc",
+      "Notes": "Does not remove Plugin-Created Game UI functions, or return Penumbra/Glamourer-edited models to their original. Use at your own risk.",
       "RepoUrl": "https://github.com/doomzao/mask-of-kefka",
       "RepoJsonUrl": "https://raw.githubusercontent.com/doomzao/plugins/main/repo.json",
       "RepoJsonUrls": [],
@@ -2682,7 +2870,7 @@
       "Yellow": [
         "maskofkefka"
       ],
-      "Red": ["allagan_tools"],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -3653,6 +3841,154 @@
       "RepoJsonUrls": [],
       "Description": "placeholder description",
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "active_venue_finder",
+      "Category": "Venues",
+      "DisplayName": "Active Venue Finder",
+      "MatchTokens": [
+        "Active Venue Finder"
+      ],
+      "Notes": "I haven\u0027t tested this - Canto",
+      "RepoUrl": "https://github.com/NeoGriever/ActiveVenueFinder",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/NeoGriever/ActiveVenueFinder/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "lifestream"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "chatcasino",
+      "Category": "Venues",
+      "DisplayName": "Chat Casino",
+      "MatchTokens": [
+        "chatcasino"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/a325245/ChatCasino",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/a325245/ChatCasino/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "gambawhere",
+      "Category": "Venues",
+      "DisplayName": "Gamba Where",
+      "MatchTokens": [
+        "GambaWhere"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/OOFGamesss/GambaWhere",
+      "RepoJsonUrl": "https://puni.sh/api/repository/oof-games",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "shoutrunner",
+      "Category": "Venues",
+      "DisplayName": "ShoutRunner",
+      "MatchTokens": [
+        "ShoutRunner"
+      ],
+      "Notes": "I will personally murder you if you use this - Canto",
+      "RepoUrl": "https://github.com/KeiJoi/ShoutRunner",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/KeiJoi/ShoutRunner/main/manifest.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "venuemapper",
+      "Category": "Venues",
+      "DisplayName": "Venue Mapper",
+      "MatchTokens": [
+        "VenueMapper"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/SunnysTTV/sunnysrepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "venuestatusandgreet",
+      "Category": "Venues",
+      "DisplayName": "Venue Status And Greet",
+      "MatchTokens": [
+        "VenueStatusAndGreet"
+      ],
+      "Notes": "My Venue hasn\u0027t been open for months, I haven\u0027t tested this - Canto",
+      "RepoUrl": "https://github.com/KeiJoi/venuestatusandgreet",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/KeiJoi/venuestatusandgreet/main/latest/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "venuescope",
+      "Category": "Venues",
+      "DisplayName": "VenueScope",
+      "MatchTokens": [
+        "VenueScope"
+      ],
+      "Notes": "Community browsing utility. No conflicts identified from the audited feeds.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://puni.sh/api/repository/nala",
+      "RepoJsonUrls": [],
+      "Description": "Browse FFXIV community events in-game, with filtering by data center, time, and tags.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "wahjumps",
+      "Category": "Venues",
+      "DisplayName": "WahJumps",
+      "MatchTokens": [
+        "WahJumps"
+      ],
+      "Notes": "Jump Maps for when you\u0027re bored - Canto",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://puni.sh/api/repository/wah",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "lifestream"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
