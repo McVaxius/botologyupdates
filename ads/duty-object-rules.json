@@ -6217,6 +6217,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1038,
+      "ContentFinderConditionId": 3,
+      "DutyEnglishName": "Copperbell Mines",
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Sealed Blasting Door",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Ground Level",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -205.5,23.8,-208.5 on layer Ground Level. Observed BaseId 2000160. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
