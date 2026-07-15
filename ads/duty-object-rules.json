@@ -3107,7 +3107,7 @@
       "BaseId": 0,
       "ObjectName": "Bloody Parchment",
       "NameMatchMode": "Exact",
-      "Classification": "Expendable",
+      "Classification": "Required",
       "DestinationType": "",
       "Layer": "Cellarage",
       "MapCoordinates": "",
@@ -6241,6 +6241,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1040,
+      "ContentFinderConditionId": 6,
+      "DutyEnglishName": "Haukke Manor",
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Bloody Parchment",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Cellarage",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 17.2,-18.8,4.0 on layer Cellarage. Observed BaseId 2001235. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
