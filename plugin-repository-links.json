@@ -3,6 +3,60 @@
   "SourceUrl": "https://raw.githubusercontent.com/McVaxius/botologyupdates/refs/heads/main/plugin-repository-links.json",
   "Plugins": [
     {
+      "Id": "relictracker",
+      "Category": "Achievement Tracking",
+      "DisplayName": "Relic Tracker",
+      "MatchTokens": [
+        "relictracker"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Kagekazu/RelicTracker",
+      "RepoJsonUrl": "https://puni.sh/api/repository/kage",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "ivorylionledger",
+      "Category": "Achievement Tracking",
+      "DisplayName": "The Morning Ledger",
+      "MatchTokens": [
+        "IvoryLionLedger"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/unremarkably/ledger",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/unremarkably/ledger/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "xivshiniessyncplugin",
+      "Category": "Achievement Tracking",
+      "DisplayName": "XIV Shinies Sync",
+      "MatchTokens": [
+        "XIVShinies.SyncPlugin"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/noranda/xiv-shinies-plugin",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/noranda/xiv-shinies-plugin/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "betterdeaths",
       "Category": "Combat Tracking",
       "DisplayName": "Better Deaths",
@@ -35,6 +89,24 @@
       "Green": [
         "iinact"
       ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "damageterror",
+      "Category": "Combat Tracking",
+      "DisplayName": "Damage Terror",
+      "MatchTokens": [
+        "Damageterror"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/MTVirux/DamageTerror",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/MTVirux/DamageTerror/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -859,6 +931,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "flistlink",
+      "Category": "ERP",
+      "DisplayName": "F-List Link",
+      "MatchTokens": [
+        "FListLink"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/SaekoFFXIV/FListLink",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/SaekoFFXIV/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "God has abandoned us.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "footballer",
       "Category": "ERP",
       "DisplayName": "Footballer",
@@ -932,6 +1022,24 @@
         "aether_remote",
         "master_of_puppets"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "windupkey",
+      "Category": "ERP",
+      "DisplayName": "Wind-Up Key",
+      "MatchTokens": [
+        "WindUpKey"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/alicewonderland-dev/WindUpKey",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/alicewonderland-dev/WindUpKey/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1286,6 +1394,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "automarketpro",
+      "Category": "Market Bots",
+      "DisplayName": "AutoMarket Pro",
+      "MatchTokens": [
+        "automarketpro"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/bimilbimil/AutomarketPro",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/bimilbimil/AutomarketPro/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "auxmarketboard",
       "Category": "Market Bots",
       "DisplayName": "AuxMarketboard",
@@ -1322,26 +1448,6 @@
       "RelatedIds": []
     },
     {
-      "Id": "dad",
-      "Category": "Multi-Purpose Plugins",
-      "DisplayName": "dad",
-      "MatchTokens": [
-        "dad"
-      ],
-      "Notes": "I don\u0027t even know",
-      "RepoUrl": "https://github.com/McVaxius/dad",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/dad/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": null,
-      "Green": [],
-      "Yellow": [
-        "autoduty"
-      ],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "bardtoolbox",
       "Category": "Multiboxing",
       "DisplayName": "BardToolbox",
@@ -1360,6 +1466,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "charon",
+      "Category": "Multiboxing",
+      "DisplayName": "Charon",
+      "MatchTokens": [
+        "Charon"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/ofnature/Charon",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/ofnature/Daedalus/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "coppelia",
       "Category": "Multiboxing",
       "DisplayName": "Coppelia",
@@ -1369,6 +1493,44 @@
       "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/McVaxius/Coppelia",
       "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/Coppelia/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "dad",
+      "Category": "Multiboxing",
+      "DisplayName": "dad",
+      "MatchTokens": [
+        "dad"
+      ],
+      "Notes": "I don\u0027t even know",
+      "RepoUrl": "https://github.com/McVaxius/dad",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/dad/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "autoduty"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "daedalus",
+      "Category": "Multiboxing",
+      "DisplayName": "Daedalus",
+      "MatchTokens": [
+        "Daedalus"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/ofnature/Daedalus",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/ofnature/Daedalus/main/repo.json",
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
@@ -1470,6 +1632,24 @@
       "Red": [
         "skipcutscene"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "hrothgarscent",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "HrothgarScent",
+      "MatchTokens": [
+        "hrothgarscent"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/ArcanineLS/HrothgarScent",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/ArcanineLS/DalamudPluginRepo/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1869,6 +2049,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "begone",
+      "Category": "QOL",
+      "DisplayName": "Begone",
+      "MatchTokens": [
+        "Begone"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Enceladeum/Begone",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Enceladeum/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "bypass_emote",
       "Category": "QOL",
       "DisplayName": "Bypass Emote",
@@ -1918,6 +2116,24 @@
       "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/Just-Chaldea/CarbunclePartner",
       "RepoJsonUrl": "https://raw.githubusercontent.com/Just-Chaldea/DalamudPluginRepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "clarion",
+      "Category": "QOL",
+      "DisplayName": "Clarion",
+      "MatchTokens": [
+        "Clarion"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/AemiliusXIV/Clarion",
+      "RepoJsonUrl": "https://aemiliusxiv.github.io/DalamudPlugins/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
@@ -1987,6 +2203,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "echokraut",
+      "Category": "QOL",
+      "DisplayName": "Echokraut",
+      "MatchTokens": [
+        "Echokraut"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/RenNagasaki/Echokraut",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/RenNagasaki/MyDalamudPlugins/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "fish_notify",
       "Category": "QOL",
       "DisplayName": "Fish Notify",
@@ -2040,6 +2274,24 @@
       "Red": [
         "ascended_ezwondroustails"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "glamourlog",
+      "Category": "QOL",
+      "DisplayName": "Glamour Log",
+      "MatchTokens": [
+        "GlamourLog"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://puni.sh/api/repository/croizat",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -2122,6 +2374,42 @@
       "RelatedIds": []
     },
     {
+      "Id": "pfpresets",
+      "Category": "QOL",
+      "DisplayName": "PF Presets",
+      "MatchTokens": [
+        "pfpresets"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Marobotic/PfPresets",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Marobotic/PfPresets/main/repo/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "popotovox",
+      "Category": "QOL",
+      "DisplayName": "PopotoVox",
+      "MatchTokens": [
+        "PopotoVox"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/kernelcurry/popotovox-plugin",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/kernelcurry/popotovox-plugin/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "prioritizer",
       "Category": "QOL",
       "DisplayName": "Prioritizer",
@@ -2157,6 +2445,24 @@
         "cammy",
         "easyzoom_reborn"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "reframexiv",
+      "Category": "QOL",
+      "DisplayName": "RE:Frame XIV",
+      "MatchTokens": [
+        "REFrameXIV"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rubyblaire/RE-Frame",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rubyblaire/RE-Frame/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -2377,6 +2683,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "alphachannel",
+      "Category": "Roleplay",
+      "DisplayName": "AlphaChannel",
+      "MatchTokens": [
+        "Alphachannel"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Voudi/AlphaChannel",
+      "RepoJsonUrl": "https://github.com/Voudi/AlphaChannel/blob/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "cards_against_hyurmanity",
       "Category": "Roleplay",
       "DisplayName": "Cards Against Hyurmanity",
@@ -2454,6 +2778,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "eruditetarot",
+      "Category": "Roleplay",
+      "DisplayName": "Erudite Divination",
+      "MatchTokens": [
+        "EruditeTarot"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Sydsquicious/Erudite-Divination",
+      "RepoJsonUrl": "https://github.com/Sydsquicious/Erudite-Divination/blob/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "glamourer",
       "Category": "Roleplay",
       "DisplayName": "Glamourer",
@@ -2474,6 +2816,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "gobchatexplugin",
+      "Category": "Roleplay",
+      "DisplayName": "GobchatEx Roleplay Suite",
+      "MatchTokens": [
+        "Gobchatexplugin"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Shuro/dalamud-plugins",
+      "RepoJsonUrl": "https://github.com/Shuro/dalamud-plugins/blob/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hellofellowhumans",
       "Category": "Roleplay",
       "DisplayName": "HelloFellowHumans",
@@ -2486,6 +2846,26 @@
       "RepoJsonUrls": [],
       "Description": "Configure emote responses that trigger when specific players are nearby. Perfect for passive RP automation. Use /hfh to configure.",
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "houtfits",
+      "Category": "Roleplay",
+      "DisplayName": "HOutfits",
+      "MatchTokens": [
+        "houtfits"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Enceladeum/HOutfits",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Enceladeum/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "glamourer"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -2669,6 +3049,47 @@
       "RelatedIds": []
     },
     {
+      "Id": "statusbridge",
+      "Category": "Roleplay",
+      "DisplayName": "StatusBridge",
+      "MatchTokens": [
+        "StatusBridge"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/JTayGang/MeowyUtils/tree/main/StatusBridge",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/JTayGang/MeowyUtils/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "loci",
+        "moodles"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "theatelier",
+      "Category": "Roleplay",
+      "DisplayName": "The Atelier",
+      "MatchTokens": [
+        "TheAtelier"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rubyblaire/TheAtelier",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rubyblaire/TheAtelier/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "glamourer"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "bossmod",
       "Category": "Rotations/AI",
       "DisplayName": "BossMod",
@@ -2715,6 +3136,24 @@
       "Red": [
         "bossmod"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "caduceus",
+      "Category": "Rotations/AI",
+      "DisplayName": "Caduceus",
+      "MatchTokens": [
+        "Caduceus"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/ofnature/Caduceus",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/ofnature/Caduceus/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -2835,6 +3274,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "hmoniker",
+      "Category": "Screenshot Safety",
+      "DisplayName": "HMoniker",
+      "MatchTokens": [
+        "HMoniker"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Enceladeum/HMoniker",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Enceladeum/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "krangler",
       "Category": "Screenshot Safety",
       "DisplayName": "Krangler",
@@ -2925,6 +3382,24 @@
       "Green": [
         "sonar"
       ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "huntvoidwatcher",
+      "Category": "The Hunt Bots",
+      "DisplayName": "HuntVoidWatcher",
+      "MatchTokens": [
+        "HuntVoidWatcher"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://github.com/konvarec/HuntVoidWatcherCustomRepo/blob/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
