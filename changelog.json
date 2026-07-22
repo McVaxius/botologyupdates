@@ -1,0 +1,130 @@
+{
+  "SchemaVersion": 1,
+  "Releases": [
+    {
+      "Id": "2026-06-30-catalog",
+      "PublishedUtc": "2026-06-30T22:15:06Z",
+      "Title": "June 30, 2026 catalog update",
+      "AffectedPluginIds": [
+        "aetherphone",
+        "venuemapper",
+        "gambawhere",
+        "betterdeaths",
+        "dalamudrecipehelper",
+        "housinghistory",
+        "memoria",
+        "ktisis",
+        "fctracker",
+        "dad",
+        "aetherfit",
+        "aetherlove",
+        "fcch",
+        "kinklinkclient",
+        "carbunclepartner",
+        "hammeter",
+        "waymarkstudio",
+        "buildingway",
+        "burning_down_the_house",
+        "displaceplugin",
+        "househunter",
+        "housingcullfix",
+        "housingway",
+        "makeplaceassistant",
+        "target_furniture",
+        "visitorspass",
+        "cards_against_hyurmanity",
+        "characterselectplugin",
+        "customize",
+        "dynamic_bridge",
+        "glamourer",
+        "hellofellowhumans",
+        "hyperborea",
+        "lightlesssync",
+        "loci",
+        "mannerisms",
+        "moodles",
+        "penumbra",
+        "playersync",
+        "proximityvoicechat",
+        "active_venue_finder",
+        "shoutrunner",
+        "venuescope",
+        "venuestatusandgreet",
+        "wahjumps"
+      ],
+      "Sections": [
+        {
+          "Heading": "Catalog additions",
+          "Items": [
+            "Aetherphone (QOL)",
+            "Venue Mapper (Venues)",
+            "Gamba Where (Venues)",
+            "Better Deaths (Combat Tracking)",
+            "Recipe Helper (Obsoleted Plugins) — Note: Gatherbuddy Vulcan does all of this without needing to install a new plugin.",
+            "Housing History (Housing) — Note: Works with Burning Down the House.",
+            "Memoria (Player Tracking)",
+            "Ktisis (Roleplay)",
+            "FC Tracker (Empire Management)",
+            "dad (Multi-Purpose Plugins)",
+            "Aetherfit (Roleplay) — Note: Works with Glamourer.",
+            "AetherLove (ERP) — Note: It's fucking Tinder in FFXIV - Canto",
+            "FCCH (Empire Management)",
+            "KinkLink (ERP)",
+            "CarbunclePartner (QOL)",
+            "HamMeter (Combat Tracking)",
+            "Waymark Studio (QOL)"
+          ]
+        },
+        {
+          "Heading": "Housing/Roleplay recategorization",
+          "Items": [
+            "The former Housing/Roleplay category was split into focused Housing, Roleplay, and Venues categories."
+          ]
+        },
+        {
+          "Heading": "Housing (9)",
+          "Items": [
+            "Buildingway",
+            "Burning Down the House",
+            "DisPlace Plugin",
+            "HouseHunter",
+            "Housing Cull Fix",
+            "Housingway",
+            "Makeplace Assistant",
+            "Target Furniture",
+            "VisitorsPass"
+          ]
+        },
+        {
+          "Heading": "Roleplay (14)",
+          "Items": [
+            "Cards Against Hyurmanity",
+            "Character Select+",
+            "Customize+",
+            "DynamicBridge",
+            "Glamourer",
+            "HelloFellowHumans",
+            "Hyperborea",
+            "Lightless Sync",
+            "Loci",
+            "Mannerisms",
+            "Moodles",
+            "Penumbra",
+            "PlayerSync",
+            "ProximityVoiceChat"
+          ]
+        },
+        {
+          "Heading": "Venues (5)",
+          "Items": [
+            "Active Venue Finder",
+            "ShoutRunner",
+            "VenueScope",
+            "Venue Status And Greet",
+            "WahJumps"
+          ]
+        }
+      ]
+    }
+  ]
+}

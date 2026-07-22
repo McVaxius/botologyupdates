@@ -1,6 +1,9 @@
 {
   "SchemaVersion": 3,
   "SourceUrl": "https://raw.githubusercontent.com/McVaxius/botologyupdates/refs/heads/main/plugin-repository-links.json",
+  "FieldGuide": {
+    "IsAiAttributed": "Optional boolean. True means Aetherfeed's frozen 2026-07-22 attribution identified likely AI-written code; false or omitted is not proof that a plugin is human-only."
+  },
   "Plugins": [
     {
       "Id": "relictracker",
@@ -40,6 +43,7 @@
     },
     {
       "Id": "xivshiniessyncplugin",
+      "IsAiAttributed": true,
       "Category": "Achievement Tracking",
       "DisplayName": "XIV Shinies Sync",
       "MatchTokens": [
@@ -58,6 +62,7 @@
     },
     {
       "Id": "betterdeaths",
+      "IsAiAttributed": true,
       "Category": "Combat Tracking",
       "DisplayName": "Better Deaths",
       "MatchTokens": [
@@ -96,6 +101,7 @@
     },
     {
       "Id": "damageterror",
+      "IsAiAttributed": true,
       "Category": "Combat Tracking",
       "DisplayName": "Damage Terror",
       "MatchTokens": [
@@ -152,6 +158,7 @@
     },
     {
       "Id": "artisan",
+      "IsAiAttributed": true,
       "Category": "DOH/L Content Bots",
       "DisplayName": "Artisan",
       "MatchTokens": [
@@ -306,6 +313,7 @@
     },
     {
       "Id": "autofategrind",
+      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "Auto FATE Grind",
       "MatchTokens": [
@@ -331,6 +339,7 @@
     },
     {
       "Id": "bocchi",
+      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "BOCCHI",
       "MatchTokens": [
@@ -391,6 +400,7 @@
     },
     {
       "Id": "fatewalker",
+      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "FateWalker",
       "MatchTokens": [
@@ -417,6 +427,7 @@
     },
     {
       "Id": "mogtome",
+      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "MOGTOME",
       "MatchTokens": [
@@ -454,6 +465,7 @@
     },
     {
       "Id": "sealbreaker",
+      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "SealBreaker",
       "MatchTokens": [
@@ -497,6 +509,7 @@
     },
     {
       "Id": "ai_duty_solver",
+      "IsAiAttributed": true,
       "Category": "Duty solving",
       "DisplayName": "AI Duty Solver",
       "MatchTokens": [
@@ -572,6 +585,7 @@
     },
     {
       "Id": "lootgoblin",
+      "IsAiAttributed": true,
       "Category": "Duty solving",
       "DisplayName": "LootGoblin",
       "MatchTokens": [
@@ -819,6 +833,7 @@
     },
     {
       "Id": "vermaxion",
+      "IsAiAttributed": true,
       "Category": "Empire Management",
       "DisplayName": "VerMaxion",
       "MatchTokens": [
@@ -950,6 +965,7 @@
     },
     {
       "Id": "footballer",
+      "IsAiAttributed": true,
       "Category": "ERP",
       "DisplayName": "Footballer",
       "MatchTokens": [
@@ -986,6 +1002,7 @@
     },
     {
       "Id": "master_of_puppets",
+      "IsAiAttributed": true,
       "Category": "ERP",
       "DisplayName": "Master of Puppets",
       "MatchTokens": [
@@ -1027,6 +1044,7 @@
     },
     {
       "Id": "windupkey",
+      "IsAiAttributed": true,
       "Category": "ERP",
       "DisplayName": "Wind-Up Key",
       "MatchTokens": [
@@ -1283,6 +1301,7 @@
     },
     {
       "Id": "choke_abo",
+      "IsAiAttributed": true,
       "Category": "Manderville Bots",
       "DisplayName": "Choke-abo",
       "MatchTokens": [
@@ -1302,6 +1321,7 @@
     },
     {
       "Id": "DomanMahjongAI",
+      "IsAiAttributed": true,
       "Category": "Manderville Bots",
       "DisplayName": "Doman Mahjong Solver",
       "MatchTokens": [
@@ -1395,6 +1415,7 @@
     },
     {
       "Id": "automarketpro",
+      "IsAiAttributed": true,
       "Category": "Market Bots",
       "DisplayName": "AutoMarket Pro",
       "MatchTokens": [
@@ -1413,6 +1434,7 @@
     },
     {
       "Id": "auxmarketboard",
+      "IsAiAttributed": true,
       "Category": "Market Bots",
       "DisplayName": "AuxMarketboard",
       "MatchTokens": [
@@ -1467,6 +1489,7 @@
     },
     {
       "Id": "charon",
+      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "Charon",
       "MatchTokens": [
@@ -1485,6 +1508,7 @@
     },
     {
       "Id": "coppelia",
+      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "Coppelia",
       "MatchTokens": [
@@ -1503,6 +1527,7 @@
     },
     {
       "Id": "dad",
+      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "dad",
       "MatchTokens": [
@@ -1541,6 +1566,7 @@
     },
     {
       "Id": "frenrider",
+      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "FrenRider",
       "MatchTokens": [
@@ -1637,6 +1663,7 @@
     },
     {
       "Id": "hrothgarscent",
+      "IsAiAttributed": true,
       "Category": "Obsoleted Plugins",
       "DisplayName": "HrothgarScent",
       "MatchTokens": [
@@ -1966,6 +1993,7 @@
     },
     {
       "Id": "autofrontline",
+      "IsAiAttributed": true,
       "Category": "PVP Bots",
       "DisplayName": "Auto Frontline",
       "MatchTokens": [
@@ -1989,6 +2017,7 @@
     },
     {
       "Id": "autopvpseriesgrind",
+      "IsAiAttributed": true,
       "Category": "PVP Bots",
       "DisplayName": "Auto PVP Series Grind",
       "MatchTokens": [
@@ -2012,6 +2041,7 @@
     },
     {
       "Id": "aetherphone",
+      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Aetherphone",
       "MatchTokens": [
@@ -2050,6 +2080,7 @@
     },
     {
       "Id": "begone",
+      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Begone",
       "MatchTokens": [
@@ -2144,6 +2175,7 @@
     },
     {
       "Id": "dhog_potato_system",
+      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Dhog Potato System",
       "MatchTokens": [
@@ -2204,6 +2236,7 @@
     },
     {
       "Id": "echokraut",
+      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Echokraut",
       "MatchTokens": [
@@ -2375,6 +2408,7 @@
     },
     {
       "Id": "pfpresets",
+      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "PF Presets",
       "MatchTokens": [
@@ -2393,6 +2427,7 @@
     },
     {
       "Id": "popotovox",
+      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "PopotoVox",
       "MatchTokens": [
@@ -2541,6 +2576,7 @@
     },
     {
       "Id": "autodailytribes",
+      "IsAiAttributed": true,
       "Category": "Quest",
       "DisplayName": "Auto Daily Tribes",
       "MatchTokens": [
@@ -2584,6 +2620,7 @@
     },
     {
       "Id": "questionable_wiggly",
+      "IsAiAttributed": true,
       "Category": "Quest",
       "DisplayName": "Questionable (wiggly)",
       "MatchTokens": [
@@ -2664,6 +2701,7 @@
     },
     {
       "Id": "aetherfit",
+      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "Aetherfit",
       "MatchTokens": [
@@ -2684,6 +2722,7 @@
     },
     {
       "Id": "alphachannel",
+      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "AlphaChannel",
       "MatchTokens": [
@@ -2817,6 +2856,7 @@
     },
     {
       "Id": "gobchatexplugin",
+      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "GobchatEx Roleplay Suite",
       "MatchTokens": [
@@ -2853,6 +2893,7 @@
     },
     {
       "Id": "houtfits",
+      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "HOutfits",
       "MatchTokens": [
@@ -3141,6 +3182,7 @@
     },
     {
       "Id": "caduceus",
+      "IsAiAttributed": true,
       "Category": "Rotations/AI",
       "DisplayName": "Caduceus",
       "MatchTokens": [
@@ -3159,6 +3201,7 @@
     },
     {
       "Id": "olympus",
+      "IsAiAttributed": true,
       "Category": "Rotations/AI",
       "DisplayName": "Olympus",
       "MatchTokens": [
@@ -3275,6 +3318,7 @@
     },
     {
       "Id": "hmoniker",
+      "IsAiAttributed": true,
       "Category": "Screenshot Safety",
       "DisplayName": "HMoniker",
       "MatchTokens": [
@@ -3293,6 +3337,7 @@
     },
     {
       "Id": "krangler",
+      "IsAiAttributed": true,
       "Category": "Screenshot Safety",
       "DisplayName": "Krangler",
       "MatchTokens": [
@@ -3463,6 +3508,7 @@
     },
     {
       "Id": "botology",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Botology",
       "MatchTokens": [
@@ -3521,6 +3567,7 @@
     },
     {
       "Id": "ChocoboColourized",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Chocobo Colourized",
       "MatchTokens": [
@@ -3598,6 +3645,7 @@
     },
     {
       "Id": "dheacon",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Dheacon",
       "MatchTokens": [
@@ -3616,6 +3664,7 @@
     },
     {
       "Id": "dhoggpt",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "DhogGPT",
       "MatchTokens": [
@@ -3674,6 +3723,7 @@
     },
     {
       "Id": "dtroverlay",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "DTR Overlay",
       "MatchTokens": [
@@ -4116,6 +4166,7 @@
     },
     {
       "Id": "thick_thighs_save_lives",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Thick Thighs Save Lives",
       "MatchTokens": [
@@ -4266,6 +4317,7 @@
     },
     {
       "Id": "xa_hud_navigator",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "XA HUD Navigator",
       "MatchTokens": [
@@ -4285,6 +4337,7 @@
     },
     {
       "Id": "xa_slave",
+      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "XA Slave",
       "MatchTokens": [
@@ -4323,6 +4376,7 @@
     },
     {
       "Id": "active_venue_finder",
+      "IsAiAttributed": true,
       "Category": "Venues",
       "DisplayName": "Active Venue Finder",
       "MatchTokens": [
