@@ -6433,6 +6433,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at -237.2,-104.0,-21.6 on layer Research Level. Observed BaseId 2000789. Object XYZ pin disabled. Classification override: Required."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1040,
+      "ContentFinderConditionId": 6,
+      "DutyEnglishName": "Haukke Manor",
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Aetherial Flow",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Cellarage",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 18.9,-18.8,0.0 on layer Cellarage. Observed BaseId 2012969. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
