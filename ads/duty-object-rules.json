@@ -3123,7 +3123,7 @@
       "Notes": "Seeded from Object Explorer at 17.2,-18.8,4.0 on layer Cellarage."
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "TerritoryTypeId": 1040,
       "ContentFinderConditionId": 6,
       "DutyEnglishName": "Haukke Manor",
@@ -6259,7 +6259,7 @@
       "ObjectMapCoordinates": "",
       "ObjectWorldCoordinates": "",
       "ObjectMatchRadius": null,
-      "Priority": 1000,
+      "Priority": 300,
       "PriorityVerticalRadius": 0,
       "MaxDistance": null,
       "WaitAtDestinationSeconds": 0,
