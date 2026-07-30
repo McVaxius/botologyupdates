@@ -6457,6 +6457,30 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 18.9,-18.8,0.0 on layer Cellarage. Observed BaseId 2012969. Object XYZ pin disabled. Classification override: Required."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1042,
+      "ContentFinderConditionId": 11,
+      "DutyEnglishName": "the Stone Vigil",
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "",
+      "NameMatchMode": "Exact",
+      "Classification": "MapXzDestination",
+      "DestinationType": "",
+      "Layer": "",
+      "MapCoordinates": "11.3,6",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": ""
     }
   ]
 }
