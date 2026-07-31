@@ -137,7 +137,7 @@
       "BaseId": 0,
       "ObjectName": "Cid",
       "NameMatchMode": "Exact",
-      "Classification": "Ignored",
+      "Classification": "Follow",
       "DestinationType": "",
       "Layer": "",
       "MapCoordinates": "",
