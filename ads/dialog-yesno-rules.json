@@ -168,7 +168,7 @@
       "Notes": ""
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "Addon": "SelectYesno",
       "PromptPattern": "Return to the starting point",
       "MatchMode": "Contains",
