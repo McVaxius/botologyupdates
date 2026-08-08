@@ -3253,7 +3253,7 @@
       "Notes": "Seeded from Object Explorer at 17.2,-18.8,4.0 on layer Cellarage."
     },
     {
-      "Enabled": false,
+      "Enabled": true,
       "TerritoryTypeId": 1040,
       "ContentFinderConditionId": 6,
       "DutyEnglishName": "Haukke Manor",
@@ -3272,7 +3272,7 @@
       "ObjectMatchRadius": null,
       "Priority": 501,
       "PriorityVerticalRadius": 0,
-      "MaxDistance": 5,
+      "MaxDistance": 10,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 18.9,-18.8,0.0 on layer Cellarage."
@@ -6714,13 +6714,13 @@
       "NameMatchMode": "Exact",
       "Classification": "Required",
       "DestinationType": "",
-      "Layer": "Cellarage",
+      "Layer": "Ground Floor",
       "MapCoordinates": "",
       "WorldCoordinates": "",
       "ObjectMapCoordinates": "",
       "ObjectWorldCoordinates": "",
       "ObjectMatchRadius": null,
-      "Priority": 1000,
+      "Priority": 1002,
       "PriorityVerticalRadius": 0,
       "MaxDistance": null,
       "WaitAtDestinationSeconds": 0,
@@ -6751,6 +6751,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1040,
+      "ContentFinderConditionId": 6,
+      "DutyEnglishName": "Haukke Manor",
+      "Alliance": null,
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Sealed Barrier",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Ground Floor",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": 5,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 46.7,9.9,-0.3 on layer Ground Floor. Observed BaseId 2001233. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
