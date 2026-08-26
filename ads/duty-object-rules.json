@@ -3272,7 +3272,7 @@
       "ObjectMatchRadius": null,
       "Priority": 501,
       "PriorityVerticalRadius": 0,
-      "MaxDistance": 10,
+      "MaxDistance": 100,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 18.9,-18.8,0.0 on layer Cellarage."
