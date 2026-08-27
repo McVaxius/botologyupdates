@@ -6876,6 +6876,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 7.2,18.4,-21.1 on layer Rhotano Sea. Observed BaseId 2054. Object XYZ pin disabled. Classification override: Ignored."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 307,
+      "ContentFinderConditionId": 354,
+      "DutyEnglishName": "",
+      "Alliance": null,
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Large Boulder",
+      "NameMatchMode": "Exact",
+      "Classification": "BossFight",
+      "DestinationType": "",
+      "Layer": "Lower La Noscea",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 693.7,66.4,-296.3 on layer Lower La Noscea. Observed BaseId 1770. Object XYZ pin disabled. Classification override: BossFight."
     }
   ]
 }
