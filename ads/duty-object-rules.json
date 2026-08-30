@@ -6901,6 +6901,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 693.7,66.4,-296.3 on layer Lower La Noscea. Observed BaseId 1770. Object XYZ pin disabled. Classification override: BossFight."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 287,
+      "ContentFinderConditionId": 347,
+      "DutyEnglishName": "Pincer Maneuver",
+      "Alliance": null,
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "K\u0027lyhia\u0027s Grimoire",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Lower La Noscea",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 666,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -10.1,67.4,416.0 on layer Lower La Noscea. Observed BaseId 2002520. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
