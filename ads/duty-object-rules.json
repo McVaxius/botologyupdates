@@ -6976,6 +6976,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at 7.7,66.4,425.4 on layer Lower La Noscea. Observed BaseId 2063. Object XYZ pin disabled. Classification override: Ignored."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 228,
+      "ContentFinderConditionId": 302,
+      "DutyEnglishName": "Violators Will Be Shot",
+      "Alliance": null,
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Nezul Cattlan the Violator",
+      "NameMatchMode": "Exact",
+      "Classification": "BossFight",
+      "DestinationType": "",
+      "Layer": "North Shroud",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 409.9,-5.5,67.1 on layer North Shroud. Observed BaseId 1451. Object XYZ pin disabled. Classification override: BossFight."
     }
   ]
 }
