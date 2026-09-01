@@ -1,0 +1,890 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Human-edited ADS duty maturity overlay. Rows absent from this file use built-in untested defaults.",
+  "Duties": [
+    {
+      "ContentFinderConditionId": 179,
+      "TerritoryTypeId": 558,
+      "DutyEnglishName": "the Aquapolis",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 4,
+      "TerritoryTypeId": 1036,
+      "DutyEnglishName": "Sastasha",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsPlannedTest": true,
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 2,
+      "TerritoryTypeId": 1037,
+      "DutyEnglishName": "the Tam-Tara Deepcroft",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 3,
+      "TerritoryTypeId": 1038,
+      "DutyEnglishName": "Copperbell Mines",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsPlannedTest": true,
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 56,
+      "TerritoryTypeId": 1045,
+      "DutyEnglishName": "the Bowl of Embers",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 7,
+      "TerritoryTypeId": 1245,
+      "DutyEnglishName": "Halatali",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 1,
+      "TerritoryTypeId": 1039,
+      "DutyEnglishName": "the Thousand Maws of Toto-Rak",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 6,
+      "TerritoryTypeId": 1040,
+      "DutyEnglishName": "Haukke Manor",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsPlannedTest": true,
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 8,
+      "TerritoryTypeId": 1041,
+      "DutyEnglishName": "Brayflox\u0027s Longstop",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 57,
+      "TerritoryTypeId": 1046,
+      "DutyEnglishName": "the Navel",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 9,
+      "TerritoryTypeId": 1267,
+      "DutyEnglishName": "the Sunken Temple of Qarn",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 12,
+      "TerritoryTypeId": 1303,
+      "DutyEnglishName": "Cutter\u0027s Cry",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 11,
+      "TerritoryTypeId": 1042,
+      "DutyEnglishName": "the Stone Vigil",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 58,
+      "TerritoryTypeId": 1047,
+      "DutyEnglishName": "the Howling Eye",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 13,
+      "TerritoryTypeId": 1330,
+      "DutyEnglishName": "Dzemael Darkhold",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 5,
+      "TerritoryTypeId": 1331,
+      "DutyEnglishName": "the Aurum Vale",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 830,
+      "TerritoryTypeId": 1048,
+      "DutyEnglishName": "the Porta Decumana",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 15,
+      "TerritoryTypeId": 1043,
+      "DutyEnglishName": "Castrum Meridianum",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 16,
+      "TerritoryTypeId": 1044,
+      "DutyEnglishName": "the Praetorium",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsPlannedTest": true,
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 17,
+      "TerritoryTypeId": 160,
+      "DutyEnglishName": "Pharos Sirius",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 23,
+      "TerritoryTypeId": 361,
+      "DutyEnglishName": "Hullbreaker Isle",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 27,
+      "TerritoryTypeId": 1062,
+      "DutyEnglishName": "Snowcloak",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 32,
+      "TerritoryTypeId": 1063,
+      "DutyEnglishName": "the Keeper of the Lake",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsPlannedTest": true,
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 36,
+      "TerritoryTypeId": 1366,
+      "DutyEnglishName": "the Dusk Vigil",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 37,
+      "TerritoryTypeId": 1064,
+      "DutyEnglishName": "Sohm Al",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 39,
+      "TerritoryTypeId": 1065,
+      "DutyEnglishName": "the Aery",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 34,
+      "TerritoryTypeId": 1066,
+      "DutyEnglishName": "the Vault",
+      "ClearanceStatus": "NotCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 31,
+      "TerritoryTypeId": 1109,
+      "DutyEnglishName": "the Great Gubal Library",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 38,
+      "TerritoryTypeId": 1110,
+      "DutyEnglishName": "the Aetherochemical Research Facility",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 33,
+      "TerritoryTypeId": 420,
+      "DutyEnglishName": "Neverreap",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 141,
+      "TerritoryTypeId": 1111,
+      "DutyEnglishName": "the Antitower",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 171,
+      "TerritoryTypeId": 1112,
+      "DutyEnglishName": "Sohr Khai",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 182,
+      "TerritoryTypeId": 1113,
+      "DutyEnglishName": "Xelphatol",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 219,
+      "TerritoryTypeId": 1114,
+      "DutyEnglishName": "Baelsar\u0027s Wall",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "IsMainScenario": true,
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 276,
+      "TerritoryTypeId": 725,
+      "DutyEnglishName": "the Hidden Canals of Uznair",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 268,
+      "TerritoryTypeId": 712,
+      "DutyEnglishName": "the Lost Canals of Uznair",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 586,
+      "TerritoryTypeId": 794,
+      "DutyEnglishName": "the Shifting Altars of Uznair",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 235,
+      "TerritoryTypeId": 1367,
+      "DutyEnglishName": "Shisui of the Violet Tides",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 240,
+      "TerritoryTypeId": 1143,
+      "DutyEnglishName": "Bardam\u0027s Mettle",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 241,
+      "TerritoryTypeId": 1144,
+      "DutyEnglishName": "Doma Castle",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 242,
+      "TerritoryTypeId": 1145,
+      "DutyEnglishName": "Castrum Abania",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 247,
+      "TerritoryTypeId": 1146,
+      "DutyEnglishName": "Ala Mhigo",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 279,
+      "TerritoryTypeId": 1172,
+      "DutyEnglishName": "the Drowned City of Skalla",
+      "ClearanceStatus": "OnePlayerDutySupport",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": ""
+    },
+    {
+      "ContentFinderConditionId": 284,
+      "TerritoryTypeId": 742,
+      "DutyEnglishName": "Hells\u0027 Lid",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 585,
+      "TerritoryTypeId": 1173,
+      "DutyEnglishName": "the Burn",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 688,
+      "TerritoryTypeId": 879,
+      "DutyEnglishName": "The Dungeons of Lyhe Ghiah",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 745,
+      "TerritoryTypeId": 924,
+      "DutyEnglishName": "the Shifting Oubliettes of Lyhe Ghiah",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 819,
+      "TerritoryTypeId": 1000,
+      "DutyEnglishName": "the Excitatron 6000",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 909,
+      "TerritoryTypeId": 1123,
+      "DutyEnglishName": "the Shifting Gymnasion Agonon",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 993,
+      "TerritoryTypeId": 1209,
+      "DutyEnglishName": "Cenote Ja Ja Gural",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 1060,
+      "TerritoryTypeId": 1279,
+      "DutyEnglishName": "Vault Oneiron",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 829,
+      "TerritoryTypeId": 1194,
+      "DutyEnglishName": "the Skydeep Cenote",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Tested: maturity tier recorded; ADS execution remains pending."
+    },
+    {
+      "ContentFinderConditionId": 1064,
+      "TerritoryTypeId": 1314,
+      "DutyEnglishName": "Mistwake",
+      "ClearanceStatus": "FourPlayerSyncCleared",
+      "SupportLevel": "ActiveSupported",
+      "SupportNote": "Tested: active ADS execution recorded."
+    },
+    {
+      "ContentFinderConditionId": 162,
+      "TerritoryTypeId": 548,
+      "DutyEnglishName": "Interact with the Battlefield",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 92,
+      "TerritoryTypeId": 174,
+      "DutyEnglishName": "the Labyrinth of the Ancients",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 95,
+      "TerritoryTypeId": 243,
+      "DutyEnglishName": "the Binding Coil of Bahamut - Turn 3",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 96,
+      "TerritoryTypeId": 244,
+      "DutyEnglishName": "the Binding Coil of Bahamut - Turn 4",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 98,
+      "TerritoryTypeId": 355,
+      "DutyEnglishName": "the Second Coil of Bahamut - Turn 1",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 99,
+      "TerritoryTypeId": 356,
+      "DutyEnglishName": "the Second Coil of Bahamut - Turn 2",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 100,
+      "TerritoryTypeId": 357,
+      "DutyEnglishName": "the Second Coil of Bahamut - Turn 3",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 101,
+      "TerritoryTypeId": 358,
+      "DutyEnglishName": "the Second Coil of Bahamut - Turn 4",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 10,
+      "TerritoryTypeId": 159,
+      "DutyEnglishName": "the Wanderer\u0027s Palace",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 14,
+      "TerritoryTypeId": 167,
+      "DutyEnglishName": "Amdapor Keep",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 18,
+      "TerritoryTypeId": 349,
+      "DutyEnglishName": "Copperbell Mines (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 104,
+      "TerritoryTypeId": 381,
+      "DutyEnglishName": "the Second Coil of Bahamut (Savage) - Turn 2",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 19,
+      "TerritoryTypeId": 350,
+      "DutyEnglishName": "Haukke Manor (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 105,
+      "TerritoryTypeId": 382,
+      "DutyEnglishName": "the Second Coil of Bahamut (Savage) - Turn 3",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 22,
+      "TerritoryTypeId": 363,
+      "DutyEnglishName": "the Lost City of Amdapor",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 20,
+      "TerritoryTypeId": 362,
+      "DutyEnglishName": "Brayflox\u0027s Longstop (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 24,
+      "TerritoryTypeId": 373,
+      "DutyEnglishName": "the Tam-Tara Deepcroft (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 25,
+      "TerritoryTypeId": 365,
+      "DutyEnglishName": "the Stone Vigil (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 28,
+      "TerritoryTypeId": 387,
+      "DutyEnglishName": "Sastasha (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 26,
+      "TerritoryTypeId": 367,
+      "DutyEnglishName": "the Sunken Temple of Qarn (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 30,
+      "TerritoryTypeId": 188,
+      "DutyEnglishName": "the Wanderer\u0027s Palace (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 29,
+      "TerritoryTypeId": 189,
+      "DutyEnglishName": "Amdapor Keep (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 88,
+      "TerritoryTypeId": 436,
+      "DutyEnglishName": "the Limitless Blue (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 113,
+      "TerritoryTypeId": 443,
+      "DutyEnglishName": "Alexander - The Cuff of the Father",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 138,
+      "TerritoryTypeId": 522,
+      "DutyEnglishName": "Alexander - The Arm of the Son",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 35,
+      "TerritoryTypeId": 430,
+      "DutyEnglishName": "the Fractal Continuum",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 186,
+      "TerritoryTypeId": 580,
+      "DutyEnglishName": "Alexander - The Eyes of the Creator",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 187,
+      "TerritoryTypeId": 581,
+      "DutyEnglishName": "Alexander - The Breath of the Creator",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 40,
+      "TerritoryTypeId": 510,
+      "DutyEnglishName": "Pharos Sirius (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 140,
+      "TerritoryTypeId": 519,
+      "DutyEnglishName": "the Lost City of Amdapor (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 190,
+      "TerritoryTypeId": 584,
+      "DutyEnglishName": "Alexander - The Eyes of the Creator (Savage)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 89,
+      "TerritoryTypeId": 447,
+      "DutyEnglishName": "the Limitless Blue (Extreme)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 238,
+      "TerritoryTypeId": 1142,
+      "DutyEnglishName": "the Sirensong Sea",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 285,
+      "TerritoryTypeId": 743,
+      "DutyEnglishName": "the Fractal Continuum (Hard)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 536,
+      "TerritoryTypeId": 768,
+      "DutyEnglishName": "the Swallow\u0027s Compass",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 474,
+      "TerritoryTypeId": 761,
+      "DutyEnglishName": "the Great Hunt",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 475,
+      "TerritoryTypeId": 762,
+      "DutyEnglishName": "the Great Hunt (Extreme)",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 676,
+      "TerritoryTypeId": 837,
+      "DutyEnglishName": "Holminster Switch",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 649,
+      "TerritoryTypeId": 821,
+      "DutyEnglishName": "Dohn Mheg",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 652,
+      "TerritoryTypeId": 838,
+      "DutyEnglishName": "Amaurot",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 737,
+      "TerritoryTypeId": 916,
+      "DutyEnglishName": "the Heroes\u0027 Gauntlet",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 746,
+      "TerritoryTypeId": 933,
+      "DutyEnglishName": "Matoya\u0027s Relict",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 777,
+      "TerritoryTypeId": 938,
+      "DutyEnglishName": "Paglth\u0027an",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 785,
+      "TerritoryTypeId": 969,
+      "DutyEnglishName": "the Tower of Babil",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 786,
+      "TerritoryTypeId": 978,
+      "DutyEnglishName": "the Aitiascope",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 792,
+      "TerritoryTypeId": 973,
+      "DutyEnglishName": "the Dead Ends",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 784,
+      "TerritoryTypeId": 986,
+      "DutyEnglishName": "the Stigma Dreamscape",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 844,
+      "TerritoryTypeId": 1050,
+      "DutyEnglishName": "Alzadaal\u0027s Legacy",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 896,
+      "TerritoryTypeId": 1097,
+      "DutyEnglishName": "Lapis Manalis",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 866,
+      "TerritoryTypeId": 1054,
+      "DutyEnglishName": "Aglaia",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 825,
+      "TerritoryTypeId": 1208,
+      "DutyEnglishName": "Origenics",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 1011,
+      "TerritoryTypeId": 1345,
+      "DutyEnglishName": "the Clyteum",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    },
+    {
+      "ContentFinderConditionId": 1015,
+      "TerritoryTypeId": 1248,
+      "DutyEnglishName": "Jeuno: The First Walk",
+      "ClearanceStatus": "OnePlayerUnsyncCleared",
+      "SupportLevel": "PassiveOnly",
+      "SupportNote": "Pending: duty-specific rules were reviewed from community/sheet sources; runtime execution is not yet tested."
+    }
+  ]
+}
