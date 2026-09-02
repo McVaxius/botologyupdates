@@ -6745,7 +6745,7 @@
       "ObjectMapCoordinates": "",
       "ObjectWorldCoordinates": "",
       "ObjectMatchRadius": null,
-      "Priority": 1000,
+      "Priority": 999,
       "PriorityVerticalRadius": 0,
       "MaxDistance": null,
       "WaitAtDestinationSeconds": 0,
@@ -7176,6 +7176,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at -889.3,228.4,3.6 on layer Coerthas Central Highlands. Observed BaseId 1746. Object XYZ pin disabled. Classification override: HyperFixatedAttackTarget."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1042,
+      "ContentFinderConditionId": 11,
+      "DutyEnglishName": "the Stone Vigil",
+      "Alliance": null,
+      "ObjectKind": "Treasure",
+      "BaseId": 0,
+      "ObjectName": "Treasure Coffer",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Stone Vigil",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 998,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -8.4,-0.0,-20.1 on layer Stone Vigil. Observed BaseId 180. Object XYZ pin disabled. Classification override: Required."
     }
   ]
 }
