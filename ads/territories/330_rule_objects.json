@@ -1,0 +1,31 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Effective ADS object rules for preset Presetdfasdfasdf; missing contexts inherit DEFAULT.",
+  "Rules": [
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 330,
+      "ContentFinderConditionId": 379,
+      "DutyEnglishName": "History Repeating",
+      "Alliance": null,
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Charmed",
+      "NameMatchMode": "Contains",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Western La Noscea",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -311.5,-42.1,719.5 on layer Western La Noscea. Observed BaseId 2200. Object XYZ pin disabled. Classification override: Required."
+    }
+  ]
+}
