@@ -12,7 +12,7 @@
       "BaseId": 0,
       "ObjectName": "Charmed",
       "NameMatchMode": "Contains",
-      "Classification": "Required",
+      "Classification": "HyperFixatedAttackTarget",
       "DestinationType": "",
       "Layer": "Western La Noscea",
       "MapCoordinates": "",
