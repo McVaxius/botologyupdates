@@ -1,0 +1,31 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Effective ADS object rules for preset dev; missing contexts inherit DEFAULT.",
+  "Rules": [
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1045,
+      "ContentFinderConditionId": 56,
+      "DutyEnglishName": "the Bowl of Embers",
+      "Alliance": null,
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Infernal Nail",
+      "NameMatchMode": "Exact",
+      "Classification": "HyperFixatedAttackTarget",
+      "DestinationType": "",
+      "Layer": "Bowl of Embers",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 15.0,0.0,-0.0 on layer Bowl of Embers. Observed BaseId 207. Object XYZ pin disabled. Classification override: HyperFixatedAttackTarget."
+    }
+  ]
+}
