@@ -1,0 +1,31 @@
+﻿{
+    "SchemaVersion":  1,
+    "Description":  "Human-edited ADS duty object rules. Lower priority wins. Zero numeric ids mean global. Use dutyEnglishName while scouting, then tighten to contentFinderConditionId or territoryTypeId later if needed. classification supports Ignored for sticky non-progression interactables, BattleNpc-only Follow for live movement anchors, and BattleNpc-only BossFight for live bosses that should beat nearby trash/objectives once in range. waitAtDestinationSeconds is included now for future execution timing.",
+    "Rules":  [
+                  {
+                      "Enabled":  true,
+                      "TerritoryTypeId":  228,
+                      "ContentFinderConditionId":  302,
+                      "DutyEnglishName":  "Violators Will Be Shot",
+                      "Alliance":  null,
+                      "ObjectKind":  "BattleNpc",
+                      "BaseId":  0,
+                      "ObjectName":  "Nezul Cattlan the Violator",
+                      "NameMatchMode":  "Exact",
+                      "Classification":  "BossFight",
+                      "DestinationType":  "",
+                      "Layer":  "North Shroud",
+                      "MapCoordinates":  "",
+                      "WorldCoordinates":  "",
+                      "ObjectMapCoordinates":  "",
+                      "ObjectWorldCoordinates":  "",
+                      "ObjectMatchRadius":  null,
+                      "Priority":  1000,
+                      "PriorityVerticalRadius":  0,
+                      "MaxDistance":  null,
+                      "WaitAtDestinationSeconds":  0,
+                      "WaitAfterInteractSeconds":  0,
+                      "Notes":  "Seeded from Object Explorer at 409.9,-5.5,67.1 on layer North Shroud. Observed BaseId 1451. Object XYZ pin disabled. Classification override: BossFight."
+                  }
+              ]
+}

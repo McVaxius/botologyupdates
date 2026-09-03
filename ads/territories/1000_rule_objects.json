@@ -1,0 +1,31 @@
+﻿{
+    "SchemaVersion":  1,
+    "Description":  "Human-edited ADS duty object rules. Lower priority wins. Zero numeric ids mean global. Use dutyEnglishName while scouting, then tighten to contentFinderConditionId or territoryTypeId later if needed. classification supports Ignored for sticky non-progression interactables, BattleNpc-only Follow for live movement anchors, and BattleNpc-only BossFight for live bosses that should beat nearby trash/objectives once in range. waitAtDestinationSeconds is included now for future execution timing.",
+    "Rules":  [
+                  {
+                      "Enabled":  true,
+                      "TerritoryTypeId":  1000,
+                      "ContentFinderConditionId":  819,
+                      "DutyEnglishName":  "The Excitatron 6000",
+                      "Alliance":  null,
+                      "ObjectKind":  "Treasure",
+                      "BaseId":  0,
+                      "ObjectName":  "Treasure Coffer",
+                      "NameMatchMode":  "Exact",
+                      "Classification":  "TreasureCoffer",
+                      "DestinationType":  "",
+                      "Layer":  "The Excitatron 6000",
+                      "MapCoordinates":  "",
+                      "WorldCoordinates":  "",
+                      "ObjectMapCoordinates":  "",
+                      "ObjectWorldCoordinates":  "",
+                      "ObjectMatchRadius":  null,
+                      "Priority":  999,
+                      "PriorityVerticalRadius":  5,
+                      "MaxDistance":  150,
+                      "WaitAtDestinationSeconds":  0,
+                      "WaitAfterInteractSeconds":  0,
+                      "Notes":  "Treasure Map Coffer Rule"
+                  }
+              ]
+}

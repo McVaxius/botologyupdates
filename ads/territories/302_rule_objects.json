@@ -1,0 +1,31 @@
+﻿{
+    "SchemaVersion":  1,
+    "Description":  "Human-edited ADS duty object rules. Lower priority wins. Zero numeric ids mean global. Use dutyEnglishName while scouting, then tighten to contentFinderConditionId or territoryTypeId later if needed. classification supports Ignored for sticky non-progression interactables, BattleNpc-only Follow for live movement anchors, and BattleNpc-only BossFight for live bosses that should beat nearby trash/objectives once in range. waitAtDestinationSeconds is included now for future execution timing.",
+    "Rules":  [
+                  {
+                      "Enabled":  true,
+                      "TerritoryTypeId":  302,
+                      "ContentFinderConditionId":  344,
+                      "DutyEnglishName":  "The Heretic among Us",
+                      "Alliance":  null,
+                      "ObjectKind":  "BattleNpc",
+                      "BaseId":  0,
+                      "ObjectName":  "Inquisitor Guillaime",
+                      "NameMatchMode":  "Exact",
+                      "Classification":  "HyperFixatedAttackTarget",
+                      "DestinationType":  "",
+                      "Layer":  "Coerthas Central Highlands",
+                      "MapCoordinates":  "",
+                      "WorldCoordinates":  "",
+                      "ObjectMapCoordinates":  "",
+                      "ObjectWorldCoordinates":  "",
+                      "ObjectMatchRadius":  null,
+                      "Priority":  1000,
+                      "PriorityVerticalRadius":  0,
+                      "MaxDistance":  null,
+                      "WaitAtDestinationSeconds":  0,
+                      "WaitAfterInteractSeconds":  0,
+                      "Notes":  "Seeded from Object Explorer at -889.3,228.4,3.6 on layer Coerthas Central Highlands. Observed BaseId 1746. Object XYZ pin disabled. Classification override: HyperFixatedAttackTarget."
+                  }
+              ]
+}

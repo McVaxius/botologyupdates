@@ -21,6 +21,13 @@
 - Every release has `Id`, ISO UTC `PublishedUtc`, `Title`, `AffectedPluginIds`, and ordered `Sections`; every section has `Heading` and string `Items`.
 - Release IDs must be unique, and every affected plugin ID must exist in the current master catalog.
 
+## ADS object-rule data
+
+- `ads/territories/index.json` and its listed `*_rule_objects.json` files are the source of truth for current ADS builds.
+- `GLOBAL_rule_objects.json` contains rules without duty scope. Numeric shard filenames contain the complete replacement context for that TerritoryType id.
+- `ads/duty-object-rules.json` is frozen legacy compatibility data for older ADS builds. Current ADS builds do not read it, and shard updates must not regenerate it.
+- `ads/duty-object-rules-mature-proposals.json` is also frozen for older builds. Current ADS builds do not fetch or expose MATURE proposals.
+
 ---
 
 [XA and I have created some Plugins and Guides here at -> aethertek.io](https://aethertek.io/)
