@@ -1,0 +1,31 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Effective ADS object rules for preset Presetdfasdfasdf; missing contexts inherit DEFAULT.",
+  "Rules": [
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 308,
+      "ContentFinderConditionId": 357,
+      "DutyEnglishName": "Fool Me Twice",
+      "Alliance": null,
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Cid",
+      "NameMatchMode": "Exact",
+      "Classification": "Ignored",
+      "DestinationType": "",
+      "Layer": "Mor Dhona",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -136.1,-2.9,-622.5 on layer Mor Dhona. Observed BaseId 1987. Object XYZ pin disabled. Classification override: Ignored."
+    }
+  ]
+}
