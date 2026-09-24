@@ -3,7 +3,7 @@
   "Description": "Effective ADS object rules for preset alofucker; missing contexts inherit DEFAULT.",
   "Rules": [
     {
-      "Enabled": true,
+      "Enabled": false,
       "TerritoryTypeId": 1176,
       "ContentFinderConditionId": 961,
       "DutyEnglishName": "Aloalo Island",
@@ -14,7 +14,7 @@
       "NameMatchMode": "Exact",
       "Classification": "Required",
       "DestinationType": "",
-      "Layer": "Incalculable Approach",
+      "Layer": "",
       "MapCoordinates": "",
       "WorldCoordinates": "",
       "ObjectMapCoordinates": "",
@@ -78,7 +78,7 @@
       "Notes": ""
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "TerritoryTypeId": 1176,
       "ContentFinderConditionId": 961,
       "DutyEnglishName": "Aloalo Island",
@@ -101,6 +101,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": "Seeded from Object Explorer at -476.8,23.3,284.1 on layer Island Coastline. Observed BaseId 16359. Object XYZ pin disabled. Classification override: Follow."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1176,
+      "ContentFinderConditionId": 961,
+      "DutyEnglishName": "Aloalo Island",
+      "Alliance": null,
+      "ObjectKind": "",
+      "BaseId": 0,
+      "ObjectName": "",
+      "NameMatchMode": "Exact",
+      "Classification": "MapXzDestination",
+      "DestinationType": "",
+      "Layer": "Swiftstep Beach",
+      "MapCoordinates": "8.8,5.1",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": ""
     }
   ]
 }
