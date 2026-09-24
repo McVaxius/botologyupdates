@@ -76,6 +76,31 @@
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 1176,
+      "ContentFinderConditionId": 961,
+      "DutyEnglishName": "Aloalo Island",
+      "Alliance": null,
+      "ObjectKind": "BattleNpc",
+      "BaseId": 0,
+      "ObjectName": "Matsya",
+      "NameMatchMode": "Exact",
+      "Classification": "Follow",
+      "DestinationType": "",
+      "Layer": "Island Coastline",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -476.8,23.3,284.1 on layer Island Coastline. Observed BaseId 16359. Object XYZ pin disabled. Classification override: Follow."
     }
   ]
 }
