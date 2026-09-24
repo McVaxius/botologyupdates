@@ -3,7 +3,7 @@
   "Description": "Effective ADS object rules for preset alofucker; missing contexts inherit DEFAULT.",
   "Rules": [
     {
-      "Enabled": false,
+      "Enabled": true,
       "TerritoryTypeId": 1176,
       "ContentFinderConditionId": 961,
       "DutyEnglishName": "Aloalo Island",
@@ -14,13 +14,13 @@
       "NameMatchMode": "Exact",
       "Classification": "Required",
       "DestinationType": "",
-      "Layer": "",
+      "Layer": "Island Foreshore",
       "MapCoordinates": "",
       "WorldCoordinates": "",
       "ObjectMapCoordinates": "",
       "ObjectWorldCoordinates": "",
       "ObjectMatchRadius": null,
-      "Priority": 1000,
+      "Priority": 998,
       "PriorityVerticalRadius": 0,
       "MaxDistance": null,
       "WaitAtDestinationSeconds": 0,
@@ -47,7 +47,7 @@
       "ObjectMatchRadius": null,
       "Priority": 999,
       "PriorityVerticalRadius": 0,
-      "MaxDistance": 200,
+      "MaxDistance": null,
       "WaitAtDestinationSeconds": 0,
       "WaitAfterInteractSeconds": 0,
       "Notes": ""
