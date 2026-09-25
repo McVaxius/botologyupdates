@@ -1,10 +1,62 @@
 {
   "SchemaVersion": 3,
   "SourceUrl": "https://raw.githubusercontent.com/McVaxius/botologyupdates/refs/heads/main/plugin-repository-links.json",
-  "FieldGuide": {
-    "IsAiAttributed": "Optional boolean. True means Aetherfeed's frozen 2026-07-22 attribution identified likely AI-written code; false or omitted is not proof that a plugin is human-only."
-  },
   "Plugins": [
+    {
+      "Id": "achieveex",
+      "Category": "Achievement Tracking",
+      "DisplayName": "Achieve Ex",
+      "MatchTokens": [
+        "AchieveEx"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/vauxra/achieve-ex",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/vauxra/achieve-ex/refs/heads/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "allthethings",
+      "Category": "Achievement Tracking",
+      "DisplayName": "All The Things",
+      "MatchTokens": [
+        "AllTheThings"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/DeadlyDeathAngel/AllTheThings",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/DeadlyDeathAngel/AllTheThings/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "collectionviewer",
+      "Category": "Achievement Tracking",
+      "DisplayName": "Collection Viewer",
+      "MatchTokens": [
+        "CollectionViewer"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/goodmasta/CollectionViewer",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/goodmasta/CollectionViewer/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
     {
       "Id": "relictracker",
       "Category": "Achievement Tracking",
@@ -43,7 +95,6 @@
     },
     {
       "Id": "xivshiniessyncplugin",
-      "IsAiAttributed": true,
       "Category": "Achievement Tracking",
       "DisplayName": "XIV Shinies Sync",
       "MatchTokens": [
@@ -62,7 +113,6 @@
     },
     {
       "Id": "betterdeaths",
-      "IsAiAttributed": true,
       "Category": "Combat Tracking",
       "DisplayName": "Better Deaths",
       "MatchTokens": [
@@ -101,7 +151,6 @@
     },
     {
       "Id": "damageterror",
-      "IsAiAttributed": true,
       "Category": "Combat Tracking",
       "DisplayName": "Damage Terror",
       "MatchTokens": [
@@ -113,6 +162,26 @@
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "desmeter",
+      "Category": "Combat Tracking",
+      "DisplayName": "DesMeter",
+      "MatchTokens": [
+        "DesMeter"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/deserokk/DesMeter",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/deserokk/DalamudPlugins/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "iinact"
+      ],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -157,8 +226,104 @@
       "RelatedIds": []
     },
     {
-      "Id": "artisan",
+      "Id": "loggingwayplugin",
+      "Category": "Combat Tracking",
+      "DisplayName": "LoggingWayPlugin",
+      "MatchTokens": [
+        "LoggingWayPlugin"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/LoggingWay/LoggingWayPlugin",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/LoggingWay/LoggingWayPlugin/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "minimalmeter",
+      "Category": "Combat Tracking",
+      "DisplayName": "Minimal Meter",
+      "MatchTokens": [
+        "MinimalMeter"
+      ],
+      "Notes": "Does not need IINACT, but functions incorrectly for DOT jobs without it.",
+      "RepoUrl": "https://github.com/linusfr/ffxiv-minimal-meter",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/linusfr/ffxiv-minimal-meter/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "iinact"
+      ],
+      "Yellow": [],
+      "Red": [],
       "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "native_meters",
+      "Category": "Combat Tracking",
+      "DisplayName": "NativeMeters",
+      "MatchTokens": [
+        "NativeMeters"
+      ],
+      "Notes": "Parsing/meter overlay. No conflicts identified from the audited feeds.",
+      "RepoUrl": "https://github.com/Zeffuro/NativeMeters",
+      "RepoJsonUrl": "https://github.com/Zeffuro/MyDalamudPlugins/blob/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Native DPS meters for FFXIV that aim to feel like part of the game.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "xivlibra",
+      "Category": "Combat Tracking",
+      "DisplayName": "XIVLibra",
+      "MatchTokens": [
+        "XIVLibra"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Rowrow620/XIVLibra",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Rowrow620/XIVLibra/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "diademgatherer",
+      "Category": "DOH/L Bots",
+      "DisplayName": "Diadem Gatherer",
+      "MatchTokens": [
+        "DiademGatherer"
+      ],
+      "Notes": "AI generated. I have not tested this yet, if it doesn\u0027t have path customisation it\u0027s completely useless - Canto",
+      "RepoUrl": "https://github.com/jshade2710/DiademGatherer",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/jshade2710/DiademGatherer/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [
+        "diademgatherer"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "artisan",
       "Category": "DOH/L Content Bots",
       "DisplayName": "Artisan",
       "MatchTokens": [
@@ -213,6 +378,27 @@
       ],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "docket",
+      "Category": "DOH/L Content Bots",
+      "DisplayName": "Docket",
+      "MatchTokens": [
+        "Docket"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/MedianAura/FFXIV-MedianAura",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/MedianAura/FFXIV-MedianAura/main/plugins.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "gatherbuddy_reborn"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
@@ -276,6 +462,27 @@
       "RelatedIds": []
     },
     {
+      "Id": "thecollector",
+      "Category": "DOH/L Content Bots",
+      "DisplayName": "TheCollector",
+      "MatchTokens": [
+        "TheCollector"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Ashylila/TheCollector",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Ashylila/AshPluggyRepo/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Essentially only useful for the Firmament functionality.",
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "visland",
       "Category": "DOH/L Content Bots",
       "DisplayName": "VISLAND",
@@ -313,7 +520,6 @@
     },
     {
       "Id": "autofategrind",
-      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "Auto FATE Grind",
       "MatchTokens": [
@@ -334,12 +540,54 @@
         "autofategrind"
       ],
       "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autofate",
+      "Category": "DOW/DOM Content Bots",
+      "DisplayName": "Autofate",
+      "MatchTokens": [
+        "autofate"
+      ],
+      "Notes": "Vibecoded FATE bot, requires BMR, use at your own risk",
+      "RepoUrl": "https://github.com/notmugi/autofate",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/notmugi/autofate/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "bossmod_reborn",
+        "rotation_solver_reborn",
+        "vnavmesh",
+        "lifestream"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "beastiebuddy",
+      "Category": "DOW/DOM Content Bots",
+      "DisplayName": "BeastieBuddy",
+      "MatchTokens": [
+        "BeastieBuddy"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/BeastieBuddy",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/BeastieBuddy/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
     {
       "Id": "bocchi",
-      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "BOCCHI",
       "MatchTokens": [
@@ -400,7 +648,6 @@
     },
     {
       "Id": "fatewalker",
-      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "FateWalker",
       "MatchTokens": [
@@ -426,8 +673,26 @@
       "RelatedIds": []
     },
     {
-      "Id": "mogtome",
+      "Id": "logoria",
+      "Category": "DOW/DOM Content Bots",
+      "DisplayName": "Logoria",
+      "MatchTokens": [
+        "logoria"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/BoujeeBecky/Logoria",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/BoujeeBecky/Logoria/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "mogtome",
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "MOGTOME",
       "MatchTokens": [
@@ -465,7 +730,6 @@
     },
     {
       "Id": "sealbreaker",
-      "IsAiAttributed": true,
       "Category": "DOW/DOM Content Bots",
       "DisplayName": "SealBreaker",
       "MatchTokens": [
@@ -509,7 +773,6 @@
     },
     {
       "Id": "ai_duty_solver",
-      "IsAiAttributed": true,
       "Category": "Duty solving",
       "DisplayName": "AI Duty Solver",
       "MatchTokens": [
@@ -566,6 +829,46 @@
       "RelatedIds": []
     },
     {
+      "Id": "bestiarynav",
+      "Category": "Duty solving",
+      "DisplayName": "Bestiary Nav",
+      "MatchTokens": [
+        "BestiaryNav"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/TheKHD5/Bestiary-Nav",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/TheKHD5/Bestiary-Nav/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "bsthelper",
+      "Category": "Duty solving",
+      "DisplayName": "Bsthelper",
+      "MatchTokens": [
+        "bsthelper"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/wahtf/bsthelper",
+      "RepoJsonUrl": "https://puni.sh/api/repository/wah",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "lifestream"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "jump_solver",
       "Category": "Duty solving",
       "DisplayName": "Jump Solver",
@@ -585,7 +888,6 @@
     },
     {
       "Id": "lootgoblin",
-      "IsAiAttributed": true,
       "Category": "Duty solving",
       "DisplayName": "LootGoblin",
       "MatchTokens": [
@@ -602,6 +904,42 @@
         "autoduty",
         "ReAction"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "replica",
+      "Category": "Duty solving",
+      "DisplayName": "Replica",
+      "MatchTokens": [
+        "Replica"
+      ],
+      "Notes": "Party Finder Reborn 2.0",
+      "RepoUrl": "https://github.com/nightraidwiki/Replica-Stable",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/nightraidwiki/dalamud-plugins/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "touristmod",
+      "Category": "Duty Solving",
+      "DisplayName": "TouristMod",
+      "MatchTokens": [
+        "TouristMod"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/alydevs/TouristMod",
+      "RepoJsonUrl": "https://puni.sh/api/repository/aly",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -695,6 +1033,24 @@
       "Yellow": [
         "artisan"
       ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "bunnysubsync",
+      "Category": "Empire Management",
+      "DisplayName": "Bunny Sub Sync",
+      "MatchTokens": [
+        "BunnySubSync"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Juusohel/BunnySubSync",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Juusohel/BunnySubSync/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
       "Red": [],
       "RuleType": null,
       "RelatedIds": []
@@ -833,7 +1189,6 @@
     },
     {
       "Id": "vermaxion",
-      "IsAiAttributed": true,
       "Category": "Empire Management",
       "DisplayName": "VerMaxion",
       "MatchTokens": [
@@ -926,6 +1281,26 @@
       "RelatedIds": []
     },
     {
+      "Id": "betterdiscordrichpresence",
+      "Category": "ERP",
+      "DisplayName": "Better Discord Rich Presence",
+      "MatchTokens": [
+        "BetterDiscordRichPresence"
+      ],
+      "Notes": "OPSEC LEVEL: Doxxed by Discord Rich Presence",
+      "RepoUrl": "https://github.com/RayaSerahill/BetterDiscordRichpresence",
+      "RepoJsonUrl": "https://puni.sh/api/repository/raya",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "betterdiscordrichpresence"
+      ],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "brio",
       "Category": "ERP",
       "DisplayName": "Brio",
@@ -965,7 +1340,6 @@
     },
     {
       "Id": "footballer",
-      "IsAiAttributed": true,
       "Category": "ERP",
       "DisplayName": "Footballer",
       "MatchTokens": [
@@ -1001,8 +1375,28 @@
       "RelatedIds": []
     },
     {
-      "Id": "master_of_puppets",
+      "Id": "lightlessautopair",
+      "Category": "ERP",
+      "DisplayName": "Lightless Auto Pair",
+      "MatchTokens": [
+        "LightlessAutoPair"
+      ],
+      "Notes": "Written by someone retarded enough to not replace \u0022YOUR_GITHUB_USERNAME\u0022 with their github username.",
+      "RepoUrl": "https://github.com/Surlako/Lightless-Auto-Pair",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Surlako/Lightless-Auto-Pair/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "lightlesssync"
+      ],
+      "Yellow": [],
+      "Red": [],
       "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "master_of_puppets",
       "Category": "ERP",
       "DisplayName": "Master of Puppets",
       "MatchTokens": [
@@ -1018,6 +1412,24 @@
       "Red": [
         "aether_remote"
       ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "moddle",
+      "Category": "ERP",
+      "DisplayName": "Moddle",
+      "MatchTokens": [
+        "Moddle"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Daydricoldsmith/Moddle",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Daydricoldsmith/Moddle/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1044,7 +1456,6 @@
     },
     {
       "Id": "windupkey",
-      "IsAiAttributed": true,
       "Category": "ERP",
       "DisplayName": "Wind-Up Key",
       "MatchTokens": [
@@ -1301,7 +1712,6 @@
     },
     {
       "Id": "choke_abo",
-      "IsAiAttributed": true,
       "Category": "Manderville Bots",
       "DisplayName": "Choke-abo",
       "MatchTokens": [
@@ -1321,7 +1731,6 @@
     },
     {
       "Id": "DomanMahjongAI",
-      "IsAiAttributed": true,
       "Category": "Manderville Bots",
       "DisplayName": "Doman Mahjong Solver",
       "MatchTokens": [
@@ -1415,7 +1824,6 @@
     },
     {
       "Id": "automarketpro",
-      "IsAiAttributed": true,
       "Category": "Market Bots",
       "DisplayName": "AutoMarket Pro",
       "MatchTokens": [
@@ -1434,7 +1842,6 @@
     },
     {
       "Id": "auxmarketboard",
-      "IsAiAttributed": true,
       "Category": "Market Bots",
       "DisplayName": "AuxMarketboard",
       "MatchTokens": [
@@ -1445,6 +1852,42 @@
       "RepoJsonUrl": "https://raw.githubusercontent.com/auxee/AuxDalamudRepo/main/repo.json",
       "RepoJsonUrls": [],
       "Description": "Does not actually automatically buy items.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "allaganpocket",
+      "Category": "Minigames",
+      "DisplayName": "Allagan Retro Pocket",
+      "MatchTokens": [
+        "AllaganPocket"
+      ],
+      "Notes": "Unfortunately does not have a RPGMaker emulator inside.",
+      "RepoUrl": "https://github.com/rockerudon/AllaganRetroPocket",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rockerudon/AllaganRetroPocket/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "pluginsync",
+      "Category": "Multi-PC Support",
+      "DisplayName": "Plugin Sync",
+      "MatchTokens": [
+        "PluginSync"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Hangovers/PluginSync",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Hangovers/PluginSync/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1470,6 +1913,25 @@
       "RelatedIds": []
     },
     {
+      "Id": "holiestfluffiness",
+      "Category": "Multi-purpose Bots",
+      "DisplayName": "The Holiest Fluffiness",
+      "MatchTokens": [
+        "HoliestFluffiness"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/AlexFlipnote/XIV_HolyPlugin",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/AlexFlipnote/XIV_HolyPlugin/release/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "bardtoolbox",
       "Category": "Multiboxing",
       "DisplayName": "BardToolbox",
@@ -1489,7 +1951,6 @@
     },
     {
       "Id": "charon",
-      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "Charon",
       "MatchTokens": [
@@ -1508,7 +1969,6 @@
     },
     {
       "Id": "coppelia",
-      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "Coppelia",
       "MatchTokens": [
@@ -1527,7 +1987,6 @@
     },
     {
       "Id": "dad",
-      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "dad",
       "MatchTokens": [
@@ -1566,7 +2025,6 @@
     },
     {
       "Id": "frenrider",
-      "IsAiAttributed": true,
       "Category": "Multiboxing",
       "DisplayName": "FrenRider",
       "MatchTokens": [
@@ -1604,6 +2062,118 @@
       "RelatedIds": []
     },
     {
+      "Id": "aetherstream",
+      "Category": "Music",
+      "DisplayName": "Aetherstream",
+      "MatchTokens": [
+        "Aetherstream"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://aetherstream.corkedfever.com",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/CorkedFever/Aetherstream/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "cinesync",
+      "Category": "Music",
+      "DisplayName": "CineSync",
+      "MatchTokens": [
+        "CineSync"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/OmegaJackie/CineSync",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/OmegaJackie/CineSync/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "ffxiv_tv",
+      "Category": "Music",
+      "DisplayName": "FFXIV-TV",
+      "MatchTokens": [
+        "FFXIV-TV"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Sansflaire/FFXIV-TV",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Sansflaire/FFXIV-TV/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "mooglradio",
+      "Category": "Music",
+      "DisplayName": "MOOGL Radio",
+      "MatchTokens": [
+        "MooglRadio"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/timcade-stuff/moogl-radio-plugin",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/timcade-stuff/moogl-radio-plugin/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "screenshareplugin",
+      "Category": "Music",
+      "DisplayName": "Screenshare",
+      "MatchTokens": [
+        "Screenshare.plugin"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/CakeAndBanana/Screenshare",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/CakeAndBanana/Screenshare/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autotravel",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "AutoTravel",
+      "MatchTokens": [
+        "AutoTravel"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Anomek/AutoTravel",
+      "RepoJsonUrl": "https://github.com/anomek/MyDalamudPlugins",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "dashatweaks",
       "Category": "Obsoleted Plugins",
       "DisplayName": "Dasha Tweaks",
@@ -1618,6 +2188,25 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "dungeondrip",
+      "Category": "Obsoleted Plugins",
+      "DisplayName": "Dungeon Drip",
+      "MatchTokens": [
+        "DungeonDrip"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Spibane/DungeonDrip",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Spibane/DungeonDrip/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1663,7 +2252,6 @@
     },
     {
       "Id": "hrothgarscent",
-      "IsAiAttributed": true,
       "Category": "Obsoleted Plugins",
       "DisplayName": "HrothgarScent",
       "MatchTokens": [
@@ -1896,20 +2484,133 @@
       "RelatedIds": []
     },
     {
-      "Id": "memoria",
+      "Id": "echo",
       "Category": "Player Tracking",
-      "DisplayName": "Memoria",
+      "DisplayName": "Echo",
       "MatchTokens": [
-        "Memoria"
+        "Echo"
       ],
-      "Notes": "Playerscope 2.0",
-      "RepoUrl": "https://github.com/RoseOfficial/Memoria",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/RoseOfficial/Memoria/main/repo.json",
+      "Notes": "Croudsourced player tracking plugin.\nIf you\u0027re using this, make your lodestone profile private or unsearchable because there is a seperate plugin that will doxx you.",
+      "RepoUrl": "https://echovault.gg",
+      "RepoJsonUrl": "https://echovault.gg/plugin/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [
+        "echo"
+      ],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "fflogsviewer",
+      "Category": "Player Tracking",
+      "DisplayName": "FF Logs Viewer",
+      "MatchTokens": [
+        "fflogsviewer"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Aireil/FFLogsViewer",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Aireil/MyDalamudPlugins/master/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "passport_checker_reborn",
+      "Category": "Player Tracking",
+      "DisplayName": "Passport Checker Reborn",
+      "MatchTokens": [
+        "Passport Checker Reborn"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": "Shows the FFLogs data of the players inside a PF listing.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "playernexustracker",
+      "Category": "Player Tracking",
+      "DisplayName": "PlayerNexusTracker",
+      "MatchTokens": [
+        "playernexustracker"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/NexusFFXIV/PlayerNexusTracker",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/NexusFFXIV/DalamudRepo/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "playertrack",
+      "Category": "Player Tracking",
+      "DisplayName": "PlayerTrack",
+      "MatchTokens": [
+        "PlayerTrack"
+      ],
+      "Notes": "Tracking utility. No conflicts identified from the audited feeds.",
+      "RepoUrl": "https://github.com/Infiziert90/PlayerTrack",
+      "RepoJsonUrl": "official / Dalamud-hosted",
+      "RepoJsonUrls": [],
+      "Description": "Tracks player encounters and related metadata.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "wardwatch",
+      "Category": "Player Tracking",
+      "DisplayName": "WardWatch",
+      "MatchTokens": [
+        "WardWatch"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": null,
+      "RepoJsonUrl": "https://echovault.gg/plugin/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "wyu2",
+      "Category": "Player Tracking",
+      "DisplayName": "Wyu2",
+      "MatchTokens": [
+        "wyu2"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Liquidize/Wyu2",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Liquidize/Wyu2/claude/ffxiv-dalamud-friend-tracker-c0wod9/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
@@ -1993,7 +2694,6 @@
     },
     {
       "Id": "autofrontline",
-      "IsAiAttributed": true,
       "Category": "PVP Bots",
       "DisplayName": "Auto Frontline",
       "MatchTokens": [
@@ -2017,7 +2717,6 @@
     },
     {
       "Id": "autopvpseriesgrind",
-      "IsAiAttributed": true,
       "Category": "PVP Bots",
       "DisplayName": "Auto PVP Series Grind",
       "MatchTokens": [
@@ -2040,8 +2739,27 @@
       "RelatedIds": []
     },
     {
+      "Id": "aetherlocator",
+      "Category": "QOL",
+      "DisplayName": "Aether Locator",
+      "MatchTokens": [
+        "aetherlocator"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Tom1tk/AetherLocator",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Tom1tk/AetherLocator/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "aetherphone",
-      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Aetherphone",
       "MatchTokens": [
@@ -2080,7 +2798,6 @@
     },
     {
       "Id": "begone",
-      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Begone",
       "MatchTokens": [
@@ -2175,7 +2892,6 @@
     },
     {
       "Id": "dhog_potato_system",
-      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Dhog Potato System",
       "MatchTokens": [
@@ -2236,7 +2952,6 @@
     },
     {
       "Id": "echokraut",
-      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "Echokraut",
       "MatchTokens": [
@@ -2385,6 +3100,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "mogmail",
+      "Category": "QOL",
+      "DisplayName": "Mogmail",
+      "MatchTokens": [
+        "Mogmail"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Nexaii/Mogmail",
+      "RepoJsonUrl": "https://puni.sh/api/repository/nexai",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "no_silly_reborn",
       "Category": "QOL",
       "DisplayName": "No Silly Reborn",
@@ -2407,8 +3140,25 @@
       "RelatedIds": []
     },
     {
+      "Id": "occultwindowbegone",
+      "Category": "QOL",
+      "DisplayName": "Occult Window Be Gone",
+      "MatchTokens": [
+        "occultwindowbegone"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/gerulla/occultwindowbegone",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/gerulla/occultwindowbegone/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "pfpresets",
-      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "PF Presets",
       "MatchTokens": [
@@ -2427,7 +3177,6 @@
     },
     {
       "Id": "popotovox",
-      "IsAiAttributed": true,
       "Category": "QOL",
       "DisplayName": "PopotoVox",
       "MatchTokens": [
@@ -2520,6 +3269,43 @@
       "RelatedIds": []
     },
     {
+      "Id": "sunaway",
+      "Category": "QOL",
+      "DisplayName": "SunAway",
+      "MatchTokens": [
+        "SunAway"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/VirstaXIV/SunAway",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/VirstaXIV/SunAway/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "xivthirdeye",
+      "Category": "QOL",
+      "DisplayName": "Third Eye",
+      "MatchTokens": [
+        "xivthirdeye"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/bimilbimil/XIVThirdEye",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/bimilbimil/XIVThirdEye/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "vaelarisunlocklist",
       "Category": "QOL",
       "DisplayName": "Unlock List",
@@ -2576,7 +3362,6 @@
     },
     {
       "Id": "autodailytribes",
-      "IsAiAttributed": true,
       "Category": "Quest",
       "DisplayName": "Auto Daily Tribes",
       "MatchTokens": [
@@ -2620,7 +3405,6 @@
     },
     {
       "Id": "questionable_wiggly",
-      "IsAiAttributed": true,
       "Category": "Quest",
       "DisplayName": "Questionable (wiggly)",
       "MatchTokens": [
@@ -2701,7 +3485,6 @@
     },
     {
       "Id": "aetherfit",
-      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "Aetherfit",
       "MatchTokens": [
@@ -2722,7 +3505,6 @@
     },
     {
       "Id": "alphachannel",
-      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "AlphaChannel",
       "MatchTokens": [
@@ -2731,6 +3513,24 @@
       "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/Voudi/AlphaChannel",
       "RepoJsonUrl": "https://github.com/Voudi/AlphaChannel/blob/master/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autominion",
+      "Category": "Roleplay",
+      "DisplayName": "AutoMinion",
+      "MatchTokens": [
+        "AutoMinion"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://projects.gamba.pro/Asuna/AutoMinion",
+      "RepoJsonUrl": "https://puni.sh/api/repository/asuna",
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
@@ -2835,6 +3635,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "fidgetspinner",
+      "Category": "Roleplay",
+      "DisplayName": "Fidget Spinner",
+      "MatchTokens": [
+        "fidgetspinner"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/sourpuh/ffxiv_fidgetspinner",
+      "RepoJsonUrl": "https://puni.sh/api/repository/sourpuh",
+      "RepoJsonUrls": [],
+      "Description": "speen",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "glamourer",
       "Category": "Roleplay",
       "DisplayName": "Glamourer",
@@ -2855,8 +3673,29 @@
       "RelatedIds": []
     },
     {
-      "Id": "gobchatexplugin",
+      "Id": "glamshuffle",
+      "Category": "Roleplay",
+      "DisplayName": "GlamShuffle",
+      "MatchTokens": [
+        "glamshuffle"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/bimilbimil/GlamShuffle",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/bimilbimil/GlamShuffle/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "glamourer",
+        "penumbra"
+      ],
+      "Yellow": [],
+      "Red": [],
       "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "gobchatexplugin",
       "Category": "Roleplay",
       "DisplayName": "GobchatEx Roleplay Suite",
       "MatchTokens": [
@@ -2892,8 +3731,27 @@
       "RelatedIds": []
     },
     {
+      "Id": "hmsync",
+      "Category": "Roleplay",
+      "DisplayName": "HMapSync (HMS)",
+      "MatchTokens": [
+        "HMSync"
+      ],
+      "Notes": "Hyperborea but it can be done with friends. \nUSE AT YOUR OWN RISK, THIS IS JUST AS DANGEROUS AS HYPERBOREA IS",
+      "RepoUrl": "https://github.com/Enceladeum/HMapSync",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Enceladeum/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [
+        "hmsync"
+      ],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "houtfits",
-      "IsAiAttributed": true,
       "Category": "Roleplay",
       "DisplayName": "HOutfits",
       "MatchTokens": [
@@ -3090,6 +3948,42 @@
       "RelatedIds": []
     },
     {
+      "Id": "rubyradio",
+      "Category": "Roleplay",
+      "DisplayName": "RubyRadio",
+      "MatchTokens": [
+        "RubyRadio"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rubyblaire/RubyRadio",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rubyblaire/RubyRadio/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "simpleminigames",
+      "Category": "Roleplay",
+      "DisplayName": "SimpleMiniGames",
+      "MatchTokens": [
+        "simpleminigames"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://projects.gamba.pro/Asuna/simpleminigames",
+      "RepoJsonUrl": "https://puni.sh/api/repository/asuna",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "statusbridge",
       "Category": "Roleplay",
       "DisplayName": "StatusBridge",
@@ -3127,6 +4021,25 @@
       ],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "crystariumboutique",
+      "Category": "Roleplay",
+      "DisplayName": "The Crystarium Boutique",
+      "MatchTokens": [
+        "CrystariumBoutique"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Aesthria/The-Crystarium-Boutique",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Aesthria/The-Crystarium-Boutique/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
@@ -3182,7 +4095,6 @@
     },
     {
       "Id": "caduceus",
-      "IsAiAttributed": true,
       "Category": "Rotations/AI",
       "DisplayName": "Caduceus",
       "MatchTokens": [
@@ -3201,7 +4113,6 @@
     },
     {
       "Id": "olympus",
-      "IsAiAttributed": true,
       "Category": "Rotations/AI",
       "DisplayName": "Olympus",
       "MatchTokens": [
@@ -3318,7 +4229,6 @@
     },
     {
       "Id": "hmoniker",
-      "IsAiAttributed": true,
       "Category": "Screenshot Safety",
       "DisplayName": "HMoniker",
       "MatchTokens": [
@@ -3337,7 +4247,6 @@
     },
     {
       "Id": "krangler",
-      "IsAiAttributed": true,
       "Category": "Screenshot Safety",
       "DisplayName": "Krangler",
       "MatchTokens": [
@@ -3395,6 +4304,29 @@
       "RelatedIds": []
     },
     {
+      "Id": "huntautomator",
+      "Category": "The Hunt Bots",
+      "DisplayName": "Hunt Automator",
+      "MatchTokens": [
+        "HuntAutomator"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Antipokemon/HuntAutomator",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/Antipokemon/HuntAutomator/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [
+        "vnavmesh",
+        "lifestream",
+        "rotation_solver_reborn"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "hunt_helper",
       "Category": "The Hunt Bots",
       "DisplayName": "Hunt Helper",
@@ -3406,6 +4338,24 @@
       "RepoJsonUrl": "1PP",
       "RepoJsonUrls": [],
       "Description": "Displays B/A/S spawnpoints.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "huntalerts",
+      "Category": "The Hunt Bots",
+      "DisplayName": "HuntAlerts",
+      "MatchTokens": [
+        "HuntAlerts"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://projects.gamba.pro/Asuna/huntalerts",
+      "RepoJsonUrl": "https://puni.sh/api/repository/asuna",
+      "RepoJsonUrls": [],
+      "Description": null,
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -3508,7 +4458,6 @@
     },
     {
       "Id": "botology",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Botology",
       "MatchTokens": [
@@ -3567,7 +4516,6 @@
     },
     {
       "Id": "ChocoboColourized",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Chocobo Colourized",
       "MatchTokens": [
@@ -3625,6 +4573,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "dalamudrepobrowser",
+      "Category": "Utility Bots",
+      "DisplayName": "DalamudRepoBrowser",
+      "MatchTokens": [
+        "DalamudRepoBrowser"
+      ],
+      "Notes": "Why do you even have this installed? Is Botology not enough for you? :\u003C",
+      "RepoUrl": "https://github.com/BeSlightly/DalamudRepoBrowser",
+      "RepoJsonUrl": "https://github.com/BeSlightly/DalamudRepoBrowser/raw/refs/heads/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "deep_ducking",
       "Category": "Utility Bots",
       "DisplayName": "Deep Ducking",
@@ -3645,7 +4611,6 @@
     },
     {
       "Id": "dheacon",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Dheacon",
       "MatchTokens": [
@@ -3664,7 +4629,6 @@
     },
     {
       "Id": "dhoggpt",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "DhogGPT",
       "MatchTokens": [
@@ -3723,7 +4687,6 @@
     },
     {
       "Id": "dtroverlay",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "DTR Overlay",
       "MatchTokens": [
@@ -3831,6 +4794,25 @@
       "RelatedIds": []
     },
     {
+      "Id": "jpraiddictionary",
+      "Category": "Utility Bots",
+      "DisplayName": "JP Raid Dictionary",
+      "MatchTokens": [
+        "JPRaidDictionary"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/yudistiraen/FFXIV-JP-Dictionary",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/yudistiraen/FFXIV-JP-Dictionary/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "kitchen_sink",
       "Category": "Utility Bots",
       "DisplayName": "KitchenSink",
@@ -3885,24 +4867,6 @@
       "RelatedIds": []
     },
     {
-      "Id": "native_meters",
-      "Category": "Utility Bots",
-      "DisplayName": "NativeMeters",
-      "MatchTokens": [
-        "NativeMeters"
-      ],
-      "Notes": "Parsing/meter overlay. No conflicts identified from the audited feeds.",
-      "RepoUrl": "https://github.com/Zeffuro/NativeMeters",
-      "RepoJsonUrl": "https://github.com/Zeffuro/MyDalamudPlugins/blob/main/repo.json",
-      "RepoJsonUrls": [],
-      "Description": "Native DPS meters for FFXIV that aim to feel like part of the game.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
       "Id": "object_explorer",
       "Category": "Utility Bots",
       "DisplayName": "ObjectExplorer",
@@ -3933,42 +4897,6 @@
       "RepoJsonUrl": "https://love.puni.sh/ment.json",
       "RepoJsonUrls": [],
       "Description": "placeholder description",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "passport_checker_reborn",
-      "Category": "Utility Bots",
-      "DisplayName": "Passport Checker Reborn",
-      "MatchTokens": [
-        "Passport Checker Reborn"
-      ],
-      "Notes": "No notes configured.",
-      "RepoUrl": null,
-      "RepoJsonUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/CombatRebornRepo/main/pluginmaster.json",
-      "RepoJsonUrls": [],
-      "Description": "Shows the FFLogs data of the players inside a PF listing.",
-      "Green": [],
-      "Yellow": [],
-      "Red": [],
-      "RuleType": null,
-      "RelatedIds": []
-    },
-    {
-      "Id": "playertrack",
-      "Category": "Utility Bots",
-      "DisplayName": "PlayerTrack",
-      "MatchTokens": [
-        "PlayerTrack"
-      ],
-      "Notes": "Tracking utility. No conflicts identified from the audited feeds.",
-      "RepoUrl": "https://github.com/Infiziert90/PlayerTrack",
-      "RepoJsonUrl": "official / Dalamud-hosted",
-      "RepoJsonUrls": [],
-      "Description": "Tracks player encounters and related metadata.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -4166,7 +5094,6 @@
     },
     {
       "Id": "thick_thighs_save_lives",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "Thick Thighs Save Lives",
       "MatchTokens": [
@@ -4181,6 +5108,25 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "tomestoneviewer",
+      "Category": "Utility Bots",
+      "DisplayName": "TomestoneViewer",
+      "MatchTokens": [
+        "tomestoneviewer"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/Anomek/TomestoneViewer",
+      "RepoJsonUrl": "https://github.com/anomek/MyDalamudPlugins",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
@@ -4317,7 +5263,6 @@
     },
     {
       "Id": "xa_hud_navigator",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "XA HUD Navigator",
       "MatchTokens": [
@@ -4337,7 +5282,6 @@
     },
     {
       "Id": "xa_slave",
-      "IsAiAttributed": true,
       "Category": "Utility Bots",
       "DisplayName": "XA Slave",
       "MatchTokens": [
@@ -4376,7 +5320,6 @@
     },
     {
       "Id": "active_venue_finder",
-      "IsAiAttributed": true,
       "Category": "Venues",
       "DisplayName": "Active Venue Finder",
       "MatchTokens": [
@@ -4390,6 +5333,24 @@
       "Green": [
         "lifestream"
       ],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "barmanager",
+      "Category": "Venues",
+      "DisplayName": "BarManager",
+      "MatchTokens": [
+        "barmanager"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/AiriTsukino/BarManager",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/AiriTsukino/AiriPluginHub/main/pluginmaster.json",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
       "Yellow": [],
       "Red": [],
       "RuleType": null,
@@ -4423,6 +5384,24 @@
       "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/OOFGamesss/GambaWhere",
       "RepoJsonUrl": "https://puni.sh/api/repository/oof-games",
+      "RepoJsonUrls": [],
+      "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "shiftkeeper",
+      "Category": "Venues",
+      "DisplayName": "ShiftKeeper",
+      "MatchTokens": [
+        "ShiftKeeper"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/AiriTsukino/ShiftKeeper",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/AiriTsukino/ShiftKeeper/main/pluginmaster.json",
       "RepoJsonUrls": [],
       "Description": null,
       "Green": [],
