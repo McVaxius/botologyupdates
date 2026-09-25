@@ -1863,6 +1863,151 @@
       "RelatedIds": []
     },
     {
+      "Id": "aether48",
+      "Category": "Minigames",
+      "DisplayName": "Aether48",
+      "MatchTokens": [
+        "Aether48"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/Aether48",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/Aether48/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "A 2048 tile puzzle minigame.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherbomber",
+      "Category": "Minigames",
+      "DisplayName": "AetherBomber",
+      "MatchTokens": [
+        "AetherBomber"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/AetherBomber",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/AetherBomber/refs/heads/master/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "A Bomberman-style minigame with bombs and opponents.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherbreaker",
+      "Category": "Minigames",
+      "DisplayName": "AetherBreaker",
+      "MatchTokens": [
+        "AetherBreaker"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/AetherBreaker",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/AetherBreaker/refs/heads/master/AetherBreaker/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "A Puzzle Bobble-style bubble shooter minigame.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherbreakout",
+      "Category": "Minigames",
+      "DisplayName": "AetherBreakout",
+      "MatchTokens": [
+        "AetherBreakout"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/AetherBreakout",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/AetherBreakout/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "A Breakout arcade minigame to play during queue times.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aethergon",
+      "Category": "Minigames",
+      "DisplayName": "AetherGon",
+      "MatchTokens": [
+        "AetherGon"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/AetherGon",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/AetherGon/refs/heads/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "A Super Hexagon-style obstacle dodging minigame.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherialarena",
+      "Category": "Minigames",
+      "DisplayName": "Aetherial Arena",
+      "MatchTokens": [
+        "AetherialArena",
+        "AetherArena"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/AetherialArena",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/AetherialArena/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Collect creatures and battle them in a sprite battler minigame.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherle",
+      "Category": "Minigames",
+      "DisplayName": "Aetherle",
+      "MatchTokens": [
+        "Aetherle"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/Aetherle",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/Aetherle/refs/heads/master/Aetherle/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "A daily FFXIV word puzzle inspired by Wordle, with themes and statistics.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "aetherpool",
+      "Category": "Minigames",
+      "DisplayName": "AetherPool",
+      "MatchTokens": [
+        "AetherPool"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/rail2025/AetherPool",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/rail2025/AetherPool/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Play 2D pool inside a Dalamud window.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "allaganpocket",
       "Category": "Minigames",
       "DisplayName": "Allagan Retro Pocket",

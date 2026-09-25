@@ -2,6 +2,30 @@
   "SchemaVersion": 1,
   "Releases": [
     {
+      "Id": "2026-09-24-rail-minigames",
+      "PublishedUtc": "2026-09-25T02:04:33Z",
+      "Title": "RAIL minigame catalog additions",
+      "AffectedPluginIds": [
+        "aether48",
+        "aetherbomber",
+        "aetherbreaker",
+        "aetherbreakout",
+        "aethergon",
+        "aetherialarena",
+        "aetherle",
+        "aetherpool"
+      ],
+      "Sections": [
+        {
+          "Heading": "Minigames",
+          "Items": [
+            "Added Aether48, AetherBomber, AetherBreaker, AetherBreakout, AetherGon, Aetherial Arena, Aetherle, and AetherPool with descriptions and verified public repository feeds.",
+            "Aetherial Arena includes the earlier AetherArena name as a matching alias."
+          ]
+        }
+      ]
+    },
+    {
       "Id": "2026-09-24-aethertek-metadata",
       "PublishedUtc": "2026-09-25T01:56:08Z",
       "Title": "Aethertek plugin metadata update",
