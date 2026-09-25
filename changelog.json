@@ -2,6 +2,49 @@
   "SchemaVersion": 1,
   "Releases": [
     {
+      "Id": "2026-09-24-aethertek-metadata",
+      "PublishedUtc": "2026-09-25T01:56:08Z",
+      "Title": "Aethertek plugin metadata update",
+      "AffectedPluginIds": [
+        "bunny_farm_eureka",
+        "mogtome",
+        "ai_duty_solver",
+        "lootgoblin",
+        "vermaxion",
+        "xa_db",
+        "footballer",
+        "choke_abo",
+        "coppelia",
+        "dad",
+        "frenrider",
+        "mom",
+        "dhog_potato_system",
+        "hellofellowhumans",
+        "krangler",
+        "aethertek_plugin_manager",
+        "botology",
+        "ChocoboColourized",
+        "deep_ducking",
+        "dheacon",
+        "dhognav",
+        "dhoggpt",
+        "thick_thighs_save_lives",
+        "xa_hud_navigator",
+        "xa_zod",
+        "xa_slave"
+      ],
+      "Sections": [
+        {
+          "Heading": "Catalog metadata",
+          "Items": [
+            "Added Aethertek Plugin Manager, XA Zod, MOM, and DhogNav.",
+            "Corrected BFE, XA Database, and Hello Fellow Human matching; aligned published names and added ADS and HealBot aliases.",
+            "Refreshed descriptions and public repository links, corrected feed URLs, and removed obsolete metadata placeholders."
+          ]
+        }
+      ]
+    },
+    {
       "Id": "2026-06-30-catalog",
       "PublishedUtc": "2026-06-30T22:15:06Z",
       "Title": "June 30, 2026 catalog update",

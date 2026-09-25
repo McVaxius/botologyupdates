@@ -607,16 +607,17 @@
     {
       "Id": "bunny_farm_eureka",
       "Category": "DOW/DOM Content Bots",
-      "DisplayName": "Bunny Farm Eureka",
+      "DisplayName": "BFE",
       "MatchTokens": [
+        "BFE",
         "BunnyFarmEureka",
         "Bunny Farm Eureka"
       ],
       "Notes": "AutoDuty will do weird things including leaving duties early, even when not activated intentionally, and in a duty that AutoDuty doesn\u0027t even manage normally. This is volatile behaviour.  A user reported that MOGTOME was causing issues. so please disable that too.",
       "RepoUrl": "https://github.com/McVaxius/BFE",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/BFE/refs/heads/main/repo.json",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "A new BFE shell focused on duty communication first: configured Hydatos/bunny callout presets, quick send buttons, standard Dhog window controls, and DTR visibility.",
+      "Description": "Automates Eureka Pyros bunny FATE runs and treasure coffer hunting.",
       "Green": [],
       "Yellow": [],
       "Red": [
@@ -694,7 +695,7 @@
     {
       "Id": "mogtome",
       "Category": "DOW/DOM Content Bots",
-      "DisplayName": "MOGTOME",
+      "DisplayName": "M.O.G.T.O.M.E.",
       "MatchTokens": [
         "MOGTOME"
       ],
@@ -776,14 +777,15 @@
       "Category": "Duty solving",
       "DisplayName": "AI Duty Solver",
       "MatchTokens": [
+        "ADS",
         "AIDutySolver",
         "AI Duty Solver"
       ],
       "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
+      "RepoUrl": "https://github.com/McVaxius/ADS",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Observe, plan, and execute supported instanced-duty routes.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -889,7 +891,7 @@
     {
       "Id": "lootgoblin",
       "Category": "Duty solving",
-      "DisplayName": "LootGoblin",
+      "DisplayName": "Loot Goblin",
       "MatchTokens": [
         "LootGoblin"
       ],
@@ -897,7 +899,7 @@
       "RepoUrl": "https://github.com/McVaxius/LootGoblin",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "LootGoblin automates treasure map hunting by opening maps, detecting locations via GlobeTrotter, teleporting to the nearest aetheryte, coordinating with party members, and flying to the treasure location. Use /lootgoblin or /lg to open.",
+      "Description": "Automates treasure map hunting using local map flags, travel, and party coordination.",
       "Green": [],
       "Yellow": [],
       "Red": [
@@ -1190,7 +1192,7 @@
     {
       "Id": "vermaxion",
       "Category": "Empire Management",
-      "DisplayName": "VerMaxion",
+      "DisplayName": "Vermaxion",
       "MatchTokens": [
         "VERMAXION"
       ],
@@ -1198,7 +1200,7 @@
       "RepoUrl": "https://github.com/McVaxius/VERMAXION",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Automates weekly and daily tasks triggered by AutoRetainer post-processing. Configurable per character: Verminion queue, Cactpot, Chocobo Racing, FC buff refill, and Henchman management",
+      "Description": "Automates weekly and daily tasks through AutoRetainer post-processing, including Gold Saucer activities, FC buff refills, vendor stock, and fishing.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1226,16 +1228,18 @@
     {
       "Id": "xa_db",
       "Category": "Empire Management",
-      "DisplayName": "XA DB",
+      "DisplayName": "XA Database",
       "MatchTokens": [
+        "XADatabase",
+        "XA Database",
         "XADB",
         "XA DB"
       ],
       "Notes": "This tool covers all of the data of Allagan Tools and Altoholic. For now it doesn\u0027t have auto list via tooltip for hovered item, so keep Allagan Tools if you need that feature.",
-      "RepoUrl": null,
+      "RepoUrl": "https://github.com/xa-io/XA-Database",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Collect and browse saved character data, including inventories, currencies, jobs, retainers, and free companies.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1349,7 +1353,7 @@
       "RepoUrl": "https://github.com/McVaxius/footballer",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Inspector Footybrand is here to make sure your feet are ok. Don\u0027t worry the inspector respects Lodestone privacy.",
+      "Description": "A foot showcase with privacy controls and barefoot previews.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1718,11 +1722,11 @@
         "Choke-abo",
         "ChokeAbo"
       ],
-      "Notes": "Still could not verify a public repo feed from the provided sources. Kept categorized by likely utility role.",
+      "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/McVaxius/chokeabo",
-      "RepoJsonUrl": "http://aethertek.com/x.json",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Feeding race chocobo",
+      "Description": "Automatically buy and feed Grade 1-3 feed to racing chocobos.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1970,15 +1974,16 @@
     {
       "Id": "coppelia",
       "Category": "Multiboxing",
-      "DisplayName": "Coppelia",
+      "DisplayName": "HealBot",
       "MatchTokens": [
-        "Coppelia"
+        "Coppelia",
+        "HealBot"
       ],
       "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/McVaxius/Coppelia",
       "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/Coppelia/main/repo.json",
       "RepoJsonUrls": [],
-      "Description": null,
+      "Description": "Stand-alone healing, combat assistance, powerleveling, and Helper/Newb pairing.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -1992,11 +1997,11 @@
       "MatchTokens": [
         "dad"
       ],
-      "Notes": "I don\u0027t even know",
+      "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/McVaxius/dad",
       "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/dad/main/repo.json",
       "RepoJsonUrls": [],
-      "Description": null,
+      "Description": "Plan and coordinate duty runs across characters using reusable presets, party preparation, and schedules.",
       "Green": [],
       "Yellow": [
         "autoduty"
@@ -2026,7 +2031,7 @@
     {
       "Id": "frenrider",
       "Category": "Multiboxing",
-      "DisplayName": "FrenRider",
+      "DisplayName": "Fren Rider",
       "MatchTokens": [
         "FrenRider"
       ],
@@ -2673,6 +2678,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "mom",
+      "Category": "PVP Bots",
+      "DisplayName": "MOM",
+      "MatchTokens": [
+        "mom"
+      ],
+      "Notes": "PvP automation.",
+      "RepoUrl": "https://github.com/McVaxius/mom-public",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "PvP automation.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "ascended_rotationsolverreborn",
       "Category": "PVP Bots",
       "DisplayName": "Ascended Rotation Solver Reborn",
@@ -2902,7 +2925,7 @@
       "RepoUrl": "https://github.com/McVaxius/DPS",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Dhog-side utility/control plugin used alongside the broader McVaxius automation stack.",
+      "Description": "Reduce visible crowds and control rendering while preserving party visibility.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -3715,15 +3738,17 @@
     {
       "Id": "hellofellowhumans",
       "Category": "Roleplay",
-      "DisplayName": "HelloFellowHumans",
+      "DisplayName": "Hello Fellow Human",
       "MatchTokens": [
+        "HelloFellowHuman",
+        "Hello Fellow Human",
         "HelloFellowHumans"
       ],
       "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game unless you want it to hahaha.",
       "RepoUrl": "https://github.com/McVaxius/HelloFellowHuman",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Configure emote responses that trigger when specific players are nearby. Perfect for passive RP automation. Use /hfh to configure.",
+      "Description": "Configure automatic reactions to nearby players and incoming emotes.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -4252,11 +4277,11 @@
       "MatchTokens": [
         "Krangler"
       ],
-      "Notes": "Could not verify a concrete feed from the provided repo list. Categorized as utility pending better metadata.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/McVaxius/Krangler",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Local screenshot privacy and appearance tools for chat, names, and visible characters.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -4457,6 +4482,25 @@
       "RelatedIds": []
     },
     {
+      "Id": "aethertek_plugin_manager",
+      "Category": "Utility Bots",
+      "DisplayName": "Aethertek Plugin Manager",
+      "MatchTokens": [
+        "AethertekPluginManager",
+        "Aethertek Plugin Manager"
+      ],
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/xa-io/Aethertek-Plugin-Manager",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Update manually installed plugins from trusted download links.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "botology",
       "Category": "Utility Bots",
       "DisplayName": "Botology",
@@ -4465,7 +4509,7 @@
       ],
       "Notes": "Safe to keep if you use its auditing/catalog features. It is informational rather than invasive automation.",
       "RepoUrl": "https://github.com/McVaxius/botology",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/McVaxius/botology/refs/heads/main/botology/plugin-repository-links.json",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
       "Description": "Catalog and audit helper for plugin repository/link management and rule-based matching.",
       "Green": [],
@@ -4525,7 +4569,7 @@
       "RepoUrl": "https://github.com/McVaxius/ChocoboColourized",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "(Personal Chocobo) Chocobo Colourized helps you find\u002Bautomatically turn-in the most efficient sequence of fruits to feed your chocobo companion to reach your desired target colour, use /chococolor to open the calculator.",
+      "Description": "Calculate and automate fruit feeding to change your companion chocobo's colour.",
       "Green": [],
       "Yellow": [],
       "Red": [
@@ -4598,11 +4642,11 @@
         "Deep Ducking",
         "DDuck"
       ],
-      "Notes": "Could not verify a concrete feed from the provided repo list. Categorized as utility pending better metadata.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
+      "Notes": "Deep dungeon farming.",
+      "RepoUrl": "https://github.com/McVaxius/DDuck-public",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Deep dungeon farming.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -4616,11 +4660,29 @@
       "MatchTokens": [
         "Dheacon"
       ],
-      "Notes": "Could not verify a concrete feed from the provided repo list. Categorized as utility pending better metadata.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/McVaxius/dheacon",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Configurable spoken commentary and alerts for game events.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "dhognav",
+      "Category": "Utility Bots",
+      "DisplayName": "DhogNav",
+      "MatchTokens": [
+        "DhogNav"
+      ],
+      "Notes": "Travel shortcuts.",
+      "RepoUrl": "https://github.com/McVaxius/DhogNav-public",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Travel shortcuts.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -4634,11 +4696,11 @@
       "MatchTokens": [
         "DhogGPT"
       ],
-      "Notes": "Could not verify a concrete feed from the provided repo list. Categorized as utility pending better metadata.",
-      "RepoUrl": null,
-      "RepoJsonUrl": null,
+      "Notes": "No notes configured.",
+      "RepoUrl": "https://github.com/McVaxius/DhogGPT",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "Translate selected incoming chat channels and compose translated outgoing messages.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -5100,11 +5162,11 @@
         "Thick Thighs Save Lives",
         "TTSL"
       ],
-      "Notes": "Could not verify a concrete feed from the provided repo list. Categorized as utility pending better metadata.",
+      "Notes": "No notes configured.",
       "RepoUrl": "https://github.com/McVaxius/TTSL",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "placeholder description",
+      "Description": "An essential-state HUD showing zone, position, combat, durability, and party information when rendering is reduced.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -5273,7 +5335,26 @@
       "RepoUrl": "https://github.com/xa-io/XA-HUD-Navigator",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Navigator/route helper for XA HUD workflows.",
+      "Description": "Inspect game UI addons, nodes, Lumina sheets, and ClientStructs runtime data.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "xa_zod",
+      "Category": "Utility Bots",
+      "DisplayName": "XA Zod",
+      "MatchTokens": [
+        "XAZod",
+        "XA Zod"
+      ],
+      "Notes": "Hacks/cheats.",
+      "RepoUrl": "https://github.com/xa-io/XA-Zod",
+      "RepoJsonUrl": "https://aethertek.io/x.json",
+      "RepoJsonUrls": [],
+      "Description": "Hacks/cheats.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -5289,10 +5370,10 @@
         "XA Slave"
       ],
       "Notes": "There is no reason to uninstall this plugin unless you want to save space on your HD. Its operations are clean and non-interfering with the rest of the game.",
-      "RepoUrl": null,
+      "RepoUrl": "https://github.com/xa-io/XA-Slave",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
-      "Description": "Don\u0027t manual.",
+      "Description": "Automate repetitive character workflows, travel, housing tasks, and XA Database collection.",
       "Green": [],
       "Yellow": [],
       "Red": [],
