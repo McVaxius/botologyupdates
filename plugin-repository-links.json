@@ -525,20 +525,16 @@
       "MatchTokens": [
         "AutoFateGrind"
       ],
-      "Notes": "Vibecoded FATE bot. Requires VBM instead of BMR. Use at your own risk.",
-      "RepoUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "Notes": "Needs vnavmesh, BossMod (VBM or BMR) and TextAdvance; /afg deps lists and installs anything missing. Five grind modes (Gemstone target, FATE count, timed, Yo-kai Watch medals, endless), FATE filters and priority, class queue, auto gemstone trade, repair and food, pause and resume, and a GM alert that stops the run.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoFateGrind",
       "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
       "RepoJsonUrls": [],
-      "Description": null,
+      "Description": "Farms FATEs for you: tick the zones, and the plugin teleports in, finds active FATEs, and runs them in a loop until your target is met.",
       "Green": [
         "vnavmesh",
-        "bossmod",
-        "textadvance",
-        "lifestream"
+        "textadvance"
       ],
-      "Yellow": [
-        "autofategrind"
-      ],
+      "Yellow": [],
       "Red": [],
       "IsAiAttributed": true,
       "RuleType": null,
@@ -1697,6 +1693,27 @@
       "RelatedIds": []
     },
     {
+      "Id": "autotripletriadgrind",
+      "Category": "Manderville Bots",
+      "DisplayName": "Auto Triple Triad Grind",
+      "MatchTokens": [
+        "AutoTripleTriadGrind"
+      ],
+      "Notes": "NPC card collector. Needs vnavmesh. Plays Triple Triad itself, so do not run Saucy\u0027s Triple Triad mode at the same time.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoTripleTriadGrind",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Collects every Triple Triad card NPCs can give you: pick the cards you are missing, and the plugin travels to each NPC, builds a deck for its rules, plays until your cards drop, registers them, and moves on.",
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "chocoholic",
       "Category": "Manderville Bots",
       "DisplayName": "Chocoholic",
@@ -1739,11 +1756,12 @@
       "DisplayName": "Doman Mahjong Solver",
       "MatchTokens": [
         "DomanMahjongAI",
-        "Doman Mahjong"
+        "Doman Mahjong",
+        "Mahjong.Plugin.Dalamud"
       ],
       "Notes": "Three modes: Off, Hints (suggests the best discard with reasoning, you click), and Auto-play (plays full matches with paced delays, including Pon/Chi/Kan calls). EU client is fully supported; NA partial; JP and OC need verification.",
-      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-DomanMahjongSolver",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/FFXIV-DomanMahjongSolver/main/repo/repo.json",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoMahjongSolver",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
       "RepoJsonUrls": [],
       "Description": "Helper for Doman Mahjong at the Gold Saucer. Reads your hand, suggests the best discard with short reasoning, and can auto-play full matches with natural pacing.",
       "Green": [],
@@ -2819,6 +2837,25 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "pvpautolb",
+      "Category": "PVP Bots",
+      "DisplayName": "Auto PVP LB",
+      "MatchTokens": [
+        "PvpAutoLb"
+      ],
+      "Notes": "Only fires the Limit Break, it does not move or target for you. Defensive and support LBs are never auto-fired. Use at your own risk.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoPVPLimitBreak",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Fires your PvP Limit Break for you when an enemy\u0027s HP drops below a configurable threshold.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
@@ -4456,6 +4493,50 @@
       "RelatedIds": []
     },
     {
+      "Id": "autohuntgrinder",
+      "Category": "The Hunt Bots",
+      "DisplayName": "Auto Hunt Grinder",
+      "MatchTokens": [
+        "AutoHuntGrinder"
+      ],
+      "Notes": "Hunt bill bot. Needs vnavmesh and BossMod (VBM or BMR); /ahg deps lists and installs anything missing.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoHuntGrinder",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Clears your hunt bills for you: tick the daily and weekly bills you want, and the plugin picks them up at the hunt board, finds every mark, and fights it until each bill is done.",
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autohunttrain",
+      "Category": "The Hunt Bots",
+      "DisplayName": "Auto Hunt Train",
+      "MatchTokens": [
+        "AutoHuntTrain"
+      ],
+      "Notes": "Needs vnavmesh, BossMod (VBM or BMR), Lifestream and HuntAlerts (train announcements); /aht deps lists and installs anything missing. Data center rides also need data center travel enabled in Lifestream. Only hits A ranks for credit, never starts a pull. Accepts party invites during a ride and leaves the party afterwards. If HuntTrainAssistant is installed, keep its auto-teleport off so both do not move you at once.",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoHuntTrain",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Rides hunt trains for you: hears a train being called anywhere in your region, travels to the start aetheryte on that world, follows the conductor\u0027s flags from mark to mark, and lands a hit on every A rank before the crowd deletes it.",
+      "Green": [
+        "vnavmesh",
+        "lifestream",
+        "huntalerts"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "faloopintegration",
       "Category": "The Hunt Bots",
       "DisplayName": "Divination",
@@ -4642,6 +4723,27 @@
       "Green": [],
       "Yellow": [],
       "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autosightseeinglog",
+      "Category": "Utility Bots",
+      "DisplayName": "Auto Sightseeing Log",
+      "MatchTokens": [
+        "AutoSightseeingLog"
+      ],
+      "Notes": "Sightseeing Log filler. Needs vnavmesh. Questionable is optional and only used to unlock the log on characters that have not done \"A Sight to Behold\".",
+      "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoSightseeingLog",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
+      "RepoJsonUrls": [],
+      "Description": "Fills in your Sightseeing Log for you: tick the vistas you want, and the plugin travels to each one, waits for its hour and weather, performs the emote the log asks for, and moves on until every vista is logged.",
+      "Green": [
+        "vnavmesh"
+      ],
+      "Yellow": [],
+      "Red": [],
+      "IsAiAttributed": true,
       "RuleType": null,
       "RelatedIds": []
     },
