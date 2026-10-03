@@ -1,0 +1,31 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Effective ADS object rules for preset Presetdfasdfasdf; missing contexts inherit DEFAULT.",
+  "Rules": [
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 405,
+      "ContentFinderConditionId": 382,
+      "DutyEnglishName": "Stifled Screams",
+      "Alliance": null,
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Bindings",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Western La Noscea",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at 324.2,-35.6,317.1 on layer Western La Noscea. Observed BaseId 2004819. Object XYZ pin disabled. Classification override: Required."
+    }
+  ]
+}
