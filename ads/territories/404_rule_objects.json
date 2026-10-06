@@ -1,0 +1,31 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Effective ADS object rules for preset dev; missing contexts inherit DEFAULT.",
+  "Rules": [
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 404,
+      "ContentFinderConditionId": 381,
+      "DutyEnglishName": "Stray into the Shadows",
+      "Alliance": null,
+      "ObjectKind": "EventObj",
+      "BaseId": 0,
+      "ObjectName": "Hand Off",
+      "NameMatchMode": "Exact",
+      "Classification": "Required",
+      "DestinationType": "",
+      "Layer": "Limsa Lominsa Lower Decks",
+      "MapCoordinates": "",
+      "WorldCoordinates": "",
+      "ObjectMapCoordinates": "",
+      "ObjectWorldCoordinates": "",
+      "ObjectMatchRadius": null,
+      "Priority": 1000,
+      "PriorityVerticalRadius": 0,
+      "MaxDistance": null,
+      "WaitAtDestinationSeconds": 0,
+      "WaitAfterInteractSeconds": 0,
+      "Notes": "Seeded from Object Explorer at -193.7,9.4,72.0 on layer Limsa Lominsa Lower Decks. Observed BaseId 2004926. Object XYZ pin disabled. Classification override: Required."
+    }
+  ]
+}
