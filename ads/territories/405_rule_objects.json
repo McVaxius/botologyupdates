@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Description": "Effective ADS object rules for preset Presetdfasdfasdf; missing contexts inherit DEFAULT.",
+  "Description": "Effective ADS DEFAULT territory shards.",
   "Rules": [
     {
       "Enabled": true,
