@@ -525,7 +525,7 @@
       "MatchTokens": [
         "AutoFateGrind"
       ],
-      "Notes": "Needs vnavmesh, BossMod (VBM or BMR) and TextAdvance; /afg deps lists and installs anything missing. Five grind modes (Gemstone target, FATE count, timed, Yo-kai Watch medals, endless), FATE filters and priority, class queue, auto gemstone trade, repair and food, pause and resume, and a GM alert that stops the run.",
+      "Notes": "Needs vnavmesh, BossMod (VBM or BMR) and TextAdvance; /afg deps lists and installs anything missing. Five grind modes (Gemstone target, FATE count, timed, Yo-kai Watch medals, endless), FATE filters and priority, class queue, auto gemstone trade, repair and food, pause and resume, and a GM alert that stops the run. Use at your own risk.",
       "RepoUrl": "https://github.com/XeldarAlz/FFXIV-AutoFateGrind",
       "RepoJsonUrl": "https://raw.githubusercontent.com/XeldarAlz/DalamudPlugins/main/repo.json",
       "RepoJsonUrls": [],
@@ -534,7 +534,9 @@
         "vnavmesh",
         "textadvance"
       ],
-      "Yellow": [],
+      "Yellow": [
+        "autofategrind"
+      ],
       "Red": [],
       "IsAiAttributed": true,
       "RuleType": null,
