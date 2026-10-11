@@ -2,6 +2,22 @@
   "SchemaVersion": 1,
   "Releases": [
     {
+      "Id": "2026-10-11-deep-ducking-command-compatibility",
+      "PublishedUtc": "2026-10-11T20:18:07Z",
+      "Title": "Deep Ducking and DailyDuty command compatibility",
+      "AffectedPluginIds": [
+        "deep_ducking"
+      ],
+      "Sections": [
+        {
+          "Heading": "Compatibility",
+          "Items": [
+            "Documented the shared /dd command with DailyDuty and the safe /deepducking and /dduck commands, including the older-host startup limitation."
+          ]
+        }
+      ]
+    },
+    {
       "Id": "2026-09-24-rail-minigames",
       "PublishedUtc": "2026-09-25T02:04:33Z",
       "Title": "RAIL minigame catalog additions",

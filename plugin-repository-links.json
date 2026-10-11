@@ -4891,7 +4891,7 @@
         "Deep Ducking",
         "DDuck"
       ],
-      "Notes": "Deep dungeon farming.",
+      "Notes": "Deep dungeon farming. DailyDuty also uses /dd. Use /deepducking (or /dduck) for Deep Ducking; current hosts reserve /dd when DailyDuty is installed. Older hosts may fail to load when the command is already registered.",
       "RepoUrl": "https://github.com/McVaxius/DDuck-public",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
