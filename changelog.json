@@ -2,6 +2,40 @@
   "SchemaVersion": 1,
   "Releases": [
     {
+      "Id": "2026-10-17-housing-market-catalog",
+      "PublishedUtc": "2026-10-17T17:19:24Z",
+      "Title": "Housing lottery and retainer market catalog additions",
+      "AffectedPluginIds": [
+        "autohouselottery",
+        "autoseller"
+      ],
+      "Sections": [
+        {
+          "Heading": "Catalog",
+          "Items": [
+            "Added Auto House Lottery with housing lottery entry, results, refund and claim information.",
+            "Added Auto Seller with retainer listing, repricing and minimum-price information."
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "2026-10-11-deep-ducking-command-compatibility",
+      "PublishedUtc": "2026-10-11T20:18:07Z",
+      "Title": "Deep Ducking and DailyDuty command compatibility",
+      "AffectedPluginIds": [
+        "deep_ducking"
+      ],
+      "Sections": [
+        {
+          "Heading": "Compatibility",
+          "Items": [
+            "Documented the shared /dd command with DailyDuty and the safe /deepducking and /dduck commands, including the older-host startup limitation."
+          ]
+        }
+      ]
+    },
+    {
       "Id": "2026-09-24-rail-minigames",
       "PublishedUtc": "2026-09-25T02:04:33Z",
       "Title": "RAIL minigame catalog additions",

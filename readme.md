@@ -21,6 +21,16 @@
 - Every release has `Id`, ISO UTC `PublishedUtc`, `Title`, `AffectedPluginIds`, and ordered `Sections`; every section has `Heading` and string `Items`.
 - Release IDs must be unique, and every affected plugin ID must exist in the current master catalog.
 
+## DDuck trap data
+
+`dduck/traps.ddt` is the reviewed DDuck-owned DDT v1 curated trap collection.
+The October 17, 2026 collection has 14,986 unique locations across all four deep
+dungeons / 50 territories. Updates preserve existing valid locations.
+
+DDuck downloads this file by explicit request. It validates and merges additions
+locally, preserving existing curated data and the separate `usertraplog` contribution
+file. No player identifiers or contributions are uploaded.
+
 ## ADS object-rule data
 
 - `ads/territories/index.json` and its listed `*_rule_objects.json` files are the source of truth for current ADS builds.

@@ -1511,6 +1511,24 @@
       "RelatedIds": []
     },
     {
+      "Id": "autohouselottery",
+      "Category": "Housing",
+      "DisplayName": "Auto House Lottery",
+      "MatchTokens": [
+        "AutoHouseLottery"
+      ],
+      "Notes": "Automates housing lottery entries, result checks, refunds and claims. No compatibility rules are configured for this entry.",
+      "RepoUrl": null,
+      "RepoJsonUrl": null,
+      "RepoJsonUrls": [],
+      "Description": "Travels to selected housing plots, enters lotteries and checks their results.",
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
       "Id": "buildingway",
       "Category": "Housing",
       "DisplayName": "Buildingway",
@@ -1858,6 +1876,24 @@
       "RepoJsonUrl": "https://raw.githubusercontent.com/bimilbimil/AutomarketPro/main/repo.json",
       "RepoJsonUrls": [],
       "Description": null,
+      "Green": [],
+      "Yellow": [],
+      "Red": [],
+      "RuleType": null,
+      "RelatedIds": []
+    },
+    {
+      "Id": "autoseller",
+      "Category": "Market Bots",
+      "DisplayName": "Auto Seller",
+      "MatchTokens": [
+        "AutoSeller"
+      ],
+      "Notes": "Automates retainer listing and repricing with configured minimum prices. No compatibility rules are configured for this entry.",
+      "RepoUrl": null,
+      "RepoJsonUrl": null,
+      "RepoJsonUrls": [],
+      "Description": "Visits retainers to list items and adjust market prices without going below the configured price floor.",
       "Green": [],
       "Yellow": [],
       "Red": [],
@@ -4891,7 +4927,7 @@
         "Deep Ducking",
         "DDuck"
       ],
-      "Notes": "Deep dungeon farming.",
+      "Notes": "Deep dungeon farming. DailyDuty also uses /dd. Use /deepducking (or /dduck) for Deep Ducking; current hosts reserve /dd when DailyDuty is installed. Older hosts may fail to load when the command is already registered.",
       "RepoUrl": "https://github.com/McVaxius/DDuck-public",
       "RepoJsonUrl": "https://aethertek.io/x.json",
       "RepoJsonUrls": [],
