@@ -2,6 +2,22 @@
   "SchemaVersion": 1,
   "Releases": [
     {
+      "Id": "2026-10-18-ads-crystal-tower-presets",
+      "PublishedUtc": "2026-10-18T23:22:16Z",
+      "Title": "ADS Crystal Tower preset package",
+      "AffectedPluginIds": ["ai_duty_solver"],
+      "Sections": [
+        {
+          "Heading": "ADS rules",
+          "Items": [
+            "Prepared separate DEFAULT - SYNC - Crystal Tower x 3 and DEFAULT - UNSYNC - Crystal Tower x 3 presets for Labyrinth, Syrcus Tower and World of Darkness.",
+            "Declare named preset folders and canonical shard lists in the existing territory index for updated ADS clients. The flat DEFAULT package remains compatible with older clients.",
+            "Use source-reviewed target priorities and nearby Labyrinth shortcuts. Alliance mechanics and complete clears remain dependent on the configured combat provider and participants; gameplay acceptance is unverified."
+          ]
+        }
+      ]
+    },
+    {
       "Id": "2026-10-17-housing-market-catalog",
       "PublishedUtc": "2026-10-17T17:19:24Z",
       "Title": "Housing lottery and retainer market catalog additions",

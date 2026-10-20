@@ -1,2 +1,10 @@
 # Local sparse object-rule presets are immediate child directories.
 /*/
+
+# Explicitly published, reviewed presets; other local presets remain ignored.
+!/DEFAULT - SYNC - Crystal Tower x 3/
+/DEFAULT - SYNC - Crystal Tower x 3/*
+!/DEFAULT - SYNC - Crystal Tower x 3/*_rule_objects.json
+!/DEFAULT - UNSYNC - Crystal Tower x 3/
+/DEFAULT - UNSYNC - Crystal Tower x 3/*
+!/DEFAULT - UNSYNC - Crystal Tower x 3/*_rule_objects.json

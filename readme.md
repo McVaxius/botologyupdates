@@ -53,3 +53,33 @@ https://discord.gg/g2NmYxPQCa
 ```
 
 ---
+
+### ADS published presets
+
+The optional `Presets` array in `ads/territories/index.json` declares published
+preset names and each folder's canonical `Files` list. Its existing flat `Files`
+list remains the base DEFAULT package. Updated ADS downloads both forms using its
+existing 24-hour/manual refresh. A bare folder is not a discovery contract; old
+ADS builds retain the flat package and ignore the named-preset declarations.
+
+The selected names are `DEFAULT - SYNC - Crystal Tower x 3` and
+`DEFAULT - UNSYNC - Crystal Tower x 3`. Both contain territory shards 151, 174 and
+372 (CFCs 111, 92 and 102). SYNC uses ordinary add-aware kill priorities; UNSYNC
+adds boss focus for burst play. Nearby optional Labyrinth shortcuts use a
+2-second SYNC arrival wait and no extra UNSYNC wait. Missing contexts inherit
+DEFAULT; the name groups the three raids without creating a queue sequence.
+
+ADS protects presets it installed through this declaration and keeps the user's
+active selection. Its installed per-preset index records updater ownership;
+matching a `DEFAULT - ` name alone grants no overwrite permission. Pre-existing
+personal-name collisions and unrelated personal copies are preserved. Use the
+existing New Preset workflow for edits and sharing.
+
+Rules were source-reviewed on 2026-10-18 against public BossMod/BossMod Reborn
+encounter OIDs and AutoDuty's Labyrinth shortcut IDs/positions. No unreviewed
+`_maybe` file was copied wholesale. The rules supply targeting/shortcut assistance;
+alliance lanes, pads, surviving mechanics, entry mode, combat setup and DAD
+coordination still require the configured provider/participants. ADS's existing
+Operator Guide has the concrete suite setup. Synced/unsynced clears remain
+unverified; these local data changes still require publication before clients can
+fetch them.

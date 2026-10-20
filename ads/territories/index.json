@@ -69,5 +69,15 @@
     "1345_rule_objects.json",
     "1366_rule_objects.json",
     "1367_rule_objects.json"
+  ],
+  "Presets": [
+    {
+      "Name": "DEFAULT - SYNC - Crystal Tower x 3",
+      "Files": ["151_rule_objects.json", "174_rule_objects.json", "372_rule_objects.json"]
+    },
+    {
+      "Name": "DEFAULT - UNSYNC - Crystal Tower x 3",
+      "Files": ["151_rule_objects.json", "174_rule_objects.json", "372_rule_objects.json"]
+    }
   ]
 }
