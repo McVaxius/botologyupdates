@@ -2,6 +2,22 @@
   "SchemaVersion": 1,
   "Releases": [
     {
+      "Id": "2026-10-22-sealbreaker-catalog",
+      "PublishedUtc": "2026-10-22T20:00:31Z",
+      "Title": "SealBreaker source, feed and requirements",
+      "AffectedPluginIds": ["sealbreaker"],
+      "Sections": [
+        {
+          "Heading": "Catalog",
+          "Items": [
+            "Use SealBreaker's shared Daedalus feed and describe its current farming modes and controls.",
+            "Remove the false simultaneous AutoDuty and vnavmesh requirements while retaining the inspected Lifestream Start gate.",
+            "Explain selected runner/movement roles, mode-specific Charon and Daedalus behavior, GC-ticket limits and manual Dashboard verification using existing catalog fields."
+          ]
+        }
+      ]
+    },
+    {
       "Id": "2026-10-18-ads-crystal-tower-presets",
       "PublishedUtc": "2026-10-18T23:22:16Z",
       "Title": "ADS Crystal Tower preset package",

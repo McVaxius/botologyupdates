@@ -75,11 +75,26 @@ matching a `DEFAULT - ` name alone grants no overwrite permission. Pre-existing
 personal-name collisions and unrelated personal copies are preserved. Use the
 existing New Preset workflow for edits and sharing.
 
-Rules were source-reviewed on 2026-10-18 against public BossMod/BossMod Reborn
-encounter OIDs and AutoDuty's Labyrinth shortcut IDs/positions. No unreviewed
-`_maybe` file was copied wholesale. The rules supply targeting/shortcut assistance;
-alliance lanes, pads, surviving mechanics, entry mode, combat setup and DAD
-coordination still require the configured provider/participants. ADS's existing
-Operator Guide has the concrete suite setup. Synced/unsynced clears remain
-unverified; these local data changes still require publication before clients can
-fetch them.
+Rules were reviewed again on 2026-10-22 against pinned BossMod/BossMod Reborn
+encounter identities. Both packages now preserve explicit strategy metadata and
+include Atomos alliance rows, Labyrinth opening trash and mechanic adds, Xande meteor targets,
+Garm and Queen Scylla waves, the required false chest, Five-headed Dragon heads
+and Prominence, Cerberus belly targets scoped to B and Cloud alliance-region targets. Updated
+ADS applies its verified runtime mechanic gates independently of preset names;
+copying or exporting a preset retains its selected strategy. No unreviewed
+`_maybe` file was copied wholesale.
+
+The two Crystal Tower sets contain 160 rules in total: per mode, Labyrinth36,
+Syrcus11 and World of Darkness33. Labyrinth opening identities are cross-checked
+against the extracted native scene (Sapphire aab9cb2) and the guide's 8/10/6
+packs. Shortcut object-position filters use the extracted placed coordinates;
+AutoDuty's authored player approach points remain separate. Each shortcut has a
+2.5y object match radius and a 12y nearby range, covering its actual approach.
+Glasya adds include Wright3033, Squire3034 and Spanner-rook3078; Moonring Blade3032
+is not a Squire. These attack rows do not implement energy-node or launch-pad control.
+
+Runtime coverage remains incomplete: full routes, rare phases and interactions
+still need implementation and native evidence. These rows do not establish
+complete A/B/C progression or a successful clear. ADS's existing Operator Guide
+has the suite setup; entry mode, combat setup and DAD coordination remain separate.
+Local data changes require publication before clients can fetch them.

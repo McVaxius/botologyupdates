@@ -734,15 +734,13 @@
       "MatchTokens": [
         "SealBreaker"
       ],
-      "Notes": "Autofarms Mistwake.",
+      "Notes": "Select one duty runner (Theseus, AutoDuty or ADS) and one movement provider (Ariadne or vnavmesh). ADS is limited to Duty Support dungeons; verify the selected provider and farm mode in SealBreaker's Dashboard. The inspected Start gate still requires Lifestream even with GC aetheryte tickets configured; tickets are attempted first with Lifestream fallback. Job leveling requires Charon Leveling IPC; ordinary native recommended-gear equipping does not replace that requirement. Daedalus supports grouped Moogle relay and repair holds; a missing relay warns. Theseus has no Stop IPC in the inspected integration, so its active duty can finish after SealBreaker stops. Botology checks the mandatory Lifestream rule only; selected roles, mode support and ticket setup require manual verification.",
       "RepoUrl": "https://github.com/ofnature/SealBreaker",
-      "RepoJsonUrl": "https://raw.githubusercontent.com/ofnature/MistwakeFarm/main/pluginmaster.json",
+      "RepoJsonUrl": "https://raw.githubusercontent.com/ofnature/Daedalus/main/repo.json",
       "RepoJsonUrls": [],
-      "Description": null,
+      "Description": "Automates Grand Company seal/gil farming with dungeon or trial runs, Expert Delivery and seal buy lists. Other modes cover tomestone relics, job leveling and Moogle tomestones. Includes repairs, materia extraction and run statistics. Use /seal or /sealbreaker and the sidebar settings; /seal mini opens the compact widget, with optional edge-tab minimization and stop-after-run controls.",
       "Green": [
-        "vnavmesh",
-        "lifestream",
-        "autoduty"
+        "lifestream"
       ],
       "Yellow": [],
       "Red": [],
