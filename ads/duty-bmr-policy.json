@@ -1,0 +1,5 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Explicit ADS solo-duty BMR encounter-module choices. Missing duties preserve BMR. No unverified duty entries are included.",
+  "Duties": []
+}

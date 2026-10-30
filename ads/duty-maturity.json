@@ -461,6 +461,15 @@
       "ClearanceStatus": "FourPlayerSyncCleared",
       "SupportLevel": "ActiveSupported",
       "SupportNote": "i ran it once and added 4 rules. good luck !"
+    },
+    {
+      "ContentFinderConditionId": 354,
+      "TerritoryTypeId": 307,
+      "DutyEnglishName": "The Lominsan Way",
+      "ClearanceStatus": "NotCleared",
+      "SupportLevel": "ActiveSupported",
+      "IsMainScenario": true,
+      "SupportNote": "Approved for ADS use with the existing Large Boulder solo objective."
     }
   ]
 }
