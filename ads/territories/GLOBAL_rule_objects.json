@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 1,
-  "Description": "Effective ADS object rules for preset startlimsa; missing contexts inherit DEFAULT.",
+  "Description": "Effective ADS object rules for preset Solkwyb; missing contexts inherit DEFAULT.",
   "Rules": [
     {
       "Enabled": true,
@@ -535,8 +535,8 @@
       "Alliance": null,
       "ObjectKind": "",
       "BaseId": 0,
-      "ObjectName": "Cultured Conjurer",
-      "NameMatchMode": "Contains",
+      "ObjectName": "Solkwyb",
+      "NameMatchMode": "Exact",
       "Classification": "Ignored",
       "DestinationType": "",
       "Layer": "",
