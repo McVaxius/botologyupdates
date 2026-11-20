@@ -176,6 +176,31 @@
                       "WaitAtDestinationSeconds":  0,
                       "WaitAfterInteractSeconds":  0,
                       "Notes":  ""
+                  },
+                  {
+                      "Enabled":  true,
+                      "TerritoryTypeId":  1110,
+                      "ContentFinderConditionId":  38,
+                      "DutyEnglishName":  "the Aetherochemical Research Facility",
+                      "ObjectKind":  "EventObj",
+                      "BaseId":  2005307,
+                      "Classification":  "Required",
+                      "Priority":  1000,
+                      "PriorityVerticalRadius":  8,
+                      "Notes":  "Use the Floor B lift after reaching its level."
+                  },
+                  {
+                      "Enabled":  true,
+                      "TerritoryTypeId":  1110,
+                      "ContentFinderConditionId":  38,
+                      "DutyEnglishName":  "the Aetherochemical Research Facility",
+                      "Classification":  "XYZ",
+                      "Layer":  "231",
+                      "WorldCoordinates":  "-263.93,401.86,-297.87",
+                      "Priority":  998,
+                      "PriorityVerticalRadius":  8,
+                      "MaxDistance":  135,
+                      "Notes":  "Opening approach to the first boss."
                   }
               ]
 }
