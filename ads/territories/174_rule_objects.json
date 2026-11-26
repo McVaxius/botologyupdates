@@ -1,0 +1,46 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Object rules for the Labyrinth of the Ancients.",
+  "Rules": [
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 174,
+      "ContentFinderConditionId": 92,
+      "DutyEnglishName": "the Labyrinth of the Ancients",
+      "ObjectKind": "EventObj",
+      "BaseId": 2001038,
+      "Classification": "Ignored",
+      "Notes": "Energy Tower Console in King Behemoth's arena. Skip during automatic duty progression."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 174,
+      "ContentFinderConditionId": 92,
+      "DutyEnglishName": "the Labyrinth of the Ancients",
+      "ObjectKind": "EventObj",
+      "BaseId": 2001039,
+      "Classification": "Ignored",
+      "Notes": "Energy Tower Console in King Behemoth's arena. Skip during automatic duty progression."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 174,
+      "ContentFinderConditionId": 92,
+      "DutyEnglishName": "the Labyrinth of the Ancients",
+      "ObjectKind": "EventObj",
+      "BaseId": 2001040,
+      "Classification": "Ignored",
+      "Notes": "Energy Tower Console in King Behemoth's arena. Skip during automatic duty progression."
+    },
+    {
+      "Enabled": true,
+      "TerritoryTypeId": 174,
+      "ContentFinderConditionId": 92,
+      "DutyEnglishName": "the Labyrinth of the Ancients",
+      "ObjectKind": "EventObj",
+      "BaseId": 2001041,
+      "Classification": "Ignored",
+      "Notes": "Energy Tower Console in King Behemoth's arena. Skip during automatic duty progression."
+    }
+  ]
+}
